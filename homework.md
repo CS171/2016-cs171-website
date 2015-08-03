@@ -10,7 +10,7 @@ order: 4
 
 Homework assignments are due on Fridays, 11:59 pm ET. **For due dates see the [schedule]({{ site.baseurl }}/schedule/).** For more details see the syllabus.
 
-The assignments are published on [github](https://github.com/CS171/2015-cs171-homework).
+The assignments are published on [github](https://github.com/dataviscourse/2015-dataviscourse-homework).
 
 ## Homework Weights
  

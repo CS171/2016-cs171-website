@@ -36,7 +36,7 @@ We will be using two textbooks for this class, one to cover conceptual aspects o
 
 <br />
 [Interactive Data Visualization for the Web](http://www.amazon.com/Interactive-Data-Visualization-Scott-Murray-ebook/dp/B00BSG68UQ), Scott Murray, O'Reilly (2013) - D3
-*[Free online version](http://chimera.labs.oreilly.com/books/1230000000345), [Free Safari book version for Harvard Students](http://my.safaribooksonline.com/book/web-design-and-development/9781449340223)*
+*[Free online version](http://chimera.labs.oreilly.com/books/1230000000345)*
 
 ![]({{ site.baseurl }}/assets/i/interactive_data_visualization.jpg)
 *An introduction to D3 for people new to programming and web development, published by O’Reilly. “Explaining tricky technical topics with aplomb (and a little cheeky humor) is Scott Murray’s forte. If you want to dive into the world of dynamic visualization using web standards, even if you are new to programming, this book is the place to start.” - Mike Bostock, creator of D3*
