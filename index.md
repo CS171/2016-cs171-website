@@ -31,7 +31,7 @@ Office hour: to be announced
 
 ### Teaching Assistants
 
-To be announced.
+To be announced
 
 ### Logistics
 
