@@ -23,7 +23,7 @@ The assignments are published on [github](https://github.com/CS171/2015-cs171-ho
 
 ## Submission Instructions
 
-Homework submissions will be handled trough [github](http://github.com). You will set up your GitHub account as part of Homework 0 and [Section 1](https://github.com/CS171/2015-section1). The gist of it:
+Homework submissions will be handled trough [github](http://github.com). You will set up your GitHub account as part of Homework 0. The gist of it:
 
  * You create a **private repository** for all of your homework, following a naming schema (cs171-hw-lastname-firstname - **all lower case**). Github will provide you with free private repositories if you ask them using your **.edu** e-mail address.
  * You share your repository with our GitHub user [cs171tf](http://github.com/cs171tf).
