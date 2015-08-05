@@ -7,17 +7,36 @@
     <span class="date">{{ include.date }}</span>
     </div>
 
-    <p>{{lecture.description}}</p>
-    <p>    {{lecture.content}}</p>
-    {% if lecture.slides %}
-    <p><a href="{{ lecture.slides }}">Download Slides</a></p>
+    <p><b>{{lecture.description}}</b></p>
+    {% if lecture.intro-assignment %}
+    <p><b>Introduction to <a href="{{lecture.intro-assignment-url}}">{{ lecture.intro-assignment }}</a></b></p>
     {% endif %}
-    <br />
+    {% if lecture.guest %}
+    Guest lecturer: <a href="{{lecture.guest-url}}">{{ lecture.guest }}</a>
+    {% endif %}
 
-    <h4>Mandatory Reading</h4>
-    {{lecture.mandatory}}
-    <h4>Recommended Reading</h4>
-{{ lecture.rec }}
+
+    {% if lecture.slides %}
+    <p><a href="{{ lecture.slides }}">Download slides</a></p>
+    {% endif %}
+    {% if lecture.interactive-content %}
+    <p><a href="{{ lecture.interactive-content }}">Go to interactive lecture content</a></p>
+    {% endif %}
+
+<div style="margin-top: 10px">
+    {% if lecture.mandatory-reading != "" %}
+
+<h4>Mandatory reading</h4>
+    {{ lecture.mandatory-reading | markdownify}}
+    {% endif %}
+<h4>Recommended reading</h4>
+    {{ lecture.recommended-reading | markdownify}}
+
+
+</div>
+
+
+
 </div>
 
 

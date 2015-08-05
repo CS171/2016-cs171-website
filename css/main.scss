@@ -3,6 +3,8 @@ $crimson_light: #e47b7b;
 $crimson_super_light: #f09c9c;
 
 
+$body-font: Helvetica, Arial, sans-serif;
+
 
 /* Base */
 /* ----------------------------------------------------------*/
@@ -12,13 +14,14 @@ $crimson_super_light: #f09c9c;
   padding: 0;
 }
 
+
 html, body {
   height: 100%;
 }
 
 body {
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-family: $body-font;
+  font-size: 14px;
   line-height: 1.5;
   font-weight: 300;
   background-color: #fdfdfd;
@@ -91,7 +94,7 @@ table th, table td {
 
 .date {
   float: right;
-  font-family: Helvetica, Arial, sans-serif;
+
   font-size: 1em;
 }
 
@@ -111,7 +114,7 @@ table th, table td {
   padding-bottom: 2px;
   background-color: #eeeeee;
   border-radius: 5px;
-  margin-top: 10px;
+  margin: 10px 0px 10px 0px;
 }
 
 .deadline {
@@ -122,10 +125,11 @@ table th, table td {
   background-color: $crimson-super-light;
   font-weight: bold;
   border-radius: 5px;
+  margin: 10px 0px 10px 0px;
 }
 
 #schedule h3 {
-font-size: 130%;
+  font-size: 19px;
   width: 70%;
   float: left;
   margin-top: 1px;
@@ -133,8 +137,9 @@ font-size: 130%;
 }
 
 #schedule h4 {
-  font-size: 115%;
-
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
   margin-top: 2px;
   margin-bottom: 2px;
 }

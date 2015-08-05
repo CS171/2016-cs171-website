@@ -1,6 +1,6 @@
 ---
-number: 3
-topic: SVG and JavaScript basics
+number:
+topic: 
 description:
 mandatory-reading: |
 recommended-reading: |
