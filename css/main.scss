@@ -92,7 +92,7 @@ table th, table td {
 .date {
   float: right;
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 0.8em;
+  font-size: 1em;
 }
 
 .week {
@@ -111,6 +111,7 @@ table th, table td {
   padding-bottom: 2px;
   background-color: #eeeeee;
   border-radius: 5px;
+  margin-top: 10px;
 }
 
 .deadline {
@@ -121,6 +122,21 @@ table th, table td {
   background-color: $crimson-super-light;
   font-weight: bold;
   border-radius: 5px;
+}
+
+#schedule h3 {
+font-size: 130%;
+  width: 70%;
+  float: left;
+  margin-top: 1px;
+  margin-bottom: 4px;
+}
+
+#schedule h4 {
+  font-size: 115%;
+
+  margin-top: 2px;
+  margin-bottom: 2px;
 }
 
 //<img style=" max-width: 40%" src="{{ site.baseurl }}/assets/i/seas.png" alt="Harvard SEAS">

@@ -1,0 +1,26 @@
+
+{% for lecture in site.lectures %}
+{% if lecture.number == include.number %}
+<div class="lecture">
+    <div style="display:block; height:30px;">
+<h3>Lecture {{ lecture.number }}: {{lecture.topic }}</h3>
+    <span class="date">{{ include.date }}</span>
+    </div>
+
+    <p>{{lecture.description}}</p>
+    <p>    {{lecture.content}}</p>
+    {% if lecture.slides %}
+    <p><a href="{{ lecture.slides }}">Download Slides</a></p>
+    {% endif %}
+    <br />
+
+    <h4>Mandatory Reading</h4>
+    {{lecture.mandatory}}
+    <h4>Recommended Reading</h4>
+{{ lecture.rec }}
+</div>
+
+
+
+{% endif %}
+{% endfor %}
