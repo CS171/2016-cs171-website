@@ -8,7 +8,7 @@
 
     <p><b>{{lecture.description}}</b></p>
     {% if lecture.intro-assignment %}
-    <p><b>Introduction to <a href="{{lecture.intro-assignment-url}}">{{ lecture.intro-assignment }}</a></b></p>
+    <p><b>Introduction to <a href="{{lecture.intro-assignment-url}}">{{ lecture.intro-assignment }}</a>.</b></p>
     {% endif %}
     {% if lecture.guest %}
     Guest lecturer: <a href="{{lecture.guest-url}}">{{ lecture.guest }}</a>
@@ -19,7 +19,7 @@
     <p><a href="{{ lecture.slides }}">Download slides</a></p>
     {% endif %}
     {% if lecture.interactive-content %}
-    <p><a href="{{ lecture.interactive-content }}">Go to interactive lecture content</a></p>
+    <p><a href="{{ site.baseurl }}{{ lecture.interactive-content }}">Go to interactive lecture content</a></p>
     {% endif %}
 
     <div style="margin-top: 10px">

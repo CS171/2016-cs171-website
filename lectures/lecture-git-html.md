@@ -5,29 +5,18 @@ permalink: /lectures/lecture-git-html/
 nomenu: true
 ---
 
-
-
-Section 1
-===
-
-Welcome to CS171. Let's get you set up for submitting homework assignments. We'll also quickly cover some basic knowledge that should already feel familiar to you.
-
-----
-**Setup**
-
-* Open a blank browser window and a terminal window
-* Open `basic.html` in a text editor (large font size)
-
-----
+Welcome to CS-5630 / CS-6630 - Visualization. In this class we use a mix of traditional slides and interactive documents that we will use to teach, but that you can also use as a reference for reading. This is the first such interactive lecture. We will cover the basics of version control with git, as well as the basics of the web stack. 
 
 Git
 ---
 
 *30 minutes; interactive.*
+We will be using a version control tool called git to track changes to our code. We'll also be using Github, an online tool for hosting git repositories.
 
-In this course, we will be using a tool called git to track changes to our code. We'll also be using Github, an online tool for hosting git repositories.
+You should already have git installed, if not see the [official documentation](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) on how to install git on your operating system. 
+<div class="slide">
 
-You should already have git installed.
+## Why version Control?
 
 *briefly describe the value of version control*
 
