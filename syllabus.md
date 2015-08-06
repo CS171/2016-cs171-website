@@ -93,7 +93,7 @@ The course schedule includes required weekly readings – you are free to study 
 
 ### Digital Etiquette
 
-During lectures **no internet-enabled devices (notebooks, smartphones, tablets, etc.) are permitted**, unless they are necessary for class activity. While this may sound strict and weird there are good reasons for banning devices in the classroom: messengers and notifications are designed to grab your attention and are de-facto irresistible. Also, note-taking by hand versus on your computer was [shown to be more efficient for learning](http://pss.sagepub.com/content/early/2014/05/21/0956797614524581) ([news story](http://www.vox.com/2014/6/4/5776804/note-taking-by-hand-versus-laptop)).
+During lectures **no internet-enabled devices (notebooks, smartphones, tablets, etc.) are permitted**, unless they are necessary for class activity. While this may sound strict and weird for a CS class, there are good reasons for banning devices in the classroom: messengers and notifications are designed to grab your attention and are de-facto irresistible. Also, note-taking by hand versus on your computer was [shown to be more efficient for learning](http://pss.sagepub.com/content/early/2014/05/21/0956797614524581) ([news story](http://www.vox.com/2014/6/4/5776804/note-taking-by-hand-versus-laptop)).
 
 Read [more on the issue by Clay Shirky](https://medium.com/@cshirky/why-i-just-asked-my-students-to-put-their-laptops-away-7f5f7c50f368) ([Prof. and writer on social and economic effects of Internet technologies](http://en.wikipedia.org/wiki/Clay_Shirky)) and [Dan Rockmore](http://www.newyorker.com/tech/elements/the-case-for-banning-laptops-in-the-classroom) ([Prof. of Computer Science at Dartmouth](http://www.cs.dartmouth.edu/~rockmore/)).
 

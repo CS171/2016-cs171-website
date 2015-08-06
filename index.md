@@ -31,7 +31,8 @@ Office hour: to be announced
 
 ### Teaching Assistants
 
-To be announced
+[Alex Bigelow](http://www.cs.utah.edu/~abigelow/)
+We're still looking for more TAs. If you took the course last year and would like to TA it, please get in touch!
 
 ### Logistics
 
