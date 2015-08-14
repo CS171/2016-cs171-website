@@ -1,5 +1,5 @@
 ---
-number: 2
+key: git_html
 topic: Version Control and HTML.
 description: Introduction to git. HTML, CSS and the DOM. Selectors, etc.
 mandatory-reading: |

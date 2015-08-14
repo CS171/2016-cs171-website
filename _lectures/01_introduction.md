@@ -1,5 +1,5 @@
 ---
-number: 1
+key: introduction
 topic: Introduction
 description: What is visualization? Why is it important? Who are we? Course overview. 
 mandatory-reading: |

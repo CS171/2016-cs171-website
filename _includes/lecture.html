@@ -1,8 +1,8 @@
 {% for lecture in site.lectures %}
-{% if lecture.number == include.number %}
+{% if lecture.key == include.key %}
 <div class="lecture">
     <div style="display:block; height:30px;">
-        <h3>Lecture {{ lecture.number }}: {{lecture.topic }}</h3>
+        <h3>Lecture {{ include.number }}: {{lecture.topic }}</h3>
         <span class="date">{{ include.date }}</span>
     </div>
 

@@ -1,5 +1,5 @@
 ---
-number: 3
+key: svg_javascript
 topic: SVG and JavaScript basics
 description:
 mandatory-reading: |
