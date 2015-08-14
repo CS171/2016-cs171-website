@@ -6,9 +6,10 @@ mandatory-reading: |
 recommended-reading: |
  - [Complex CSS Selectors](http://learn.shayhowe.com/advanced-html-css/complex-selectors/)
 slides:
-interactive-content: /lectures/lecture-git-html/
+interactive-content: 
 guest:
 guest-url:
 intro-assignment:
 intro-assignment-url:
 ---
+/lectures/lecture-git-html/
