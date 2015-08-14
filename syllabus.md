@@ -6,7 +6,7 @@ menu: Syllabus
 order: 2
 ---
 
- <div class="deadline">The information here is subject to change!</div>
+ <div class="deadline">The information here is subject to change! </div>
 
 Welcome to CS-5630 / CS-6630! This course is an introduction to key design principles and techniques for interactively visualizing data. The major goals of this course are to understand how visual representations can help in the analysis and understanding of complex data, how to design effective visualizations, and how to create your own interactive visualizations using modern web-based frameworks. 
 
@@ -36,7 +36,7 @@ We will be using two textbooks for this class, one to cover conceptual aspects o
 
 <br />
 [Interactive Data Visualization for the Web](http://www.amazon.com/Interactive-Data-Visualization-Scott-Murray-ebook/dp/B00BSG68UQ), Scott Murray, O'Reilly (2013) - D3
-*[Free online version](http://chimera.labs.oreilly.com/books/1230000000345), [Free Safari book version for Harvard Students](http://my.safaribooksonline.com/book/web-design-and-development/9781449340223)*
+*[Free online version](http://chimera.labs.oreilly.com/books/1230000000345)*
 
 ![]({{ site.baseurl }}/assets/i/interactive_data_visualization.jpg)
 *An introduction to D3 for people new to programming and web development, published by O’Reilly. “Explaining tricky technical topics with aplomb (and a little cheeky humor) is Scott Murray’s forte. If you want to dive into the world of dynamic visualization using web standards, even if you are new to programming, this book is the place to start.” - Mike Bostock, creator of D3*
@@ -93,7 +93,7 @@ The course schedule includes required weekly readings – you are free to study 
 
 ### Digital Etiquette
 
-During lectures **no internet-enabled devices (notebooks, smartphones, tablets, etc.) are permitted**, unless they are necessary for class activity. While this may sound strict and weird there are good reasons for banning devices in the classroom: messengers and notifications are designed to grab your attention and are de-facto irresistible. Also, note-taking by hand versus on your computer was [shown to be more efficient for learning](http://pss.sagepub.com/content/early/2014/05/21/0956797614524581) ([news story](http://www.vox.com/2014/6/4/5776804/note-taking-by-hand-versus-laptop)).
+During lectures **no internet-enabled devices (notebooks, smartphones, tablets, etc.) are permitted**, unless they are necessary for class activity. While this may sound strict and weird for a CS class, there are good reasons for banning devices in the classroom: messengers and notifications are designed to grab your attention and are de-facto irresistible. Also, note-taking by hand versus on your computer was [shown to be more efficient for learning](http://pss.sagepub.com/content/early/2014/05/21/0956797614524581) ([news story](http://www.vox.com/2014/6/4/5776804/note-taking-by-hand-versus-laptop)).
 
 Read [more on the issue by Clay Shirky](https://medium.com/@cshirky/why-i-just-asked-my-students-to-put-their-laptops-away-7f5f7c50f368) ([Prof. and writer on social and economic effects of Internet technologies](http://en.wikipedia.org/wiki/Clay_Shirky)) and [Dan Rockmore](http://www.newyorker.com/tech/elements/the-case-for-banning-laptops-in-the-classroom) ([Prof. of Computer Science at Dartmouth](http://www.cs.dartmouth.edu/~rockmore/)).
 
