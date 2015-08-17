@@ -11,8 +11,7 @@ slides:
 interactive-content:
 guest:
 guest-url:
-intro-assignment: Homework 0
-intro-assignment-url: a
+
 ---
 
 

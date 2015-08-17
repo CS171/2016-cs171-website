@@ -14,7 +14,7 @@ The assignments are published on [github](https://github.com/dataviscourse/2015-
 
 ## Homework Weights
  
- **Homework 0** - Weight: 2%
+ **[Homework 0](https://github.com/dataviscourse/2015-dataviscourse-homework/blob/master/hw0/readme.md), released: August 17** - Weight: 2%
  **Homework 1** - Weight: 10%
  **Homework 2** - Weight: 10%
  **Homework 3** - Weight: 10%

@@ -10,8 +10,8 @@
     </div>
 
     <p><b>{{lecture.description}}</b></p>
-    {% if lecture.intro-assignment %}
-    <p><b>Introduction to <a href="{{lecture.intro-assignment-url}}">{{ lecture.intro-assignment }}</a>.</b></p>
+    {% if include.intro-assignment %}
+    <p><b>Introduction to <a href="{{include.intro-assignment-url}}">{{ include.intro-assignment }}</a>.</b></p>
     {% endif %}
     {% if lecture.guest %}
     Guest lecturer: <a href="{{lecture.guest-url}}">{{ lecture.guest }}</a>
@@ -31,8 +31,11 @@
         <h4>Mandatory reading</h4>
         {{ lecture.mandatory-reading | markdownify}}
         {% endif %}
+
+        {% if lecture.recommended-reading != "" %}
         <h4>Recommended reading</h4>
         {{ lecture.recommended-reading | markdownify}}
+        {% endif %}
 
 
     </div>

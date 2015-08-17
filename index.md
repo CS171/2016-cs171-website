@@ -37,7 +37,7 @@ We're still looking for more TAs. If you took the course last year and would lik
 ### Logistics
 
 **Lectures:** Tuesday and Thursday 9:10-10:30 am, [L102 WEB](https://goo.gl/maps/jXM3p)
-**Online discussion:** We use [Piazza](piazza.com/utah/fall2015/cs5630cs6630) for discussions and questions. Please sign up with your utah.edu e-mail address.
+**Online discussion:** We use [Piazza](http://piazza.com/utah/fall2015/cs5630cs6630) for discussions and questions. Please sign up with your utah.edu e-mail address.
 
 
 ### Previous Versions of this Class
