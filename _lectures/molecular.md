@@ -6,8 +6,8 @@ mandatory-reading: |
 recommended-reading: |
 slides:
 interactive-content:
-guest:
-guest-url:
+guest: Janet Iwasa
+guest-url: http://biochem.web.utah.edu/iwasa/
 intro-assignment:
 intro-assignment-url:
 ---
