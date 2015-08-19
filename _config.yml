@@ -21,3 +21,5 @@ permalink: pretty
 
 collections:
  - lectures
+
+highlighter: pygments
