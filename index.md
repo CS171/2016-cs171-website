@@ -16,9 +16,7 @@ In this course you will learn about the fundamentals of perception, the theory o
 
 The course begins by bootstrapping your web development skills, moves on to fundamentals of perception, introduces data types you will encounter, and then focuses on visualization techniques and methods for a broad range of data types. An integral component of the course are regular design critiques and design studios that will hone your skills in understanding, critiquing and developing visualization techniques. 
 
-The course is offered in the fall term 2015 at the University of Utah in two variants: CS-5630 for undergraduates and CS-6630 for graduate students. Classes start on Tuesday, Jan 27. All classes are streamed live and archived online. The course is open to all Harvard undergraduate and graduate students and can be taken through cross-registration from the GSD and MIT.
-
-This course is also offered through the Harvard Extension school (online only) where it is listed as [CSCI E-171](http://www.extension.harvard.edu/courses/24028).
+The course is offered in the fall term 2015 at the University of Utah in two variants: CS-5630 for undergraduates and CS-6630 for graduate students, with a special section of CS-6630 (002) designated for data certificate students. Classes start on Tuesday, August 25. All classes are streamed live and archived online.
 
 ### Instructor
 

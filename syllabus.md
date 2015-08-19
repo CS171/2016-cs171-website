@@ -98,7 +98,7 @@ During lectures **no internet-enabled devices (notebooks, smartphones, tablets, 
 Read [more on the issue by Clay Shirky](https://medium.com/@cshirky/why-i-just-asked-my-students-to-put-their-laptops-away-7f5f7c50f368) ([Prof. and writer on social and economic effects of Internet technologies](http://en.wikipedia.org/wiki/Clay_Shirky)) and [Dan Rockmore](http://www.newyorker.com/tech/elements/the-case-for-banning-laptops-in-the-classroom) ([Prof. of Computer Science at Dartmouth](http://www.cs.dartmouth.edu/~rockmore/)).
 
 ### Assessment Procedure
-Your final grade in CS171 will be determined by the number of points you collect. You can collect various amounts of points for the different parts of the class:
+Your final grade will be determined by the number of points you collect. You can collect various amounts of points for the different parts of the class:
 
  * Project: 40%, assessed on meeting the project criteria and your peer assessment. The 40% are split between the two milestones. 10% are assigned to your first milestone, 30% to your final submission.
  * Homework: 40%, assessed on your individual submission.  The homework assignments are weighted based on difficulty and length (A two week homework counts more than a one week homework).

@@ -132,7 +132,6 @@ Python is great for data analysis and for data scraping.
 
 [Plot.ly](https://plot.ly)
 [Wolfram Mathematica](http://www.wolfram.com/mathematica/)
-[Harvard-specific Installation Guidelines](https://docs.google.com/file/d/0B2Pu4bcI9HyORndZekF0YXl5VWc/edit)
 [Protovis](http://vis.stanford.edu/protovis/) (JavaScript)
 [Prefuse](http://prefuse.org/) (Java)
 [Flare](http://flare.prefuse.org/) (ActionScript)
