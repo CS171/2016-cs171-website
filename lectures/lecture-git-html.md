@@ -250,7 +250,9 @@ Through this cycle of editing, adding and committing, you can develop software i
 
 ### Branching
 
-# Now let's create a branch
+**Now let's create a branch**
+
+{% highlight bash linenos %}
 $ git branch draft
 
 # This created a branch with the name draft. Let's look at all the other branches
@@ -258,9 +260,16 @@ $ git branch
   draft
 * master
 
-# We have two branches, draft and master. The * tells us the active branch (the HEAD)
+{% endhighlight %}
 
-# Let's switch the branch
+
+We have two branches, draft and master. The * tells us the active branch (the HEAD). 
+
+The files in your folders are in the state as they are stored in the active branch. When you change the branch the files are changed, removed or added to the state of the target branch.
+ 
+**Let's switch the branch.**
+
+{% highlight bash linenos %}
 $ git checkout draft
 Switched to branch 'draft'
 
@@ -280,28 +289,42 @@ Spinning round and round
 $ git commit -a 
 [draft 059daaa] Confirmed, spinning
  1 file changed, 1 insertion(+)
+{% endhighlight %}
  
-# No let's switch back to master again
+We have now written changes to the new branch, draft. The master branch should remain unchanged. Let's see if that's true.  
+ 
+{% highlight bash linenos %} 
+# Now let's switch back to master again
 $ git checkout master
 Switched to branch 'master'
 
-# The text isn't here.
 $ cat demo.txt 
 Hello World!
 Are you still spinning?
+{% endhighlight %}
 
-# Writing something to the front and to the end
+The text we added isn't here, as expected! Next we're going to change something in the main branch and thus cause a conflict. 
+
+{% highlight bash linenos %}
+# Writing something to the front and to the end in an editor
 $ cat demo.txt 
 I am here!
 Hello World!
 Are you still spinning?
 Indeed!
 
+# comitting again
 $ git commit -a 
 [master 8437327] Front and back
  1 file changed, 2 insertions(+)
  
-# Now let's try to merge it
+ {% endhighlight %}
+ 
+At this point we have changed the file in two different branches of the repository. This is great for working on new features without breaking a stable codebase, but it can result in conflicts. 
+**Let's try to merge those two branches.**
+ 
+ {% highlight bash linenos %}
+# the git merge command merges the specified branch into the currently active one. "master" is active, and we want to merge in "draft". 
 $ git merge draft
 Auto-merging demo.txt
 CONFLICT (content): Merge conflict in demo.txt
@@ -329,7 +352,17 @@ $ git status
 # On branch master
 nothing to commit, working directory clean
 
-# Now I'll create a new repository on github
+{% endhighlight %}
+
+These are the basics of git on a local server. Now we'll learn how to sync with other people. This can be done with just git, but we'll be using GitHub as we're also using GitHub in the homeworks.
+
+### Working with GitHub
+
+First, we'll create a new repository on github by going to  [https://github.com/new](https://github.com/new). 
+
+![New repo interface on GitHub](images/newrepo.png)
+
+If you'd like to 
 
 # If you don't have a git repository with code yet, you can simply clone that repository and start working on it:
 $ git clone https://github.com/alexsb/Demo.git
