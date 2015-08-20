@@ -24,7 +24,6 @@ layout: default
 
             border: 1px solid gray;
 
-
         }
     </style>
     <script>
@@ -48,10 +47,20 @@ layout: default
 
             function updatePreview() {
                 var previewFrame = document.getElementById('preview-' + id);
-                var preview = previewFrame.contentDocument || previewFrame.contentWindow.document;
-                preview.open();
-                preview.write(editor.getValue());
-                preview.close();
+                if (previewFrame) {
+                    // here you can make the height, I delete it first, then I make it again
+                //    previewFrame.height = "";
+                  //  previewFrame.height = previewFrame.contentWindow.document.body.scrollHeight + "px";
+
+
+                    var preview = previewFrame.contentDocument || previewFrame.contentWindow.document;
+
+                    preview.open();
+                    preview.write(editor.getValue());
+                    preview.close();
+                    previewFrame.height = previewFrame.contentWindow.document.body.scrollHeight + "px";
+                }
+
             }
 
             setTimeout(updatePreview, 300);
