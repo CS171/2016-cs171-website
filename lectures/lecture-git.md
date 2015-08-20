@@ -9,8 +9,6 @@ Welcome to CS-5630 / CS-6630 - Visualization. In this class we use a mix of trad
 
 ## Git
 
-
-*30 minutes; interactive.*
 We will be using a version control tool called git to track changes to our code. We'll also be using Github, an online tool for hosting git repositories.
 
 You should already have git installed, if not see the [official documentation](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) on how to install git on your operating system. 
