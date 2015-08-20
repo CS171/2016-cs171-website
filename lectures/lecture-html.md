@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: code-lecture
 title:  The Languages and Tools of the Web
 permalink: /lectures/lecture-html/
 nomenu: true
@@ -17,7 +17,8 @@ In this course we will use HTML to create our data visualizations. HTML stands f
 
 The important thing about HTML is that the markup is represented by elements. An HTML element is a portion of the content that is surrounded by a pair of tags of the same name. Like this:
 
-{% include code.html id="basic_element" code="<strong>This is an HTML element.</strong>" %}
+{% include code.html id="basic_element" code="<strong>This is an HTML element.</strong>"  file=""%}
+
 In this element, strong is the name of the tag; the open tag is <strong>, and the matching closing tag is </strong>. The way you should interpret this is that the text “This is an HTML element” should be “strong”, for some strong (typically this will be bold text). HTML elements can nest:
 
 <strong>This is strong, and <u>this is underlined and
@@ -31,11 +32,10 @@ A link to Google’s main page
 
 We will use element attributes in pretty much very example from now on. The most important ones are id, class, and style. The id attribute gives the attribute a name, which can then be used to access the element via Javascript (we’ll see how next week). Think of it as making the element accessible via a global variable. This is as convenient as a global variable, and potentially just as confusing: needing lots of different element ids might be a sign that you could organize your code better (in the next weeks we’ll learn about good practices like this). (The class and style attributes will be explained soon, in the CSS section below.)
 
-{% include code.html id="simple_example" file="simple_example.html" %}
+{% include code.html id="simple_example" file="simple_example.html" code="" %}
 [simple_example.html](simple_example.html)
 test
 
-{% include code.html id="basic_more" code="<strong>This is an HTML element again.</strong>" %}
 
 asdf
 

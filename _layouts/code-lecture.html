@@ -1,0 +1,140 @@
+---
+layout: default
+---
+<div class="post">
+    <>
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src='http://codemirror.net/lib/codemirror.js'></script>
+    <script src='http://codemirror.net/mode/xml/xml.js'></script>
+    <script src='http://codemirror.net/mode/javascript/javascript.js'></script>
+    <script src='http://codemirror.net/mode/css/css.js'></script>
+    <script src='http://codemirror.net/mode/htmlmixed/htmlmixed.js'></script>
+    <link rel='stylesheet' href='http://codemirror.net/lib/codemirror.css'>
+    <style type='text/css'>
+        .CodeMirror {
+            float: left;
+            width: 100%;
+            border: 1px solid gray;
+            height: auto;
+        }
+
+        .CodePreview {
+            width: 100%;
+            float: left;
+
+            border: 1px solid gray;
+
+
+        }
+    </style>
+    <script>
+        function renderCode(id, file, code) {
+            var delay;
+
+            // Initialize CodeMirror editor
+            var editor = CodeMirror.fromTextArea(document.getElementById(id), {
+                mode: 'text/html',
+                tabMode: 'indent',
+                lineNumbers: true,
+                lineWrapping: true,
+                autoCloseTags: true
+            });
+
+            // Live preview
+            editor.on("change", function () {
+                clearTimeout(delay);
+                delay = setTimeout(updatePreview, 300);
+            });
+
+            function updatePreview() {
+                var previewFrame = document.getElementById('preview-' + id);
+                var preview = previewFrame.contentDocument || previewFrame.contentWindow.document;
+                preview.open();
+                preview.write(editor.getValue());
+                preview.close();
+            }
+
+            setTimeout(updatePreview, 300);
+
+            function saveTextAsFile() {
+                var textToWrite = document.getElementById(id).value;
+                var textFileAsBlob = new Blob([textToWrite], {
+                    type: 'text/plain'
+                });
+                var fileNameToSaveAs = "myfile.html";
+
+                var downloadLink = document.createElement("a");
+                downloadLink.download = fileNameToSaveAs;
+                downloadLink.innerHTML = "Download File";
+                if (window.webkitURL != null) {
+                    // Chrome allows the link to be clicked
+                    // without actually adding it to the DOM.
+                    downloadLink.href = window.webkitURL.createObjectURL(textFileAsBlob);
+                } else {
+                    // Firefox requires the link to be added to the DOM
+                    // before it can be clicked.
+                    downloadLink.href = window.URL.createObjectURL(textFileAsBlob);
+                    downloadLink.onclick = destroyClickedElement;
+                    downloadLink.style.display = "none";
+                    document.body.appendChild(downloadLink);
+                }
+
+                downloadLink.click();
+            }
+
+            function destroyClickedElement(event) {
+                document.body.removeChild(event.target);
+            }
+
+            function loadfile(input) {
+                var reader = new FileReader();
+                reader.onload = function (e) {
+                    editor.setValue(e.target.result);
+                }
+                reader.readAsText(input.files[0]);
+            }
+
+            var input = document.getElementById("select");
+
+            function selectTheme() {
+                var theme = input.options[input.selectedIndex].innerHTML;
+                editor.setOption("theme", theme);
+            }
+
+            var choice = document.location.search && decodeURIComponent(document.location.search.slice(1));
+            if (choice) {
+                input.value = choice;
+                editor.setOption("theme", choice);
+            }
+
+
+            // init with file or code
+            if (file != "") {
+                $.get(file, function (data) {
+                    editor.setValue(data);
+
+                });
+            } else if (code != "") {
+                console.log(code)
+
+                editor.setValue(code);
+
+            }
+
+
+        }
+
+
+    </script>
+    </header>
+
+    <header class="post-header">
+        <h1>{{ page.title }}</h1>
+
+    </header>
+
+    <article class="post-content">
+        {{ content }}
+    </article>
+
+</div>
