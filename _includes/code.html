@@ -1,0 +1,135 @@
+<!-- Source: http://liveweave.com/JlSG6D -->
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+     <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src='http://codemirror.net/lib/codemirror.js'></script>
+    <script src='http://codemirror.net/mode/xml/xml.js'></script>
+    <script src='http://codemirror.net/mode/javascript/javascript.js'></script>
+    <script src='http://codemirror.net/mode/css/css.js'></script>
+    <script src='http://codemirror.net/mode/htmlmixed/htmlmixed.js'></script>
+    <link rel='stylesheet' href='http://codemirror.net/lib/codemirror.css'>
+    <style type='text/css'>
+        .CodeMirror {
+            float: left;
+            width: 50%;
+            border: 1px solid gray;
+        }
+        #preview-{{include.id}} {
+            width: 49%;
+            float: left;
+            height: 300px;
+            border: 1px solid gray;
+            border-left: 0px;
+        }
+    </style>
+</head>
+
+<body>
+<textarea id="{{include.id}}" name="{{include.id}}">
+
+        </textarea>
+<iframe id="preview-{{include.id}}"></iframe>
+<!--<input type="file" onchange="loadfile(this)"> <a href="#my-header" onclick='saveTextAsFile()'>Save/Download</a>-->
+
+<script>
+    var delay;
+
+    // Initialize CodeMirror editor
+    var editor = CodeMirror.fromTextArea(document.getElementById('{{include.id}}'), {
+        mode: 'text/html',
+        tabMode: 'indent',
+        lineNumbers: true,
+        lineWrapping: true,
+        autoCloseTags: true
+    });
+
+    // Live preview
+    editor.on("change", function() {
+        clearTimeout(delay);
+        delay = setTimeout(updatePreview, 300);
+    });
+
+    function updatePreview() {
+        var previewFrame = document.getElementById('preview-{{include.id}}');
+        var preview = previewFrame.contentDocument || previewFrame.contentWindow.document;
+        preview.open();
+        preview.write(editor.getValue());
+        preview.close();
+    }
+    setTimeout(updatePreview, 300);
+
+    function saveTextAsFile() {
+        var textToWrite = document.getElementById('{{include.id}}').value;
+        var textFileAsBlob = new Blob([textToWrite], {
+            type: 'text/plain'
+        });
+        var fileNameToSaveAs = "myfile.html";
+
+        var downloadLink = document.createElement("a");
+        downloadLink.download = fileNameToSaveAs;
+        downloadLink.innerHTML = "Download File";
+        if (window.webkitURL != null) {
+            // Chrome allows the link to be clicked
+            // without actually adding it to the DOM.
+            downloadLink.href = window.webkitURL.createObjectURL(textFileAsBlob);
+        } else {
+            // Firefox requires the link to be added to the DOM
+            // before it can be clicked.
+            downloadLink.href = window.URL.createObjectURL(textFileAsBlob);
+            downloadLink.onclick = destroyClickedElement;
+            downloadLink.style.display = "none";
+            document.body.appendChild(downloadLink);
+        }
+
+        downloadLink.click();
+    }
+
+    function destroyClickedElement(event) {
+        document.body.removeChild(event.target);
+    }
+
+    function loadfile(input) {
+        var reader = new FileReader();
+        reader.onload = function(e) {
+            editor.setValue(e.target.result);
+        }
+        reader.readAsText(input.files[0]);
+    }
+
+    var input = document.getElementById("select");
+
+    function selectTheme() {
+        var theme = input.options[input.selectedIndex].innerHTML;
+        editor.setOption("theme", theme);
+    }
+
+    var choice = document.location.search && decodeURIComponent(document.location.search.slice(1));
+    if (choice) {
+        input.value = choice;
+        editor.setOption("theme", choice);
+    }
+
+    function initFromParent()
+    {
+        {% if include.file !="" %}
+       $.get("{{ include.file }}", function(data){
+           editor.setValue(data);
+
+        });
+            {%endif%}
+            console.log("{{ include.code }}")
+            {% if include.code !="" %}
+                editor.setValue("{{ include.code }}");
+                {% endif %}
+    }
+
+    initFromParent();
+
+</script>
+
+</body>
+
+</html>
