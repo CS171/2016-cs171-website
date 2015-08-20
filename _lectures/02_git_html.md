@@ -10,10 +10,9 @@ recommended-reading: |
  - [A successful git branching model](http://nvie.com/posts/a-successful-git-branching-model/)
  - [Complex CSS Selectors](http://learn.shayhowe.com/advanced-html-css/complex-selectors/)
 slides:
-interactive-content: 
+interactive-content: /lectures/lecture-git/
 guest:
 guest-url:
 intro-assignment:
 intro-assignment-url:
 ---
-/lectures/lecture-git-html/
