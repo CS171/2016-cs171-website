@@ -503,7 +503,7 @@ $ git commit -m "Describe your changes"
 $ git push
 {% endhighlight %}
 
-Remeber, `git commit` operation takes snapshot of your code at that point in time but doesn't write to the server. 
+Remember, the `git commit` operation takes a snapshot of your code at that point in time but doesn't write to the server. 
 
 The `git push` operation pushes your local commits to the remote repository. It is important that you push your changes or others will not be able to see them.
 
