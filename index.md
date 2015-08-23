@@ -21,7 +21,6 @@ The course is offered in the fall term 2015 at the University of Utah in two var
 ### Instructor
 
 [Alexander Lex](http://alexander-lex.com), [alex@sci.utah.edu](mailto:alex@sci.utah.edu)
-Office hour: to be announced
 
 ### Guest-Lecturer
 
@@ -30,12 +29,14 @@ Office hour: to be announced
 ### Teaching Assistants
 
 [Alex Bigelow](http://www.cs.utah.edu/~abigelow/)
-We're still looking for more TAs. If you took the course last year and would like to TA it, please get in touch!
+Zinnia	Mukherjee
+Anirudh	Narasimhamurthy
 
 ### Logistics
 
 **Lectures:** Tuesday and Thursday 9:10-10:30 am, [L102 WEB](https://goo.gl/maps/jXM3p)
 **Online discussion:** We use [Piazza](http://piazza.com/utah/fall2015/cs5630cs6630) for discussions and questions. Please sign up with your utah.edu e-mail address.
+**Office Hours:** See [this calendar](https://www.google.com/calendar/embed?src=fdvio7r8i82kk0vl2to5j3dd1s%40group.calendar.google.com&ctz=America/Denver).
 
 
 ### Previous Versions of this Class
