@@ -3,6 +3,8 @@ key: git_html
 topic: Version Control and HTML.
 description: Introduction to git. HTML, CSS and the DOM. Selectors, etc.
 mandatory-reading: |
+  - D3 Book, Chapters 1-3
+  - VDA Book, Chapter 1
 recommended-reading: |
  - [Think like a git](http://think-like-a-git.net/)
  - [Understanding git conceptually](http://www.sbf5.com/~cduan/technical/git/)
