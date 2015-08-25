@@ -35,7 +35,7 @@ Anirudh	Narasimhamurthy
 
 ### Logistics
 
-**Lectures:** Tuesday and Thursday 9:10-10:30 am, [L102 WEB](https://goo.gl/maps/jXM3p)
+**Lectures:** Tuesday and Thursday 9:10-10:30 am, [2230 WEB](https://goo.gl/maps/jXM3p)
 **Online discussion:** We use [Piazza](http://piazza.com/utah/fall2015/cs5630cs6630) for discussions and questions. Please sign up with your utah.edu e-mail address.
 **Office Hours:** See [this calendar](https://www.google.com/calendar/embed?src=fdvio7r8i82kk0vl2to5j3dd1s%40group.calendar.google.com&ctz=America/Denver).
 
