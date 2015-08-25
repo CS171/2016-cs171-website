@@ -15,6 +15,6 @@ slides:
 interactive-content: /lectures/lecture-git/
 guest:
 guest-url:
-intro-assignment:
+intro-assignment: Homework 1
 intro-assignment-url:
 ---
