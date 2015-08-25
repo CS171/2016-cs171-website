@@ -5,7 +5,8 @@ permalink: /lectures/lecture-git/
 nomenu: true
 ---
 
-Welcome to CS-5630 / CS-6630 - Visualization. In this class we use a mix of traditional slides and interactive documents that we will use to teach, but that you can also use as a reference for reading. This is the first such interactive lecture. We will cover the basics of version control with git, as well as the basics of the web stack. 
+
+Welcome to CS-5630 / CS-6630 - Visualization. In this class we will use a mix of traditional slides and interactive documents to teach, but you can also use that as a reference for reading. This is first of those interactive lectures. We will cover the basics of version control with git, as well as the basics of the web stack.
 
 ## Git
 
@@ -19,12 +20,12 @@ You should already have git installed, if not see the [official documentation](h
  
  * **Keep copies of multiple states of files** 
   By committing you record a state of the file to which you can go back any time.
- * **Create alternative sates**
+ * **Create alternative states**
  Imagine you just want to try out something, but you realize you have to modify multiple files. You're not sure whether it works or is worth it. With version control you can just create a **branch** where you can experiment or develop new features without disturbing the main or other branches.
  * **Collaborate in Teams** 
  Nobody wants to send code via e-mail. Version control lets you keep your code remotely and has dedicated ways to merge and deal with conflicts. 
- * **Keep your work save**
- Your hard drive breaks. Your computer is stolen. But your code is save because you store it not only on your computer but also on a remote server. 
+ * **Keep your work safe**
+ Your hard drive breaks. Your computer is stolen. But your code is safe because you store it not only on your computer but also on a remote server. 
  * **Share**
  You developed something awesome and want to share it. But not only do you want to make it available, you're also happy about contributions from others! 
 
