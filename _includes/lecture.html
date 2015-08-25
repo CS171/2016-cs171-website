@@ -19,7 +19,7 @@
 
 
     {% if lecture.slides %}
-    <p><a href="{{ lecture.slides }}">Download slides</a></p>
+    <p><a href="{{ site.baseurl }}/assets/slides/{{ lecture.slides }}">Download slides</a></p>
     {% endif %}
     {% if lecture.interactive-content %}
     <p><a href="{{ site.baseurl }}{{ lecture.interactive-content }}">Go to interactive lecture content</a></p>
