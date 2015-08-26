@@ -10,6 +10,9 @@ recommended-reading: |
  - [Understanding git conceptually](http://www.sbf5.com/~cduan/technical/git/)
  - [Fun and insightful talk on git by Linus Torvalds](http://www.youtube.com/watch?v=4XpnKHJAok8)
  - [A successful git branching model](http://nvie.com/posts/a-successful-git-branching-model/)
+ - [MDN HTML Elements reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
+ - [MDN CSS Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Syntax)
+ - [MDN selectors webpage](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors)
  - [Complex CSS Selectors](http://learn.shayhowe.com/advanced-html-css/complex-selectors/)
 slides:
 interactive-content: /lectures/lecture-git/
