@@ -19,30 +19,40 @@ The important thing about HTML is that the markup is represented by elements. An
 
 {% include code.html id="basic_element" code="<strong>This is an HTML element.</strong>"  file=""%}
 
-In this element, strong is the name of the tag; the open tag is <strong>, and the matching closing tag is </strong>. The way you should interpret this is that the text “This is an HTML element” should be “strong”, for some strong (typically this will be bold text). HTML elements can nest:
+In this element, strong is the name of the tag; the open tag is <strong>, and the matching closing tag is </strong>. The way you should interpret this is that the text “This is an HTML element” should be “strong”, i.e., typically this will be bold text.
+ 
+HTML elements can and commonly do nest:
 
-<strong>This is strong, and <u>this is underlined and
-strong.</u></strong>
-(Line breaks in HTML do not translate to line breaks in the rendered result.) In addition to the names, opening tags can contain extra information about the element. These are called attributes:
+{% include code.html id="nested_element" code="<strong>This is strong, and <u>this is underlined and strong.</u></strong>"  file=""%}
 
-<a href="http://www.google.com">A link to Google's main page</a>
-In this case, we’re using the a element (which stood for “anchor”, but now is almost universally used as a “link” — go figure). href means “HTML reference”, which actually makes sense for a change. The meaning given to each attribute changes from element to element. In this case, the above element would be rendered as below:
+In addition to the names, opening tags can contain extra information about the element. These are called attributes:
 
-A link to Google’s main page
+{% include code.html id="attribute" code="<a href='http://www.google.com'>A link to Google's main page</a>"  file=""%}
 
-We will use element attributes in pretty much very example from now on. The most important ones are id, class, and style. The id attribute gives the attribute a name, which can then be used to access the element via Javascript (we’ll see how next week). Think of it as making the element accessible via a global variable. This is as convenient as a global variable, and potentially just as confusing: needing lots of different element ids might be a sign that you could organize your code better (in the next weeks we’ll learn about good practices like this). (The class and style attributes will be explained soon, in the CSS section below.)
+In this case, we’re using the ``a`` element (which stood for “anchor”, but now is almost universally used as a “link” — go figure). ``href`` means “HTML reference”, which actually makes sense for a change. The meaning given to each attribute changes from element to element. 
+
+We will use element attributes in pretty much very example from now on. The most important ones are ``id``, ``class``, and ``style``. The ``id`` attribute gives the attribute a unique name, which can then be used to access the element via Javascript (we’ll see how next week). Think of it as making the element accessible via a global variable. This is as convenient as a global variable, and potentially just as confusing: needing lots of different element ids might be a sign that you could organize your code better (in the next weeks we’ll learn about good practices like this). The class and style attributes will be explained soon, in the CSS section below.
+
+**Here are some important tags:**
+{% include code.html id="htmls_tags" file="html_tags.html" code="" %}
+
+A couple of tags that don't have visual equivalents on the website:
+ * ``<html>`` creates the entire HTML container.
+ * ``<head>`` Creates the header (generally where the title and links to style sheets/scripts are found).
+ * ``<script>`` links to or embeds a script (we will do that a lot).
+ * ``<style>`` for embedding a style in the website.
+ *  ``<link>`` to reference an external document, often a css document like that: ``<link rel="stylesheet" type="text/css" href="theme.css">``. The rel attribute defines the relationship to the active document, the type attribute tells the browser which type of file to expect. 
+ * ``<body>`` marks the container of the content on the website.  
+    
+
+
+## Necessary Boilerplate
+
+An HTML5 document has a little bit of necessary boilerplate that you should just copy and paste every time you need to get started (and no, you won’t get charged with plagiarism for this one bit.). Every HTML5 document you create in class should have this skeleton:
 
 {% include code.html id="simple_example" file="simple_example.html" code="" %}
-[simple_example.html](simple_example.html)
-test
 
 
-asdf
-
-
-<textarea rows="4" cols="50">
-At w3schools.com you will learn how to make a website. We offer free tutorials in all web development technologies. 
-</textarea>
 ## Web Stack
 
 More nuts & bolts: Python server
