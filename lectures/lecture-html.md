@@ -19,7 +19,7 @@ The important thing about HTML is that the markup is represented by elements. An
 
 {% include code.html id="basic_element" code="<strong>This is an HTML element.</strong>"  file=""%}
 
-In this element, strong is the name of the tag; the open tag is <strong>, and the matching closing tag is </strong>. The way you should interpret this is that the text “This is an HTML element” should be “strong”, i.e., typically this will be bold text.
+In this element, strong is the name of the tag; the open tag is &lt;strong&gt;, and the matching closing tag is &lt;/strong&gt;. The way you should interpret this is that the text “This is an HTML element” should be “strong”, i.e., typically this will be bold text.
  
 HTML elements can and commonly do nest:
 
