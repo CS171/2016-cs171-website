@@ -22,7 +22,9 @@
     <p><a href="{{ site.baseurl }}/assets/slides/{{ lecture.slides }}">Download slides</a></p>
     {% endif %}
     {% if lecture.interactive-content %}
-    <p><a href="{{ site.baseurl }}{{ lecture.interactive-content }}">Go to interactive lecture content</a></p>
+    {% for link in lecture.interactive-content %}
+    {{ link | markdownify}}
+    {% endfor %}
     {% endif %}
 
     <div style="margin-top: 10px">

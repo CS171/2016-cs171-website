@@ -1,4 +1,4 @@
-<!-- Source: http://liveweave.com/JlSG6D -->
+
 
 <html>
 
@@ -16,14 +16,13 @@
 
 {% if include.file != "" %}
 <script>
-    console.log("wa");
     renderCode("{{ include.id }}", "{{ include.file }}", "");
 </script>
+<i><a href="{{ include.file }}">See output in new page.</a></i>
 {%endif %}
 
 {% if include.code != "" %}
 <script>
-    console.log("wo");
     renderCode("{{ include.id }}", "", "{{ include.code }}");
 </script>
 {%endif %}

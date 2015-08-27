@@ -13,9 +13,12 @@ recommended-reading: |
  - [MDN HTML Elements reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
  - [MDN CSS Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Syntax)
  - [MDN selectors webpage](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors)
- - [Complex CSS Selectors](http://learn.shayhowe.com/advanced-html-css/complex-selectors/)
+ - [Overview of the Chrome developer tools](https://developer.chrome.com/devtools)
+ - [MDN SVG tutorial](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial)
 slides:
-interactive-content: /lectures/lecture-git/
+interactive-content: | 
+ - [Version Control with git](../lectures/lecture-git/)
+ - [HTML, CSS and SVG](../lectures/lecture-html/)
 guest:
 guest-url:
 intro-assignment: Homework 1
