@@ -33,7 +33,7 @@ In this case, we’re using the ``a`` element (which stood for “anchor”, but
 
 We will use element attributes in pretty much every example from now on. The most important ones are ``id``, ``class``, and ``style``. The ``id`` attribute gives the attribute a unique identifier, which can then be used to access the element via Javascript (we’ll see how next week). Think of it as making the element accessible via a global variable. This is as convenient as a global variable, and potentially just as confusing: needing lots of different element ids might be a sign that you could organize your code better (in the coming weeks, we’ll learn about good practices like this). The class and style attributes will be explained in the CSS section below.
 
-**Self-closing elements**
+#### Self-closing elements
 Some elements rarely have internal content between their opening and closing tags, and therefore it becomes a bit of a pain to type the closing tags every time. In that case, you can use the following shorthand notation: ``<foo />`` is equivalent to ``<foo></foo>`` (you might have noticed that in the charset declaration above).
 
 **Here are some important tags:**
