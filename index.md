@@ -32,6 +32,7 @@ Office: WEB 3887
 [Alex Bigelow](http://www.cs.utah.edu/~abigelow/)
 Zinnia	Mukherjee
 Anirudh	Narasimhamurthy
+Jonathan Dunstan
 
 ### Logistics
 
@@ -39,6 +40,7 @@ Anirudh	Narasimhamurthy
 **Online discussion:** We use [Piazza](http://piazza.com/utah/fall2015/cs5630cs6630) for discussions and questions. Please sign up with your utah.edu e-mail address.
 **Office Hours:** See [this calendar](https://www.google.com/calendar/embed?src=fdvio7r8i82kk0vl2to5j3dd1s%40group.calendar.google.com&ctz=America/Denver).
 **Live Video:** [YouTube Channel](https://www.youtube.com/channel/UCDUS80bdunpmvWVPyFRPqFQ/live)
+**Archived Video:** [YouTube Playlist]
 
 
 ### Previous Versions of this Class

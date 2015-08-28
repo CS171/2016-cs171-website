@@ -141,6 +141,8 @@ An SVG drawing starts with an svg element, which requires width and height attri
 
 This is results in a blank canvas, which is kind of boring, but you should be able to verify, using the Developer Tools, that there is in fact an honest-to-goodness SVG element there. In the following, you’ll learn how to add basic graphical shapes to the SVG element.
 
+### Coordinate System
+
 ### Circle 
 {% include code.html id="svg_circle" file="svg_circle.html" code="" %}
 
