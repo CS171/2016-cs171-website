@@ -1,3 +1,10 @@
+---
+layout: code-lecture
+title:  JavaScript Fundamentals
+permalink: /lectures/lecture-javascript/
+nomenu: true
+---
+
 
 ## Web Stack
 
