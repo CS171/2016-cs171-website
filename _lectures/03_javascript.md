@@ -9,7 +9,8 @@ recommended-reading: |
  - Book: [JavaScript - the Good Parts](http://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742#). Get this book for <20$ if you're interested in learning more about JavaScript.
  - [Code Academy Javascript Tutorial](http://www.codecademy.com/en/tracks/javascript)
 slides:
-interactive-content:
+interactive-content: |
+ - [Interactive JavaScript Introduction](../lectures/lecture-javascript/)
 guest:
 guest-url:
 intro-assignment:

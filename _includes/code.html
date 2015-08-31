@@ -5,27 +5,20 @@
 <head>
     <meta charset="utf-8">
 
+
 </head>
 
 <body>
-<textarea id="{{include.id}}" name="{{include.id}}">
+<textarea id="{{include.id}}" name="{{include.id}}"></textarea>
 
-        </textarea>
+{% if include.preview != "false" %}
 <iframe id="preview-{{include.id}}" class="CodePreview"></iframe>
 <!--<input type="file" onchange="loadfile(this)"> <a href="#my-header" onclick='saveTextAsFile()'>Save/Download</a>-->
-
-{% if include.file != "" %}
+{% endif %}
 <script>
-    renderCode("{{ include.id }}", "{{ include.file }}", "");
+    renderCode("{{ include.id }}", "{{ include.file }}", "{{include.code}}", "{{include.js}}", "{{include.preview}}");
 </script>
 <i><a href="{{ include.file }}">See output in new page.</a></i>
-{%endif %}
-
-{% if include.code != "" %}
-<script>
-    renderCode("{{ include.id }}", "", "{{ include.code }}");
-</script>
-{%endif %}
 
 </body>
 
