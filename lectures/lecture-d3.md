@@ -5,7 +5,7 @@ permalink: /lectures/lecture-d3/
 nomenu: true
 ---
 
-More nuts & bolts: Python server
+## Running a web server
 ---
 
 *10 minutes; interactive.*
@@ -26,111 +26,7 @@ Open [http://localhost:8000/](http://localhost:8000/) — we have a server. You 
 
 You can only have one server at the same time (unless you specify a port). Control-C to quit. 
 
-The DOM
----
 
-*Return to your text editor (`basic.html`). 20 minutes; demonstration only.*
-
-The DOM is the hierarchical structure used for representing elements in the browser — you should already be familiar with it. Here is a simple HTML example:
-
-```html
-<!DOCTYPE HTML>
-<html>
-  <head>
-    <title>CS171 Section 1</title>
-    <script src="http://d3js.org/d3.v3.min.js"></script>
-  </head>
-  <body>
-    <h1>Welcome to CS171</h1>
-    <p>Data visualization</p>
-    <svg></svg>
-  </body>
-</html>
-```
-
-*briefly describe the structure of the document*
-
-Notice the tags `<...>` that are matched with `</...>` — those are DOM (HTML) elements.
-
-### The Web Inspector
-
-`<h1>` indicates a heading. Let's change the contents of the `<h1>` and refresh.
-
-Let's add anotger paragraph below the first paragraph — a `<p>`.
-
-*Open `basic.html` in Chrome with Developers Tools vertically docked*
-
-In Developer Tools, we can do live modifications to the DOM. For example, let's move the paragraph around and change its content. Or, let's delete it.
-
-### CSS: Making it pretty
-
-*Return to the text editor*
-
-HTML sets the structure and contents of the page and CSS sets its style — things like fonts, colors, margins, backgrounds, etc.
-
-Let's add some CSS.
-
-```
-...
-    <script src="http://d3js.org/d3.v3.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="/style.css" />
-  </head>
-...
-```
-
-That line tells the browser to look for styling information in `style.css`.
-
-*open `style.css` in another pane*
-
-The file describes a list of styles (e.g. `color: darkgrey`) applied to a particular group of HTML elements.
-
-We won't be using CSS extensively in this course: CSS works by assigning styles (e.g. `color: darkgrey`) to particular groups of HTML elements.
-
-Sometimes we want to target one particular element — a particular `p`, not all `p`s. Let's add an *id* of `subheading` to the first `p`.
-
-```html
-...
-    <h1>Welcome to CS171</h1>
-    <p id="subheading">Data visualization</p>
-...
-```
-
-And now, in `style.css`, we use that id to only apply styling to a specific paragraph.
-
-```css
-p#subheading {
-  color: darkgrey;
-  font-style: italic;
-}
-```
-
-*return to Developer Tools*
-
-We can also edit CSS live in the Developer Tools. Let's change that paragraph's color to red.
-
-### SVG: Drawing shapes
-
-*return to the text editor*
-
-SVG is a format for drawing vector graphics in the browser. We'll be using SVG a lot in this course and you're probably not familiar with it yet.
-
-HTML and SVG are similar — HTML defines the content and structure of elements such as headings, paragraphs, and images; SVG defines graphical marks such as circles, rectangles, and paths.
-
-Let's add a circle inside the `<svg>` element.
-
-```svg
-<circle cx="200" cy="200" r="50"/>
-```
-
-We can modify the attributes of the circle. Let's change the `cx` value. Let's make the `fill` attribute `steelblue`.
-
-Let's add a rectangle.
-
-```svg
-<rect x="10" y="100" width="10" height="100" fill="steelblue"/>
-```
-
-*remove the circle and rectangle*
 
 ### Manipulating the DOM
 
