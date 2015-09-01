@@ -1,5 +1,5 @@
 // -- global variables --
-// an integer
+// an integer stored as number
 a = 0;
 // a string
 b = "1";
@@ -7,7 +7,7 @@ b = "1";
 c = [1, 2, "3", [4]];
 // a boolean
 f = false;
-// redefining f as a float
+// redefining f as a float stored as a number
 f = 34.56;
 
 // -- "local" variables --

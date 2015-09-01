@@ -30,17 +30,40 @@ We can write to the console (helpful for debugging by calling the log method of 
 {% include code.html id="consolelog" file="consolelog.js" code="" js="true" preview="false" %}
 
 
-It has variables which hold values:
+It has **variables** which hold **values**:
 {% include code.html id="variables" file="variables.js" code="" js="true" preview="false" %}
 
 The first thing to notice is that JavaScript’s variables are **dynamically typed**: you don’t need to declare their types before using them, and they can refer to values of different types at different times in the program execution. (This is convenient but quite error-prone: it’s usually a bad idea to make too much use of this feature.)
 
 You also do not need to declare a variable ahead of time. If you don’t, then JavaScript either assumes you’re referring to an already existing variable, or it creates a new global variable. Again, this is convenient but very error-prone (this is a theme, as you’ll see). One common source of confusion is that typos in variable assignments are not caught: they just become global variables.
 
-To create a **local variable**, use the keyword ``var``. Local means in the current execution context. When used within a function these variables are really private, however, when they are declared outside a function, as in the above example, they are still global.
+To create a **local variable**, use the keyword ``var``. Local here refers to the current execution context. When used within a function these variables are **private to that function**, however, when they are declared outside a function, as in the above example, they are still global. As a general rule: minimize your use of global variables, and never define global variables in a function.
 
-**Arrays in Javascript:**
-{% include code.html id="arrays" file="arrays.js" code="" js="true" preview="false" %}
+You can execute **operations** on these variables. Below are a couple of important examples, refer to the [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators)  for the full list:
+
+{% include code.html id="moperators" file="operators.js" code="" js="true" preview="false" %}
+
+### Arrays
+
+ Array literals are declared using square brackets and addressed with square brackets and a reference to the index starting with 0:
+
+{% include code.html id="marrays" file="arrays.js" code="" js="true" preview="false" %}
+
+You can do much more with arrays than shown here, again, check out the [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array). Arrays are very important for data visualization, so take the time to go through this! 
+
+### Objects
+
+Objects are the second type of compound values in JavaScript. 
+{% include code.html id="mobjects" file="objects.js" code="" js="true" preview="false" %}
+
+
+### Control Structures
+
+{% include code.html id="control_structures" file="control_structures.js" code="" js="true" preview="false" %}
+
+### Loops
+
+{% include code.html id="mloops" file="loops.js" code="" js="true" preview="false" %}
 
 
 More nuts & bolts: Python server
