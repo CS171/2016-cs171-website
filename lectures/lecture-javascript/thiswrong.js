@@ -8,6 +8,6 @@ function yetAnotherObject() {
 }
 
 obj = yetAnotherObject()
-console.log(obj.get()); // fine
+console.log("As expected: " + obj.get()); // fine
 var t = obj.get;
-console.log(t()); // *NOT* fine
+console.log("Problem: " + t()); // *NOT* fine

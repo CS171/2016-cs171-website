@@ -96,13 +96,13 @@ Instead of subclasses, JavaScript has the notion of a prototype chain. Every Jav
 
 ### The special variable ``this``
 
-JavaScript has a special variable that is available at every scope called this. When a function is called with a notation that resembles methods in typical object-oriented languages, say obj.method(), then this is bound to the object holding the method (in this case obj). this allows you to make changes to the local object:
+JavaScript has a special variable that is available at every scope called ``this``. When a function is called with a notation that resembles methods in typical object-oriented languages, say ``obj.method()``, then ``this`` is bound to the object holding the method (in this case obj). this allows you to make changes to the local object:
 
 {% include code.html id="mthis" file="this.js" code="" js="true" preview="false" %}
 
-So far, so good: we’ve used this to change the value bound to the x field in the object from the object itself. That’s pretty convenient.
+So far, so good: we’ve used ``this`` to change the value bound to the x field in the object. That’s pretty convenient.
 
-However, the conenience comes with a caveat. The way JavaScript decides to associate this with a given object is simple to explain, but sometimes leads to strange behavior. The way it works is that although obj.someFunction is the syntax to access the someFunction slot from obj and someFunction(parameter) is the syntax to call a the function value bound to someFunction with parameter parameter, the syntax obj.someFunction(parameter) is not equivalent to storing obj.someFunction to some temporary variable and calling that. In other words, the syntax obj.someFunction(parameter) consisting of those three things next to one another is special to JavaScript.
+However, the convenience comes with a caveat. The way JavaScript decides to associate ``this`` with a given object is simple to explain, but sometimes leads to strange behavior. The way it works is that although ``obj.someFunction`` is the syntax to access the ``someFunction`` slot from obj and ``someFunction(parameter)`` is the syntax to call a the function value bound to someFunction with parameter parameter, the syntax ``obj.someFunction(parameter)`` is not equivalent to storing ``obj.someFunction`` to some temporary variable and calling that. In other words, the syntax ``obj.someFunction(parameter)`` consisting of those three things next to one another is special to JavaScript.
 
 Here’s what can go wrong:
 {% include code.html id="thiswrong" file="thiswrong.js" code="" js="true" preview="false" %}
