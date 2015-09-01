@@ -65,197 +65,48 @@ Objects are the second type of compound values in JavaScript.
 
 {% include code.html id="mloops" file="loops.js" code="" js="true" preview="false" %}
 
+### Functions
 
-More nuts & bolts: Python server
----
+Functions are one of the key features in computer science and are common to almost all programming languages. JavaScript uses function both the way we know them from languages such as C or Java, but also allows anonymous functions. 
 
-*10 minutes; interactive.*
+{% include code.html id="mfunctions" file="functions.js" code="" js="true" preview="false" %}
 
-In most cases, we need special software — a *server* — to view HTML files. 
+None of the calls above cause runtime errors. If you call a function with too many parameters, JavaScript will simply ignore the extra ones. If you call a function with too few parameters, JavaScript gives the local parameters the special value undefined. 
 
-You will need Python; you should already have it installed.
+{% include code.html id="mfunction_scope" file="functionscope.js" code="" js="true" preview="false" %}
 
-`cd` to `hw1/` and run the following.
+There is an alternative way of defining functions:
+{% include code.html id="anonymousfunctions" file="anonymousfunctions.js" code="" js="true" preview="false" %}
 
-```
-python -m SimpleHTTPServer
-```
+Pay attention to what’s happening here: this is assigning a value to a variable, in the same way that x = "hi" assigns the string value "hi" to the variable x. But that value is a function! This is important. In JavaScript, **functions are values that can be stored in variables**. This is your first exposure to the idea that JavaScript is a “functional” language. In the same way that you can store function values in variables, you can pass them around as parameters, store them in arrays, object fields, and even use them as return values of other functions! This is a powerful idea that we will use a lot.
 
-Open [http://localhost:8000/](http://localhost:8000/) — we have a server. You can open `table_example.html` to see an HTML file.
+### Object Oriented JavaScript
 
-*show the relation between the files and the contents of the directory*
+If we create an object with slots that hold functions, this starts to look like methods from Java and Python. If we create a function that returns these objects, this starts to look like class contructors:
 
-You can only have one server at the same time (unless you specify a port). Control-C to quit. 
+{% include code.html id="oojs" file="oojs.js" code="" js="true" preview="false" %}
 
-The DOM
----
+#### Inheritance, without Classes
 
-*Return to your text editor (`basic.html`). 20 minutes; demonstration only.*
+JavaScript does support a notion of inheritance, but it does it without any classes. This means that there’s no subclasses, so how does it work?
 
-The DOM is the hierarchical structure used for representing elements in the browser — you should already be familiar with it. Here is a simple HTML example:
+Instead of subclasses, JavaScript has the notion of a prototype chain. Every JavaScript object has a special field which points to another object. Then, every time you tell JavaScript to access a field from an object, it tries to find the field. If the field exists, then the lookup is performed. If, however, the field doesn’t exist, then JavaScript checks for the presence of a special prototype field in the object. If that field is not null, then the JavaScript runtime performs a recursive access of the field in the prototype object. This is more obvious with an example. Make sure to run these in your JavaScript console:
 
-```html
-<!DOCTYPE HTML>
-<html>
-  <head>
-    <title>CS171 Section 1</title>
-    <script src="http://d3js.org/d3.v3.min.js"></script>
-  </head>
-  <body>
-    <h1>Welcome to CS171</h1>
-    <p>Data visualization</p>
-    <svg></svg>
-  </body>
-</html>
-```
+{% include code.html id="prototype" file="prototype.js" code="" js="true" preview="false" %}
 
-*briefly describe the structure of the document*
+### The special variable ``this``
 
-Notice the tags `<...>` that are matched with `</...>` — those are DOM (HTML) elements.
+JavaScript has a special variable that is available at every scope called this. When a function is called with a notation that resembles methods in typical object-oriented languages, say obj.method(), then this is bound to the object holding the method (in this case obj). this allows you to make changes to the local object:
 
-### The Web Inspector
+{% include code.html id="mthis" file="this.js" code="" js="true" preview="false" %}
 
-`<h1>` indicates a heading. Let's change the contents of the `<h1>` and refresh.
+So far, so good: we’ve used this to change the value bound to the x field in the object from the object itself. That’s pretty convenient.
 
-Let's add anotger paragraph below the first paragraph — a `<p>`.
+However, the conenience comes with a caveat. The way JavaScript decides to associate this with a given object is simple to explain, but sometimes leads to strange behavior. The way it works is that although obj.someFunction is the syntax to access the someFunction slot from obj and someFunction(parameter) is the syntax to call a the function value bound to someFunction with parameter parameter, the syntax obj.someFunction(parameter) is not equivalent to storing obj.someFunction to some temporary variable and calling that. In other words, the syntax obj.someFunction(parameter) consisting of those three things next to one another is special to JavaScript.
 
-*Open `basic.html` in Chrome with Developers Tools vertically docked*
+Here’s what can go wrong:
+{% include code.html id="thiswrong" file="thiswrong.js" code="" js="true" preview="false" %}
 
-In Developer Tools, we can do live modifications to the DOM. For example, let's move the paragraph around and change its content. Or, let's delete it.
+What happened in the example that goes wrong is that when t() is called, JavaScript doesn’t see the special notation obj.method(params), and so it keeps the binding of this to its present value.
 
-### CSS: Making it pretty
-
-*Return to the text editor*
-
-HTML sets the structure and contents of the page and CSS sets its style — things like fonts, colors, margins, backgrounds, etc.
-
-Let's add some CSS.
-
-```
-...
-    <script src="http://d3js.org/d3.v3.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="/style.css" />
-  </head>
-...
-```
-
-That line tells the browser to look for styling information in `style.css`.
-
-*open `style.css` in another pane*
-
-The file describes a list of styles (e.g. `color: darkgrey`) applied to a particular group of HTML elements.
-
-We won't be using CSS extensively in this course: CSS works by assigning styles (e.g. `color: darkgrey`) to particular groups of HTML elements.
-
-Sometimes we want to target one particular element — a particular `p`, not all `p`s. Let's add an *id* of `subheading` to the first `p`.
-
-```html
-...
-    <h1>Welcome to CS171</h1>
-    <p id="subheading">Data visualization</p>
-...
-```
-
-And now, in `style.css`, we use that id to only apply styling to a specific paragraph.
-
-```css
-p#subheading {
-  color: darkgrey;
-  font-style: italic;
-}
-```
-
-*return to Developer Tools*
-
-We can also edit CSS live in the Developer Tools. Let's change that paragraph's color to red.
-
-### SVG: Drawing shapes
-
-*return to the text editor*
-
-SVG is a format for drawing vector graphics in the browser. We'll be using SVG a lot in this course and you're probably not familiar with it yet.
-
-HTML and SVG are similar — HTML defines the content and structure of elements such as headings, paragraphs, and images; SVG defines graphical marks such as circles, rectangles, and paths.
-
-Let's add a circle inside the `<svg>` element.
-
-```svg
-<circle cx="200" cy="200" r="50"/>
-```
-
-We can modify the attributes of the circle. Let's change the `cx` value. Let's make the `fill` attribute `steelblue`.
-
-Let's add a rectangle.
-
-```svg
-<rect x="10" y="100" width="10" height="100" fill="steelblue"/>
-```
-
-*remove the circle and rectangle*
-
-### Manipulating the DOM
-
-*Expand the console drawer in the Developer Tools Elements pane*
-
-In addition to hardcoding SVG elements, we can use Javascript to programmatically add to the DOM.
-
-```js
-var svg = d3.select("svg");
-
-var circle = svg.append("circle");
-```
-
-Why don't we see anything? The circle is in the DOM, but it needs attributes for its position and size.
-
-```js
-circle
-    .attr("cx", 200)
-    .attr("cy", 100)
-    .attr("r", 40)
-    .attr("fill", "steelblue");
-```
-
-How about more circles?
-
-```js
-var circle2 = svg.append("circle")
-    .attr("cx", 300)
-    .attr("cy", 100)
-    .attr("r", 40)
-    .attr("fill", "steelblue");
-```
-
-And of course, we can still update our original circle.
-
-```js
-circle
-	.transition()
-    .attr("cx", 400);
-```
-
-### Groups
-
-We can group elements using `<g>` elements. First, we create a `<g>` element.
-
-```js
-var g = svg.append("g");
-```
-
-Let's move the two circles into the `<g>`.
-
-```js
-g.node().appendChild(circle.node());
-g.node().appendChild(circle2.node());
-```
-
-Nothing changes — the `<g>` element just helps us group and organize elements.
-
-We can apply transformations that apply to the whole group — for example, let's translate the group.
-
-```js
-g
-  .transition()
-  .attr("transform", "translate(0, 100)");
-```
-
----
+Anytime you use this and something goes wrong, the first you should try to check is whether some call in your chain forgot to set the binding by using the right syntax.
