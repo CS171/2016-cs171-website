@@ -28,14 +28,13 @@ layout: default
 <script>
 
     function renderCode(id, file, code, js, renderPreview) {
-        console.log(id);
         var delay;
 
         var boilerplateHTML = "<!DOCTYPE html><html lang='en'><head> <meta charset='UTF-8'><title><\/title><\/head><body><script src='{{site.baseurl}}/lectures/logger.js'\/>\n";
         var endHTML = "\n<\/script><div id='log'></div><\/body><\/html>";
 
         var highlightLanguage = "text/html";
-        if (js != "") {
+        if (js == "true") {
             highlightLanguage = "text/javascript"
         }
 
@@ -72,7 +71,7 @@ layout: default
                     var preview = previewFrame.contentDocument || previewFrame.contentWindow.document;
 
                     preview.open();
-                    if (js != "") {
+                    if (js == "true") {
                         eval(editor.getValue());
                         //  preview.write(boilerplateHTML + editor.getValue() + endHTML);
                     }

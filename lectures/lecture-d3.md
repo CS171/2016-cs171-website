@@ -5,10 +5,27 @@ permalink: /lectures/lecture-d3/
 nomenu: true
 ---
 
+## DOM Manipulation.
+After we covered the basics of JavaScript last lecture it's now time to explore how javascript interacts with the DOM and thus makes all the interesting things in the browser happen. 
+Like we’ve seen before, the HTML we write is represented as a tree inside a web browser. What we are going to turn to now are the JavaScript APIs that web browsers provide to let you edit the DOM dynamically, so that we can build our visualizations with code instead of text editors.
+
+Let’s get some boilerplate out of the way. (Note that the following assumes that your document contains an element with id “hi”. If not, you’ll have to create one such element first)
+
+{% include code.html id="dom_manipulation" file="dom_manipulation.html" code="" js="false" preview="true" %}
+
+
+
+
+
+
+
+
+
+
 ## Running a web server
 ---
 
-*10 minutes; interactive.*
+
 
 In most cases, we need special software — a *server* — to view HTML files. 
 
