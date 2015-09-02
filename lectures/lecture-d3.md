@@ -88,7 +88,9 @@ Especially when you're working on larger projects I recommend using a good IDE, 
 
 ## D3: Data Driven Documents
 
-*Expand the console drawer in the Developer Tools Elements pane*
+D3 is a javascript library for manipulating the DOM based on data. D3 can be used to manipulate pure HTML, but most commonly it's used in combination with SVG, i.e., we will be producing SVG charts using D3. You can download the library to run locally on your computer from the [D3 Website](http://d3js.org/), or you can link directly to the latest release with this snippet: 
+
+{% include code.html id="de_include" file="d3_include.html" code="" js="false" preview="false" %}
 
 In addition to hardcoding SVG elements, we can use Javascript to programmatically add to the DOM.
 
