@@ -4,8 +4,9 @@ title:  D3 Fundamentals
 permalink: /lectures/lecture-d3/
 nomenu: true
 ---
+*Material based on the lecture by [Carlos Scheidegger](http://cscheid.net/courses/spr15/cs444/lectures/week3.html), the [D3 Intro by Vadim Ogievetsky](http://vadim.ogievetsky.com/IntroD3/), Scott Murray's Interactive Data Analysis for the Web, and the [D3 website](http://d3js.org/).*
 
-## DOM Manipulation.
+## DOM Manipulation
 After we covered the basics of JavaScript last lecture it's now time to explore how javascript interacts with the DOM and thus makes all the interesting things in the browser happen. 
 Like we’ve seen before, the HTML we write is represented as a tree inside a web browser. What we are going to turn to now are the JavaScript APIs that web browsers provide to let you edit the DOM dynamically, so that we can build our visualizations with code instead of text editors.
 
@@ -88,69 +89,42 @@ Especially when you're working on larger projects I recommend using a good IDE, 
 
 ## D3: Data Driven Documents
 
-D3 is a javascript library for manipulating the DOM based on data. D3 can be used to manipulate pure HTML, but most commonly it's used in combination with SVG, i.e., we will be producing SVG charts using D3. You can download the library to run locally on your computer from the [D3 Website](http://d3js.org/), or you can link directly to the latest release with this snippet: 
+D3 is a javascript library for manipulating the DOM based on data. D3 was originally written by Mike Bostock, Vadim Ogievetsky, and Jeff Heer; at this point it has a large number of contributors, and it’s one of the overall most popular projects on GitHub (!). D3 certainly owes some of its popularity to riding the everything-on-the-web wave. Nevertheless, the way in which you can express relationships between data and visual elements is fundamentally superior than any other library available, open source or not! It is nothing short of a breakthrough in the way we use code to express visual encodings. 
+
+D3 can be used to manipulate pure HTML, but most commonly it's used in combination with SVG, i.e., we will be producing SVG charts using D3. 
+
+In addition to the introduction in Scott Murray's book (the mandatory reading) you should work with the [D3 API Reference](https://github.com/mbostock/d3/wiki/API-Reference) to look up particulars of all the features of D3. And of course, you should be learning by examples. A great collection are [Mie Bostock's blocks](http://bl.ocks.org/mbostock) which contain simple examples, such as a [bar chart](http://bl.ocks.org/mbostock/2368837) to complex examples such as [this calendar view](http://bl.ocks.org/mbostock/4063318).
+
+You can download the library to run locally on your computer from the [D3 Website](http://d3js.org/), or you can link directly to the latest release with this snippet: 
 
 {% include code.html id="de_include" file="d3_include.html" code="" js="false" preview="false" %}
 
-In addition to hardcoding SVG elements, we can use Javascript to programmatically add to the DOM.
+### Selections
 
-```js
-var svg = d3.select("svg");
+[See API Reference](https://github.com/mbostock/d3/wiki/Selections)
 
-var circle = svg.append("circle");
-```
+Here is a minimal D3 example taken from the D3 website: 
 
-Why don't we see anything? The circle is in the DOM, but it needs attributes for its position and size.
+{% include code.html id="d3_select" file="d3_select.html" code="" js="false" preview="true" %}
 
-```js
-circle
-    .attr("cx", 200)
-    .attr("cy", 100)
-    .attr("r", 40)
-    .attr("fill", "steelblue");
-```
+You can see that we achieve a similar result to the DOM manipulation examples we had before. We select an existing element in the DOM, here the first `<p>` element, and apply a style.  However, you can also see differences: instead of having to use the API standard `document.getElementsByTagName` we use `d3.select`; and instead of using `setAttribute("style", "color: steelblue;")` we use D3's `style` method. 
 
-How about more circles?
+`d3.select` selects the first element that matches a selector. **Selectors** can specify tags (`p` in our example above), classes, and IDs, all through the same interface: 
 
-```js
-var circle2 = svg.append("circle")
-    .attr("cx", 300)
-    .attr("cy", 100)
-    .attr("r", 40)
-    .attr("fill", "steelblue");
-```
+{% include code.html id="d3_selectors" file="d3_selectors.html" code="" js="false" preview="true" %}
 
-And of course, we can still update our original circle.
+Notice, however, that as mentioned previously, only the first element that matches is selected. Of course, it is more practical to select all elements of a certain type, which we can achieve with `d3.selectAll`
 
-```js
-circle
-	.transition()
-    .attr("cx", 400);
-```
 
-### Groups
+{% include code.html id="d3_selectall" file="d3_selectall.html" code="" js="false" preview="true" %}
 
-We can group elements using `<g>` elements. First, we create a `<g>` element.
+The last example illustrates the **declarative approach of D3**: we don't have to iterate over a list of elements and apply the style. Instead we select a set of elements through rules and declare properties. 
 
-```js
-var g = svg.append("g");
-```
+Once you have a selection, you can bulk-modify it's content, not only in terms of style, but we can modify [arbitrary properties](https://github.com/mbostock/d3/wiki/Selections#property) using `selection.property(name[, value])`, the [textual content of the elements](https://github.com/mbostock/d3/wiki/Selections#text) with `selection.text([value])`, etc. We can also append elements: 
 
-Let's move the two circles into the `<g>`.
 
-```js
-g.node().appendChild(circle.node());
-g.node().appendChild(circle2.node());
-```
+{% include code.html id="d3_append" file="d3_append.html" code="" js="false" preview="true" %}
 
-Nothing changes — the `<g>` element just helps us group and organize elements.
+{% include code.html id="d3_selectallsvg" file="d3_selectallsvg.html" code="" js="false" preview="true" %}
 
-We can apply transformations that apply to the whole group — for example, let's translate the group.
 
-```js
-g
-  .transition()
-  .attr("transform", "translate(0, 100)");
-```
-
----
