@@ -59,29 +59,34 @@ And finally, we can of course listen to events that are triggered by interacting
 So far so good - you can now write interactive code! If you know how to use these events you should be able to deal with all the interaction that you will encounter in the course of this class!
 
 ## Running a web server
----
 
+Before we start doing data driven visualization, we need to briefly talk about web servers. All of the code we talked about up to this point can simply be run by opening any of the html files on your local computer. As we go forward, however, this will no longer be possible. Many browsers have restrictions on loading local files via JavaScript, for security reasons. So, as soon as we start working with data stored in files we need a web server to test our code. There are many different servers and you're welcome to use whichever one you like. I'll briefly introduce two simple solutions:
 
+### The Python SimpleHTTPServer
 
-In most cases, we need special software — a *server* — to view HTML files. 
+If you have python installed you can run the built in simple server. To do this, `cd` to the directory where your code is located and run the following command: 
 
-You will need Python; you should already have it installed.
-
-`cd` to `hw1/` and run the following.
-
-```
+{% highlight bash linenos %}
 python -m SimpleHTTPServer
-```
+{% endhighlight %}
 
-Open [http://localhost:8000/](http://localhost:8000/) — we have a server. You can open `table_example.html` to see an HTML file.
+Open `[http://localhost:8000/](http://localhost:8000/)` to get you to the server.
+You can only have one server at the same time (unless you specify ports explicitly). Hit Control-C to quit the server. 
 
-*show the relation between the files and the contents of the directory*
+### Running a Server and Debugging with WebStorm
 
-You can only have one server at the same time (unless you specify a port). Control-C to quit. 
+As you know, we made educational licenses of WebStorm available for you in this class. If you develop your code in an IDE like webstorm you get many powerful features, such as code completion, syntax highlighting, refactoring and interactive debuggin. While you can use the chrome developer tools to debug your code, it's more convenient to debug the code in the place you're writing it, as you can immediately edit if you see something wrong. To debug code, you first have to run it on a webserver. Webstorm comes with a built-in webserver, that you can activate via the `Run` menue. Here is an example configuration:
+
+![WebStorm debug configuration](images/debug_config.png)
+
+You should install the [Chrome Plugin for Webstorm](https://www.jetbrains.com/webstorm/help/using-jetbrains-chrome-extension.html) to get a fully-fledged debugging solution. Here I've set a breakpoint in the event handler function we just discussed: 
+
+![WebStorm debug configuration](images/debugging.png)
+
+Especially when you're working on larger projects I recommend using a good IDE, as it will make you much more efficient, once you've learned to use it. 
 
 
-
-### Manipulating the DOM
+## D3: Data Driven Documents
 
 *Expand the console drawer in the Developer Tools Elements pane*
 
