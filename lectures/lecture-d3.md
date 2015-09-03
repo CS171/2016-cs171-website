@@ -1,6 +1,6 @@
 ---
 layout: code-lecture
-title:  D3 Fundamentals
+title:  DOM Manipulation & D3 Fundamentals
 permalink: /lectures/lecture-d3/
 nomenu: true
 ---

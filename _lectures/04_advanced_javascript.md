@@ -6,7 +6,8 @@ mandatory-reading: |
  - D3 book, Chapters 4, 5 and 6
 recommended-reading: |
 slides:
-interactive-content:
+interactive-content: | 
+ - [Interactive DOM Manipulation & D3](../lectures/lecture-d3/)
 guest:
 guest-url:
 intro-assignment:
