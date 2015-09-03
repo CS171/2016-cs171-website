@@ -175,3 +175,18 @@ We have a similar problem as before - we need to remove the element that's not b
 One of the cool features of D3 is that transitions are baked in! 
 
 {% include code.html id="d3_transition1" file="d3_transition1.html" code="" js="false" preview="true" %}
+
+Cool, but we're missing the enter again: 
+
+{% include code.html id="d3_transition2" file="d3_transition2.html" code="" js="false" preview="true" %}
+
+### Drawing Lines
+
+Here's one way to draw a line:
+
+{% include code.html id="d3_lines1" file="d3_lines1.html" code="" js="false" preview="true" %}
+
+But we already know that. There must be something better, and there is! 
+
+{% include code.html id="d3_lines2" file="d3_lines2.html" code="" js="false" preview="true" %}
+
