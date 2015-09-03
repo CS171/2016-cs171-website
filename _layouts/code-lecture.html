@@ -59,7 +59,7 @@ layout: default
                 // if we don't want to see a preview we just evaluate the javascript code
                 eval(editor.getValue());
             }
-            if (renderPreview == "true") {
+            if (renderPreview == "true" && js != "true") {
 
                 var previewFrame = document.getElementById('preview-' + id);
                 if (previewFrame) {

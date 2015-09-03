@@ -21,16 +21,23 @@
 </body>
 <script>
     var execute = function () {
-        var p = d3.selectAll("rect");
-        p.attr("x", 0)
-                .attr("y", function (d, i) {
-                    return i * 90 + 50
-                })
-                .attr("width", function (d, i) {
-                    return i * 150 + 100;
-                })
+        var svg = d3.select("svg")
+        var selection = svg.selectAll("rect")
+                .data([127, 61, 256, 71])
+
+        selection
+                .attr("x", 0)
+                .attr("y", function(d,i) { return i*90+50 })
+                .attr("width", function(d,i) { return d; })
                 .attr("height", 20)
-        p.style("fill", "steelblue");
+                .style("fill", "steelblue")
+
+        selection.enter().append("rect")
+                .attr("x", 10) // let's just put it somewhere
+                .attr("y", 10)
+                .attr("width", 30)
+                .attr("height", 30)
+                .style("fill", "green")
     }
 </script>
 <script src="run.js" charset="utf-8"></script>

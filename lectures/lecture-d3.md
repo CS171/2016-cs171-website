@@ -125,6 +125,49 @@ Once you have a selection, you can bulk-modify it's content, not only in terms o
 
 {% include code.html id="d3_append" file="d3_append.html" code="" js="false" preview="true" %}
 
+Here is a code snippet that we will use in future examples, included as run.js:
+
+{% highlight javascript linenos %}
+var button = d3.select("body").append("button");
+button.text("Run!");
+button.on("click", execute);
+{% endhighlight %}
+
+Here we have three SVG rectangles and use selectAll to apply a new style to them: 
+
 {% include code.html id="d3_selectallsvg" file="d3_selectallsvg.html" code="" js="false" preview="true" %}
 
+### Data
+Mapping existing element to data: 
 
+{% include code.html id="d3_data" file="d3_data.html" code="" js="false" preview="true" %}
+
+What happens if we have more datapoints than elements? 
+
+{% include code.html id="d3_enter1" file="d3_enter1.html" code="" js="false" preview="true" %}
+
+There are still only three elements, it doesn't matter how many data points we have - we can't use more than there are elements to select. What to do? **Enter**!
+
+{% include code.html id="d3_enter2" file="d3_enter2.html" code="" js="false" preview="true" %}
+
+Progress - we have one element for each data item, but it doesn't look good: 
+
+{% include code.html id="d3_enter3" file="d3_enter3.html" code="" js="false" preview="true" %}
+
+Now, that works! But we're duplicating code. So instead we can do this shorter version: 
+
+{% include code.html id="d3_enter4" file="d3_enter4.html" code="" js="false" preview="true" %}
+
+So what if we don't have initialized svg elements? 
+
+{% include code.html id="d3_enter5" file="d3_enter5.html" code="" js="false" preview="true" %}
+
+Now let's try to get rid of some of the elements:
+
+{% include code.html id="d3_exit1" file="d3_exit1.html" code="" js="false" preview="true" %}
+
+We have a similar problem as before - we need to remove the element that's not bound. 
+
+{% include code.html id="d3_exit2" file="d3_exit2.html" code="" js="false" preview="true" %}
+
+### Transitions
