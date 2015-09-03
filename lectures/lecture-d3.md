@@ -171,3 +171,7 @@ We have a similar problem as before - we need to remove the element that's not b
 {% include code.html id="d3_exit2" file="d3_exit2.html" code="" js="false" preview="true" %}
 
 ### Transitions
+
+One of the cool features of D3 is that transitions are baked in! 
+
+{% include code.html id="d3_transition1" file="d3_transition1.html" code="" js="false" preview="true" %}
