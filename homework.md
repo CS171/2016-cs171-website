@@ -16,7 +16,7 @@ The assignments are published on [github](https://github.com/dataviscourse/2015-
  
  **Homework 0**, released: August 17 - Weight: 2%
  **Homework 1**, released: August 28 - Weight: 4%
- **Homework 2** - Weight: TBA
+ **Homework 2**, released: September 3 - Weight: 6%
  **Homework 3** - Weight: TBA
  **Homework 4** - Weight: TBA
  **Homework 5** - Weight: TBA
