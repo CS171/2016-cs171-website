@@ -6,6 +6,7 @@ mandatory-reading: |
   - D3 book, Chapters 7, 8, 9 and 10
 recommended-reading: |
   - [How selections work](http://bost.ocks.org/mike/selection/)
+  - [Jerome Cukier's tutorial on scales](http://www.jeromecukier.net/blog/2011/08/11/d3-scales-and-color/)
 slides:
 interactive-content:
 guest:
