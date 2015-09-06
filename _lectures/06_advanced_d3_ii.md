@@ -1,8 +1,9 @@
 ---
-key: advanced_d3
-topic: Advanced D3
-description:
+key: advanced_d3_ii
+topic: Advanced D3 II
+description:  Layouts, Maps
 mandatory-reading: |
+  - D3 book, Chapters 11 and 12
 recommended-reading: |
 slides:
 interactive-content:

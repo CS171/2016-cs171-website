@@ -23,40 +23,55 @@
             myData = [127, 61, 256, 71, 15, 23]
         }
 
-        var svg = d3.select("svg")
-
-        var selection = svg.selectAll(".bars")
-                .data(myData);
-
         var barHeight = 30;
 
-        var groups = selection.enter().append("g");
-        groups.classed("bars", true)
+        var svg = d3.select("svg");
+
+        var barGroups = svg.selectAll(".barGroup")
+                .data(myData);
+        console.log("BarGroups")
+        console.log(barGroups);
+
+        // taking care of entering elements
+        var barGroupsEnter = barGroups.enter().append("g");
+        barGroupsEnter.classed("barGroup", true)
                 .attr("transform", function (d, i) {
                     return "translate(0," + i * barHeight + ")";
                 });
 
+        console.log("BarGroupsEnter")
+        console.log(barGroupsEnter);
 
-        groups.append("rect")
+        barGroupsEnter.append("rect")
                 .attr("width", "0")
                 .attr("height", 20)
                 .style("fill", "steelblue")
                 .attr("opacity", 0);
-        groups.append("text");
 
-        groups = svg.selectAll(".bars");
+        barGroupsEnter.append("text");
 
-        var rects = groups.select("rect")
-               .transition().duration(3000)
+        // taking care of exiting elements
+        barGroups.exit()
+                .attr("opacity", 1)
+                .transition()
+                .duration(3000)
+                .attr("opacity", 0)
+                .remove();
+
+        // updating elements
+        var myGroups = svg.selectAll(".barGroup");
+
+        myGroups.select("rect")
+                .transition().duration(3000)
                 .attr("width", function (d, i) {
                     console.log("wa");
                     return d;
                 })
                 .attr("opacity", 1);
 
-        groups.select("text")
+        myGroups.select("text")
                 .attr("transform", function (d, i) {
-                    return "translate(" + (parseFloat(d) +5)  + ", 0)";
+                    return "translate(" + (parseFloat(d) + 5) + ", 0)";
                 })
                 .text(function (d) {
                     return d;
@@ -66,12 +81,7 @@
                 .transition().delay(2000).duration(1000).attr("opacity", 1);
 
 
-        selection.exit()
-                .attr("opacity", 1)
-                .transition()
-                .duration(3000)
-                .attr("opacity", 0)
-                .remove();
+
     }
 
     // a button setting another dataset
