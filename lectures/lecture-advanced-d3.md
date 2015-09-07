@@ -120,5 +120,8 @@ This is a much nicer bar chart! We've used CSS to style the axis, the `nice()` f
 
 ## More Complex Data
 
+{% include code.html id="d3_complex_data" file="d3_complex_data.html" code="" js="false" preview="true" %}
+
+
 
 
