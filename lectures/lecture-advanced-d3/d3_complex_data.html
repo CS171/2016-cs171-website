@@ -23,6 +23,11 @@
 <body>
 <svg>
 </svg>
+<select id="dropDown">
+    <option selected value="product">Product</option>
+    <option value="tonnage">Tonnage</option>
+    <option value="type">Type</option>
+</select>
 </body>
 <script>
 
@@ -32,6 +37,7 @@
     // add padding on all sides
     var padding = 25;
     var svg = d3.select("svg");
+    var barHeight = 20;
     svg.attr({
         width: width + 2 * padding,
         height: height + 2 * padding
@@ -46,54 +52,59 @@
                 transform: "translate(" + padding + "," + padding + ")"
             });
 
-    var execute = function () {
-
-        var data = [{
-            product: "Apples",
-            tons: 10123,
+    var data = [{
+        product: "Apples",
+        tons: 10123,
+        type: "fruit"
+    },
+        {
+            product: "Bananas",
+            tons: 12114,
             type: "fruit"
         },
-            {
-                product: "Bananas",
-                tons: 12114,
-                type: "fruit"
-            },
-            {
-                product: "Plums",
-                tons: 8441,
-                type: "fruit"
-            },
-            {
-                product: "Bread",
-                tons: 1911,
-                type: "grocery"
-            },
-            {
-                product: "Cereals",
-                tons: 1011,
-                type: "grocery"
+        {
+            product: "Plums",
+            tons: 8441,
+            type: "fruit"
+        },
+        {
+            product: "Bread",
+            tons: 1911,
+            type: "grocery"
+        },
+        {
+            product: "Cereals",
+            tons: 1011,
+            type: "grocery"
 
-            },
-            {
-                product: "Beer",
-                tons: 9011,
-                type: "alcohol"
-            },
-            {
-                product: "Wine",
-                tons: 8041,
-                type: "alcohol"
-            }];
+        },
+        {
+            product: "Beer",
+            tons: 9011,
+            type: "alcohol"
+        },
+        {
+            product: "Wine",
+            tons: 8041,
+            type: "alcohol"
+        }];
 
-        var types = ["grocery", "fruit"];
+    var types = ["grocery", "fruit", "alcohol"];
+    var max = 13000;
+
+    d3.select("#dropDown").on("change", function(){
+        var dropDown = d3.select("#dropDown").property("selectedIndex");
+       // sort array based on selection
+    })
+
+
+    var execute = function () {
 
         var spacing = height / (data.length);
 
-        var max = 13000;
-
         var xScale = d3.scale.linear()
                 .domain([0, max])
-                .range([0, width])
+                .range([80, width])
             // make the ranges nice
                 .nice();
 
@@ -106,34 +117,60 @@
         xAxis.scale(xScale);
         xAxis.orient("bottom");
 
-        var bars = svg.selectAll(".bar")
+        var barGroups = svg.selectAll(".barGroup")
                 .data(data);
 
-        bars.enter()
-                .append("rect")
-                .classed("bar", true);
+        var barGroupsEnter = barGroups.enter()
+                .append("g")
+                .classed("barGroup", true);
+        barGroupsEnter.append("text");
 
-        bars.attr("transform", "translate(" + padding + "," + padding + ")")
+        barGroupsEnter.append("rect")
+                .attr("width", "0")
+                .attr("height", barHeight)
+                .attr("opacity", 0);
+
+        barGroups.exit()
+                .attr("opacity", 1)
+                .transition()
+                .duration(3000)
+                .attr("opacity", 0)
+                .remove();
+
+        // update
+
+        barGroups.attr("transform", function (d, i) {
+            return "translate(" + padding + "," + (padding + 15 + i * spacing) + ")";
+        });
+
+        barGroups.select("rect")
+                .transition().duration(3000)
                 .attr("x", function (d) {
                     return xScale(Math.min(0, d.tons));
                 })
-                .attr("y", function (d, i) {
-                    return i * spacing + 15;
-                })
+                .attr("y", "0")
                 .attr("width", function (d, i) {
                     // here we call the scale function.
                     return Math.abs(xScale(d.tons) - xScale(0));
                 })
-                .attr("height", 20)
+                .attr("height", barHeight)
                 .style("fill", function (d) {
                     // here we apply the color scale
                     return color(d.type);
                 })
+                .attr("opacity", 1)
+
+        barGroups.select("text")
+                .text(function (d) {
+                    return d.product;
+                })
+                .attr("x", 10)
+                .attr("dy", barHeight - 5)
+                .attr("opacity", 0)
+                .transition().delay(2000).duration(1000).attr("opacity", 1);
 
         svg.append("g")
-            // css class for the axis
                 .classed("axis", true)
-            // moving the axis to the right place
                 .attr("transform", "translate(" + padding + "," + (height + padding) + ")")
                 .call(xAxis);
     }
