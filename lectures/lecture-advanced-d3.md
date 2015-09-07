@@ -118,5 +118,7 @@ This worked! We create a new axes by calling `d3.scale.linear()` and tell it its
 
 This is a much nicer bar chart! We've used CSS to style the axis, the `nice()` function for the scale to get round axis labels, introduced a padding and a background for the chart. Of course, this chart doesn't react appropriately to updates, but we've seen before how that works.
 
+## More Complex Data
+
 
 
