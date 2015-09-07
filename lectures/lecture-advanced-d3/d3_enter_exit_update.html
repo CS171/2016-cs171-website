@@ -20,24 +20,24 @@
 <script>
     execute = function (myData) {
         if (!myData) {
-            myData = [127, 61, 256, 71, 15, 23]
+            myData = [127, 61, 256, 71, 15, 23];
         }
 
-        var svg = d3.select("svg")
+        var svg = d3.select("svg");
 
         // the data binding
-        var selection = svg.selectAll(".bars")
+        var bars = svg.selectAll(".bars")
                 .data(myData);
 
         // how do we handle new elements?
-        selection.enter().append("rect")
+        bars.enter().append("rect")
                 .classed("bars", true);
 
         // how do we handle things that are removed?
-        selection.exit().remove();
+        bars.exit().remove();
 
         // how do we handle updates?
-        selection.attr("x", 0)
+        bars.attr("x", 0)
                 .attr("y", function (d, i) {
                     return i * 30 + 50
                 })
@@ -46,7 +46,7 @@
                 })
                 .attr("height", 20)
                 .style("fill", "steelblue")
-                .attr("opacity", 1)
+                .attr("opacity", 1);
 
     }
 
@@ -56,5 +56,4 @@
     });
 </script>
 <script src="run.js" charset="utf-8"></script>
-
 </html>
