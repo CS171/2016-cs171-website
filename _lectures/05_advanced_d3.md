@@ -8,7 +8,8 @@ recommended-reading: |
   - [How selections work](http://bost.ocks.org/mike/selection/)
   - [Jerome Cukier's tutorial on scales](http://www.jeromecukier.net/blog/2011/08/11/d3-scales-and-color/)
 slides:
-interactive-content:
+interactive-content: |
+  - [Interactive Content](../lectures/lecture-advanced-d3/)
 guest:
 guest-url:
 intro-assignment:
