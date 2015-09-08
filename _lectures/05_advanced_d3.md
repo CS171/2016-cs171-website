@@ -7,6 +7,7 @@ mandatory-reading: |
 recommended-reading: |
   - [How selections work](http://bost.ocks.org/mike/selection/)
   - [Jerome Cukier's tutorial on scales](http://www.jeromecukier.net/blog/2011/08/11/d3-scales-and-color/)
+  - [Let's make a bar chart](http://bost.ocks.org/mike/bar/)
 slides:
 interactive-content: |
   - [Interactive Content](../lectures/lecture-advanced-d3/)
