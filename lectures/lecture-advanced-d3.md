@@ -131,6 +131,7 @@ Among the new concepts introduced in this example are:
  * How to use a scale with [rangeBoundBands](https://github.com/mbostock/d3/wiki/Ordinal-Scales#ordinal_rangeRoundBands) to evenly space the bars. 
  * How to update a scale.
  * How to ensure object consistency for transitions with the [key function of the data mapping](https://github.com/mbostock/d3/wiki/Selections#data).
+ * How to use the object notation to define many attributes at the same time.
  
 {% include code.html id="d3_complex_data" file="d3_complex_data.html" code="" js="false" preview="true" %}
 
