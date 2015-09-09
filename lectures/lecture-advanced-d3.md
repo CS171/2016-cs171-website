@@ -57,6 +57,7 @@ That's pretty smooth. We initialize new bars with a width of 0 and fade them in 
 ### Groupings: Handling Nested Elements
 
 In many cases we want to apply data not directly to low-level SVG elements, but instead use a hierarchy of elements. For the bar chart, for example, we might want to add a label showing the actual value. There are two approaches to doing this:
+
  * Laying out the numbers and the bars independently so that they match up
  * Using a group element to define the commonalities between the bars and the numbers (i.e., the y position in our example).
 
@@ -120,8 +121,20 @@ This is a much nicer bar chart! We've used CSS to style the axis, the `nice()` f
 
 ## More Complex Data
 
+Up to this point we have only worked with one-dimensional arrays. Here is an example on how to handle arrays of objects, where each object has multiple values. We have three types of values: products (labels), types of products (categories), and tons (numerical data). We're showing the data in a colored bar chart, where the color corresponds to the product type and the bar width to the tonnage. In addition to that, you can sort the bar chart based on the three data values: alphabetically by type and product, numerically by tonnage. 
+
+Among the new concepts introduced in this example are:
+
+ * How to access data in objects.
+ * How to [sort data](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort).
+ * How to properly deal with padding in an SVG.
+ * How to use a scale with [rangeBoundBands](https://github.com/mbostock/d3/wiki/Ordinal-Scales#ordinal_rangeRoundBands) to evenly space the bars. 
+ * How to update a scale.
+ * How to ensure object consistency for transitions with the [key function of the data mapping](https://github.com/mbostock/d3/wiki/Selections#data).
+ 
 {% include code.html id="d3_complex_data" file="d3_complex_data.html" code="" js="false" preview="true" %}
 
+An alternative to the sorting as used here would be to use D3's [sort](https://github.com/mbostock/d3/wiki/Selections#sort) feature for selections. 
 
 
 
