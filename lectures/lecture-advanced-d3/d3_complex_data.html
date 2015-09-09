@@ -21,7 +21,7 @@
     </style>
 </head>
 <body>
-<svg>
+<svg id="chart">
 </svg>
 <select id="dropDown">
     <option selected value="product">Product</option>
@@ -32,31 +32,26 @@
 <script>
 
     // the height and width of the actual drawing area
-    var height = 400;
-    var width = 750;
-    // add padding on all sides
-    var padding = 25;
-    var svg = d3.select("svg");
+    var margin = {top: 20, right: 30, bottom: 30, left: 40};
+    var width = 800 - margin.left - margin.right;
+    var height = 500 - margin.top - margin.bottom;
+
     var barHeight = 20;
-    svg.attr({
-        width: width + 2 * padding,
-        height: height + 2 * padding
-    })
 
-    // a rectangle in the background
-    svg.append("rect")
+    var svg = d3.select("#chart")
             .attr({
-                width: width,
-                height: height,
-                style: "stroke: none; fill: #eeeeee",
-                transform: "translate(" + padding + "," + padding + ")"
-            });
+                width: width + margin.left + margin.right,
+                height: height + margin.top + margin.bottom
+            }).append("g")
+            .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-    var data = [{
-        product: "Apples",
-        tons: 10123,
-        type: "fruit"
-    },
+
+    var data = [
+        {
+            product: "Apples",
+            tons: 10123,
+            type: "fruit"
+        },
         {
             product: "Bananas",
             tons: 12114,
@@ -92,43 +87,102 @@
     var types = ["grocery", "fruit", "alcohol"];
     var max = 13000;
 
-    d3.select("#dropDown").on("change", function(){
-        var dropDown = d3.select("#dropDown").property("selectedIndex");
-       // sort array based on selection
-    })
 
+    document.getElementById("dropDown").onchange = function (event) {
+
+        var active = event.srcElement.value;
+        data = data.sort(function compare(a, b) {
+            switch (active) {
+                case "product":
+                case "type":
+                    if (a[active] < b[active])
+                        return -1;
+                    else if (a[active] > b[active])
+                        return 1;
+                    else
+                        return 0;
+                    break;
+                case "tonnage":
+                    return a.tons - b.tons;
+                    break;
+            }
+
+        })
+        execute();
+
+    }
+
+    var xScale = d3.scale.linear()
+            .domain([0, max])
+            .range([80, width])
+        // make the ranges nice
+            .nice();
+
+    var colorScale = d3.scale.ordinal()
+            .domain(types)
+            .range(colorbrewer.Accent[4]);
+
+    var yScale = d3.scale.ordinal()
+            .rangeRoundBands([0, height], .1);
+
+
+    var xAxis = d3.svg.axis();
+    xAxis.scale(xScale);
+    xAxis.orient("bottom");
+
+    svg.append("g")
+            .classed("axis", true)
+            .attr("transform", "translate(" + 0 + "," + height  + ")")
+            .call(xAxis);
 
     var execute = function () {
 
-        var spacing = height / (data.length);
-
-        var xScale = d3.scale.linear()
-                .domain([0, max])
-                .range([80, width])
-            // make the ranges nice
-                .nice();
-
-        var color = d3.scale.ordinal()
-                .domain(types)
-                .range(colorbrewer.Accent[4]);
-
-
-        var xAxis = d3.svg.axis();
-        xAxis.scale(xScale);
-        xAxis.orient("bottom");
+        // here we update the yscale
+        yScale.domain(data.map(function (d) {
+            return d.product
+        }))
 
         var barGroups = svg.selectAll(".barGroup")
-                .data(data);
+                // here we tell D3 how to know which objects are the same thing between updates
+                .data(data, function(d)
+                {
+                    return d.product;
+                });
 
         var barGroupsEnter = barGroups.enter()
                 .append("g")
-                .classed("barGroup", true);
-        barGroupsEnter.append("text");
+                .classed("barGroup", true).attr("transform", function (d, i) {
+                    return "translate(" + 0 + "," + yScale(d.product) + ")";
+                });
+
+        barGroupsEnter.append("text").text(function (d) {
+            return d.product;
+        })
+                .attr("x", 10)
+                .attr("dy", barHeight - 5)
+                .attr("opacity", 0)
+                .transition().duration(5000).attr("opacity",1 );
 
         barGroupsEnter.append("rect")
                 .attr("width", "0")
                 .attr("height", barHeight)
-                .attr("opacity", 0);
+                .attr("x", function (d) {
+                    return xScale(Math.min(0, d.tons));
+                })
+                .attr("y", "0")
+
+                .attr("height", barHeight)
+                .style("fill", function (d) {
+                    // here we apply the color scale
+                    return colorScale(d.type);
+                })
+                .attr("width",0)
+                .transition().duration(5000)
+                .attr("width", function (d, i) {
+                    // here we call the scale function.
+                    return Math.abs(xScale(d.tons) - xScale(0));
+                });
+
 
         barGroups.exit()
                 .attr("opacity", 1)
@@ -139,40 +193,11 @@
 
         // update
 
-        barGroups.attr("transform", function (d, i) {
-            return "translate(" + padding + "," + (padding + 15 + i * spacing) + ")";
+        barGroups.transition().duration(3000).attr("transform", function (d, i) {
+            return "translate(" + 0 + "," + yScale(d.product) + ")";
         });
 
-        barGroups.select("rect")
-                .transition().duration(3000)
-                .attr("x", function (d) {
-                    return xScale(Math.min(0, d.tons));
-                })
-                .attr("y", "0")
-                .attr("width", function (d, i) {
-                    // here we call the scale function.
-                    return Math.abs(xScale(d.tons) - xScale(0));
-                })
-                .attr("height", barHeight)
-                .style("fill", function (d) {
-                    // here we apply the color scale
-                    return color(d.type);
-                })
-                .attr("opacity", 1)
 
-        barGroups.select("text")
-                .text(function (d) {
-                    return d.product;
-                })
-                .attr("x", 10)
-                .attr("dy", barHeight - 5)
-                .attr("opacity", 0)
-                .transition().delay(2000).duration(1000).attr("opacity", 1);
-
-        svg.append("g")
-                .classed("axis", true)
-                .attr("transform", "translate(" + padding + "," + (height + padding) + ")")
-                .call(xAxis);
     }
 </script>
 <script src="run.js" charset="utf-8"></script>
