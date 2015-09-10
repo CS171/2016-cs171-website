@@ -125,7 +125,11 @@ Here is an example for how we can draw marks on top of maps, in this case the si
   
  ## Next Steps
  
- This concludes our introduction to D3 and JavaScript. We will (probably) have another lecture on designing larger systems, event handling, etc in the next couple of weeks.  
+ This concludes our introduction to D3 and JavaScript. We will (probably) have another lecture on designing larger systems, event handling, etc in the next couple of weeks.
+   
+ ## Design Critique:
+ 
+ http://goo.gl/82tE6b
 
 
 
