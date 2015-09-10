@@ -5,6 +5,7 @@ description:  Layouts, Maps
 mandatory-reading: |
   - D3 book, Chapters 11 and 12
 recommended-reading: |
+  - [Mike Bostock's Let's make a Map](http://bost.ocks.org/mike/map/)
 slides:
 interactive-content:
 guest:
