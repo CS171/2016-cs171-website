@@ -7,7 +7,8 @@ mandatory-reading: |
 recommended-reading: |
   - [Mike Bostock's Let's make a Map](http://bost.ocks.org/mike/map/)
 slides:
-interactive-content:
+interactive-content: |
+ - [Interactive Lecture Content](../lectures/lecture-d3-layouts-maps/)
 guest:
 guest-url:
 intro-assignment:

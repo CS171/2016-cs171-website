@@ -87,10 +87,41 @@ But let's get to how we do maps with D3. Generally, there are two approaches:
  1. **Street Map with Data**: If you want to show something in the context of a real street map, your best bet is to use something like the [Google Maps API](https://developers.google.com/maps/?hl=en) - [here's an example of how it's used with D3](http://bl.ocks.org/mbostock/899711), or the [OpenStreetMap API](http://wiki.openstreetmap.org/wiki/API). You can use D3 to draw things on top of those, but you'll mainly work with the API provided by the vendor. 
  2. **Data Maps**: If you want to present data on an abstract map, e.g., only showing counties or state borders, D3 is the way to go! We'll be taking about data maps from now on.
  
- D3 Maps are based on the [GeoJSON format](http://geojson.org/) (or the [TopoJSON variety](https://github.com/mbostock/topojson/wiki))
+ D3 Maps are based on the [GeoJSON format](http://geojson.org/) (or the [TopoJSON variety](https://github.com/mbostock/topojson/wiki)). The GeoJSON format describes the contained geography as a combination of longitude and latitude coordinates, so that each entry forms a polygon. Here is a sample from the [data file containing US states](us-states.json).
  
+{% highlight javascript linenos %}
+{
+     "type":  "FeatureCollection",
+     "features":
+     [
+         {
+             "type": "Feature",
+             "id": "01",
+             "properties": {"name": "Alabama"},
+             "geometry": {
+                "type": "Polygon", 
+                "coordinates": [[[-87.359296, 35.00118], [-85.606675, 34.984749], [-85.431413,34.124869],[-85.184951,32.859696], ... 
+ }
+ {% endhighlight %}
+ 
+ You can see that the coordinates are within the geometry object, and that the properties tell us that this is the shape repesenting Alabama. 
+ These polygons can be easily converted into an SVG path with `d3.geo.path()` (as always, see the [API documentation here](https://github.com/mbostock/d3/wiki/Geo-Paths)).
+ 
+ {% include code.html id="d3_basic_map" file="d3_basic_map.html" code="" js="false" preview="true" %}
+ 
+ The previous map uses the geographical information with a default projection. Projections are necessary because the earth is a sphere and can not be directly depicted, without a projection, on a flat surface. There are many projections, with various advantages and disadvantages - we'll talk about them in class. Let's center the map and try out a couple: 
+ 
+ {% include code.html id="d3_projections" file="d3_projections.html" code="" js="false" preview="true" %}
+ 
+ There are a lot of map projections implemented in D3. [Here is a showreel](http://bl.ocks.org/mbostock/3711652).
+ 
+Here is an example for a choropleth map, coloring each state by its agricultural output. The trick here is to join the data about the ouptut to the geography information:
+ 
+  {% include code.html id="d3_choropleth" file="d3_choropleth.html" code="" js="false" preview="true" %}
 
+Here is an example for how we can draw marks on top of maps, in this case the size of cities:
 
+  {% include code.html id="d3_cities" file="d3_cities.html" code="" js="false" preview="true" %}
 
 
 
