@@ -122,6 +122,10 @@ Here is an example for a choropleth map, coloring each state by its agricultural
 Here is an example for how we can draw marks on top of maps, in this case the size of cities:
 
   {% include code.html id="d3_cities" file="d3_cities.html" code="" js="false" preview="true" %}
+  
+ ## Next Steps
+ 
+ This concludes our introduction to D3 and JavaScript. We will (probably) have another lecture on designing larger systems, event handling, etc in the next couple of weeks.  
 
 
 
