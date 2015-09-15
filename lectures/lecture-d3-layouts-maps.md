@@ -111,26 +111,22 @@ But let's get to how we do maps with D3. Generally, there are two approaches:
  
  The previous map uses the geographical information with a default projection. Projections are necessary because the earth is a sphere and can not be directly depicted, without a projection, on a flat surface. There are many projections, with various advantages and disadvantages - we'll talk about them in class. Let's center the map and try out a couple: 
  
- {% include code.html id="d3_projections" file="d3_projections.html" code="" js="false" preview="true" %}
+{% include code.html id="d3_projections" file="d3_projections.html" code="" js="false" preview="true" %}
  
- There are a lot of map projections implemented in D3. [Here is a showreel](http://bl.ocks.org/mbostock/3711652).
+There are a lot of map projections implemented in D3. [Here is a showreel](http://bl.ocks.org/mbostock/3711652).
  
 Here is an example for a choropleth map, coloring each state by its agricultural output. The trick here is to join the data about the ouptut to the geography information:
  
-  {% include code.html id="d3_choropleth" file="d3_choropleth.html" code="" js="false" preview="true" %}
+{% include code.html id="d3_choropleth" file="d3_choropleth.html" code="" js="false" preview="true" %}
 
 Here is an example for how we can draw marks on top of maps, in this case the size of cities:
 
-  {% include code.html id="d3_cities" file="d3_cities.html" code="" js="false" preview="true" %}
+{% include code.html id="d3_cities" file="d3_cities.html" code="" js="false" preview="true" %}
   
- ## Next Steps
+## Next Steps
  
- This concludes our introduction to D3 and JavaScript. We will (probably) have another lecture on designing larger systems, event handling, etc in the next couple of weeks.
+This concludes our introduction to D3 and JavaScript. We will (probably) have another lecture on designing larger systems, event handling, etc in the next couple of weeks.
    
- ## Design Critique:
- 
- http://goo.gl/82tE6b
-
 
 
 
