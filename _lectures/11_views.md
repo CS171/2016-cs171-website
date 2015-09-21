@@ -1,8 +1,10 @@
 ---
 key: views
-topic: Views
+topic: Interaction; Views
 description:
 mandatory-reading: |
+ - VAD, Ch. 11 Manipulate View
+ - VAD, Ch. 6.8 Responsiveness Is Required
 recommended-reading: |
 slides:
 interactive-content:
