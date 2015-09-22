@@ -6,7 +6,7 @@ mandatory-reading: |
  - VAD, Tamara Munzner, Chapter 2.
 recommended-reading: |
  - [On the Theory of Scales of Measurement](http://www.jstor.org/pss/1671815). S. S. Stevens. Science, 103(2684), pp. 677-680, June 1946. 
-slides:
+slides: 08_data.pdf
 interactive-content:
 guest:
 guest-url:
