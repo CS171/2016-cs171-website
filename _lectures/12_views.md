@@ -3,8 +3,8 @@ key: views
 topic: Views; Focus and Context
 description:
 mandatory-reading: |
- - VDA Ch. 12 Facet into Multiple Views
- - VDA Ch. 14 Embed: Focus + Context
+ - VDA Chapter 12, Facet into Multiple Views
+ - VDA Chapter 14, Embed: Focus + Context
 recommended-reading: |
 slides: 12-Views.pdf
 interactive-content:

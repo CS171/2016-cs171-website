@@ -3,8 +3,8 @@ key: design_tasks
 topic: Design Guidelines; Visualization Tasks
 description:
 mandatory-reading: |
- - VAD, Ch. 6.10 Function First, Form Next
- - VAD, Ch. 3 Why: Task Abstraction
+ - VAD, Chapter 6.10, Function First, Form Next
+ - VAD, Chapter 3, Why: Task Abstraction
 recommended-reading: |
  - [Design Principles for Visual Communication](http://vis.berkeley.edu/papers/designprinciples/). Maneesh Agrawala, Wilmot Li, Floraine Berthouzoz. Communications of the ACM, 54(4), pp. 60-69, Apr 2011. 
  - [Design of data figures](http://www.nature.com/nmeth/journal/v7/n9/full/nmeth0910-665.html). Bang Wong. Nature Methods 7, pp. 665, Sept 2010.
