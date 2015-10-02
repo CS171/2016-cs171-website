@@ -1,12 +1,12 @@
 ---
 layout: page
-title:
+title: Home
 menu: Home
 order: 1
 ---
 
 
-<img src="{{ site.baseurl }}/assets/i/teaser.png" width="100%;" />
+<img src="{{ site.baseurl }}/assets/i/teaser.png" alt="vis teaser" />
 
 <div class="credits"><a href="http://vcg.github.io/upset/">UpSet visualizing intersecting sets</a> | <a href="http://hint.fm/wind/">Wind map</a> | <a href="http://www.nytimes.com/interactive/2012/10/15/us/politics/swing-history.html?_r=0">How states have shifted</a></div>
 
