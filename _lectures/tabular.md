@@ -3,6 +3,7 @@ key: tabular
 topic: Visualizing Tabular Data
 description:
 mandatory-reading: |
+ - VDA Chapter 7, Tables
 recommended-reading: |
 slides:
 interactive-content:
