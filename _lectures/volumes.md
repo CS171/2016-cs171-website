@@ -10,7 +10,7 @@ recommended-reading: |
  - [Multidimensional transfer functions for interactive volume rendering](http://content.lib.utah.edu/utils/getfile/collection/uspace/id/691/filename/3713.pdf),  J Kniss, G Kindlmann, CD Hansen, IEEE TVCG, 2002.
  - [Real-Time Ray-Casting and Advanced Shading of Discrete Isosurfaces](https://graphics.ethz.ch/Downloads/Publications/Papers/2005/Had05/p_Had05.pdf), M Hadwiger, C Sigg, H Scarsach, K Buhler, M Gross. Eurographics 2005.
  - [Volume rendering](http://www.researchgate.net/publication/220721927_Volume_Rendering), R. Drebin, L. Carpenter, and P. Hanrahan. ACM Siggraph Computer Graphics. Vol. 22. No. 4. ACM, 1988.
-slides:
+slides: 16-Volumes.pdf
 interactive-content:
 guest: Aaron Knoll
 guest-url: http://www.cs.utah.edu/~knolla/
