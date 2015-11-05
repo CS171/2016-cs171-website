@@ -5,7 +5,7 @@ description:
 mandatory-reading: |
  - VDA Chapter 7, Tables
 recommended-reading: |
-slides:
+slides: 20-Tables.pdf
 interactive-content:
 guest:
 guest-url:

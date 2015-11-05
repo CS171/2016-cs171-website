@@ -5,7 +5,7 @@ description:
 mandatory-reading: |
  - VDA Ch. 13 Reduce Items and Attributes
 recommended-reading: |
-slides:
+slides: 19-Filter_Aggregate.pdf
 interactive-content:
 guest:
 guest-url:
