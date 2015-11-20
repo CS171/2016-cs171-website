@@ -20,6 +20,7 @@ The course is offered in the fall term 2015 at the University of Utah in two var
 
 ### Instructor
 
+Hanspeter Pfister
 [Alexander Lex](http://alexander-lex.com), [alex@sci.utah.edu](mailto:alex@sci.utah.edu)
 Office: WEB 3887
 
