@@ -3,12 +3,12 @@ title: Visualization
 email: alex@sci.utah.edu
 description: "Visualization Class at the University of Utah"
 footer: "© The University of Utah, 2015"
-baseurl: "/2015"
+baseurl: "/2016"
 url: "http://dataviscourse.net/"
 twitter_username: alexander_lex
 github_username:  dataviscourse
 
-google_analytics: "UA-65153996-1"
+google_analytics: ""
 
 plugins: ./_plugins
 
