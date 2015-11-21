@@ -6,17 +6,19 @@ menu: Syllabus
 order: 2
 ---
 
- <div class="deadline">The information here is subject to change! </div>
+Welcome to CS171! This course is an introduction to key design principles and techniques for interactively visualizing data. The major goals of this course are to understand how visual representations can help in the analysis and understanding of complex data, how to design effective visualizations, and how to create your own interactive visualizations using modern web-based frameworks.
 
-Welcome to CS-5630 / CS-6630! This course is an introduction to key design principles and techniques for interactively visualizing data. The major goals of this course are to understand how visual representations can help in the analysis and understanding of complex data, how to design effective visualizations, and how to create your own interactive visualizations using modern web-based frameworks. 
+This course, when taken for a letter grade, meets the Harvard General Education requirement for Empirical and Mathematical Reasoning. The course is also offered through the Harvard University Extension School as distance education course CSCI E-171. All lectures and sections are recorded and archived in addition to being streamed live during meeting times.
 
-**After successful completion of this course, you will be able to...**
+After completion of the course you will be able to:
 
- * Critically evaluate visualizations and suggest improvements and refinements
- * Apply a structured design process to create effective visualizations
- * Conceptualize ideas and interaction techniques using sketching 
- * Use principles of human perception and cognition in visualization design
- * Create web-based interactive visualizations using HTML 5,  JavaScript and D3
+* Critically evaluate visualizations and suggest improvements and refinements
+* Apply a structured process to design interactive visualizations
+* Iteratively generate visual encoding ideas using sketching and prototyping
+* Use principles of human perception and cognition in visualization design
+* Know various visualization methods to judge and create new designs
+* Create web-based interactive visualizations using JavaScript and D3
+* Work constructively as a member of a team to plan and carry out a complex project
  
 ## Course Logistics
 
