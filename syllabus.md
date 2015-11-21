@@ -24,49 +24,41 @@ After completion of the course you will be able to:
 
 ### Prerequisites
 
-Students are expected to have programming experience ideally for web development. Skills about structured programming/software engineering are recommended. In this course you are required to develop significant projects in JavaScript and D3 which can have a steep learning curve. Exceptions by permission of the instructor.
-
+Students are expected to have programming experience (e.g,. CS50). We will assume that you are comfortable with programming and that you can easily pick up new programming languages on your own. In this course you are required to develop significant projects in JavaScript and D3, which can have a steep learning curve. Contact us if you are unsure whether you are sufficiently prepared for CS171.
 
 ### Required Textbooks
 
-We will be using two textbooks for this class, one to cover conceptual aspects of visualization (referred to as VAD for reading assignments), one to teach the necessary technical skills (short form: D3).
+We will be using two textbooks for this class, one to cover conceptual aspects of visualization and one to teach the necessary technical skills.
 
-[Visualization Analysis and Design](http://www.amazon.com/Visualization-Analysis-Design-Peters-Series/dp/1466508914), Tamara Munzner, CRC Press (2014) - VAD
+[Visualization Analysis and Design (VAD)](http://www.amazon.com/Visualization-Analysis-Design-Peters-Series/dp/1466508914), Tamara Munzner, CRC Press (2014)
+
 ![]({{ site.baseurl }}/assets/i/visualization_analysis.jpg)
-
 *“Visualization Analysis and Design provides a systematic, comprehensive framework for thinking about visualization in terms of principles and design choices. The book features a unified approach encompassing information visualization techniques for abstract data, scientific visualization techniques for spatial data, and visual analytics techniques for interweaving data transformation and analysis with interactive visual exploration. It emphasizes the careful validation of effectiveness and the consideration of function before form.”*
 
-<br />
-[Interactive Data Visualization for the Web](http://www.amazon.com/Interactive-Data-Visualization-Scott-Murray-ebook/dp/B00BSG68UQ), Scott Murray, O'Reilly (2013) - D3
+[Interactive Data Visualization for the Web (D3)](http://www.amazon.com/Interactive-Data-Visualization-Scott-Murray-ebook/dp/B00BSG68UQ), Scott Murray, O'Reilly (2013)
 *[Free online version](http://chimera.labs.oreilly.com/books/1230000000345)*
 
 ![]({{ site.baseurl }}/assets/i/interactive_data_visualization.jpg)
 *An introduction to D3 for people new to programming and web development, published by O’Reilly. “Explaining tricky technical topics with aplomb (and a little cheeky humor) is Scott Murray’s forte. If you want to dive into the world of dynamic visualization using web standards, even if you are new to programming, this book is the place to start.” - Mike Bostock, creator of D3*
-<br />
-<br />
 
 ### Recommended Textbooks
 
 These recommended textbooks will allow you to deepen your understanding of specific aspects of the course, such as perception and storytelling.
-
-[Design for Information](http://www.amazon.com/Design-Information-Isabel-Meirelles/dp/1592538061), Isabel Meirelles, Rockport (2013)
-
-![]({{ site.baseurl }}/assets/i/design_for_information.jpg)
-*“The visualization process doesn’t happen in a vacuum; it is grounded in principles and methodologies of design, cognition, perception, and human-computer-interaction that are combined to one’s personal knowledge and creative experiences. Design for Information critically examines other design solutions —current and historic— helping you gain a larger understanding of how to solve specific problems. This book is designed to help you foster the development of a repertoire of existing methods and concepts to help you overcome design problems.”*
-
-
 
 [Visual Thinking for Design](http://www.amazon.com/Visual-Thinking-Kaufmann-Interactive-Technologies/dp/0123708966),  Colin Ware, Morgan Kaufman (2008)
 
 ![]({{ site.baseurl }}/assets/i/visual_thinking.jpg)
 *“All the clanking gears are here: variable resolution image detection, eye movements, environmental information statistics, bottom-up/top-down control structures, working memory, the nexus of meaning, and specialized brain areas and pathways. By the time he’s done, Ware has reconstructed cognitive psychology, perception, information visualization, and design into an integrated modern form. This book is scary good.” - Stuart Card, Senior Research Fellow, and manager of the User Interface Research group at the Palo Alto Research Center*
 
-<br />
-
 [The Functional Art: An introduction to information graphics and visualization](http://www.amazon.com/The-Functional-Art-introduction-visualization/dp/0321834739/), Alberto Cairo, New Riders (2012)
 
 ![]({{ site.baseurl }}/assets/i/functional_art.png)
 *“If graphic designer Nigel Holmes and data visualizer Edward Tufte had a child, his name would be Alberto Cairo. In The Functional Art, accomplished graphics journalist Cairo injects the chaotic world of infographics with a mature, thoughtful, and scientifically grounded perspective that it sorely needs. With extraordinary grace and clarity, Cairo seamlessly unites infographic form and function in a design philosophy that should endure for generations.” - Stephen Few, author of Show Me the Numbers*
+
+[Design for Information](http://www.amazon.com/Design-Information-Isabel-Meirelles/dp/1592538061), Isabel Meirelles, Rockport (2013)
+
+![]({{ site.baseurl }}/assets/i/design_for_information.jpg)
+*“The visualization process doesn’t happen in a vacuum; it is grounded in principles and methodologies of design, cognition, perception, and human-computer-interaction that are combined to one’s personal knowledge and creative experiences. Design for Information critically examines other design solutions —current and historic— helping you gain a larger understanding of how to solve specific problems. This book is designed to help you foster the development of a repertoire of existing methods and concepts to help you overcome design problems.”*
 
 ## Course Components
 
