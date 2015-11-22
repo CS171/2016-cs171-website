@@ -35,6 +35,8 @@ We will be using two textbooks for this class, one to cover conceptual aspects o
 ![]({{ site.baseurl }}/assets/i/visualization_analysis.jpg)
 *“Visualization Analysis and Design provides a systematic, comprehensive framework for thinking about visualization in terms of principles and design choices. The book features a unified approach encompassing information visualization techniques for abstract data, scientific visualization techniques for spatial data, and visual analytics techniques for interweaving data transformation and analysis with interactive visual exploration. It emphasizes the careful validation of effectiveness and the consideration of function before form.”*
 
+<br />
+
 [Interactive Data Visualization for the Web (D3)](http://www.amazon.com/Interactive-Data-Visualization-Scott-Murray-ebook/dp/B00BSG68UQ), Scott Murray, O'Reilly (2013)
 *[Free online version](http://chimera.labs.oreilly.com/books/1230000000345)*
 
@@ -63,8 +65,7 @@ These recommended textbooks will allow you to deepen your understanding of speci
 ## Course Components
 
 ### Lectures
-The class meets twice a week for lectures and joint class activities. The class activities are designed to help you master the relevant materials, to work on your homework in groups, and to get you started on your project. The weekly schedule of lectures is posted on the course web site.
-
+The class meets twice a week for lectures and joint class activities. The class activities, such as a design sketch or visualization critique, are designed to help you master the relevant materials. The weekly schedule of lectures is posted on the course web site.
 
 <!--### Sections
 Lectures are supplemented by 60- to 90-minute sections led by the teaching fellows. Sections are limited to about 20 students (the numbers may vary due to enrollment); one of the sections will be recorded and made available to online students. Sections are an important aspect of the course, as they are meant to give you the technical skills to successfully complete the homework assignments and projects, complementing the theoretical knowledge taught in lectures. Sections will typically consist of a short presentation and live coding of a teaching fellow, followed by time to complete some exercises with the support of the present teaching fellows. Sections will also give you the opportunity to work on your homework and your projects while TFs are present to answer your questions. Section topics are announced in the schedule. A transcript of the section will be published on this website. -->
