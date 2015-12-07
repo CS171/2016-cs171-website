@@ -31,7 +31,7 @@ Sign up for a group [here](https://my.harvard.edu/).
 Group meeting times and locations will be announced soon:
 
 **Office Hours:**
-Current office hours are posted [here](https://www.google.com/calendar/embed?src=iete0rfi254sq9dnb0kb560id4%40group.calendar.google.com&ctz=America/New_York).
+Current office hours are posted in our [office hour schedule]({{ site.baseurl }}/syllabus/#lab_oh_schedule).
 
 ### Staff
 
