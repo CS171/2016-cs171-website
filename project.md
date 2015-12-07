@@ -14,15 +14,17 @@ You will work closely with other classmates in a **2-3 person project team**. Yo
 ## Project Steps
 There are a few actions you have to for your final project. It is critical to note that **no extensions will be given** for any of these dates for any reason. **For due dates see the [schedule]({{ site.baseurl }}/schedule/).** Late days may not be used. Projects submitted after the final due date will not be graded. These steps are:
 
-* **Project proposals** (treated as a homework) & announcing your project repository
-* **Milestone 1, a Functional project prototype**
+* **Project proposals** (part of homework 7) & announcing your project repository
+* **Project Prototype V1 and V2, the first and second version of your project prototype**
 * Project review with the staff
-* **Final project submission (including screen-cast) & peer evaluations** <!--[peer evaluation](https://docs.google.com/forms/d/1aUeT285fC5plcVfl525XIQae8LhRBuKaTmzSA6IY_Ys).**-->
+* **Final project submission (including screen-cast) & peer evaluations** 
 * Best project presentations and prizes
 
 ## Proposal
 
-You start your project by forming your groups and letting us know what topic you are interested in exploring by submitting a [project data form](https://docs.google.com/forms/d/10_uzWOpvTLqs4759WBeZagp-Ig7J6fLKYtDM8Y2Juvw/viewform). **Each team will only need to submit one form**. In addition to the form, you will create a proposal document, addressing the following points. Use these points as headers in your document. 
+You start your project by forming your groups and letting us know what topic you are interested in exploring by submitting a project data form.
+<!--[project data form](https://docs.google.com/forms/d/10_uzWOpvTLqs4759WBeZagp-Ig7J6fLKYtDM8Y2Juvw/viewform). -->
+**Each team will only need to submit one form**. In addition to the form, you will create a proposal document, addressing the following points. Use these points as headers in your document. 
 
 * **Basic Info.** The project title, your names, e-mail addresses, UIDs, a link to the project repository.
 * **Background and Motivation.** Discuss your motivations and reasons for choosing this project, especially any background or research interests that may have influenced your decision.
@@ -40,9 +42,9 @@ Based on your proposals we will assign a staff member to your team who will guid
 
 ## Project Milestone
 
-For your Milestone we expect you to hand in your **code** and your **process book** in it's current state (see Final Project Submission for details). You don't have to hand in a screencast and you don't have to have your website ready. 
+For your Prototype we expect you to hand in your **code** and your **process book** in it's current state (see Final Project Submission for details). You don't have to hand in a screencast and you don't have to have your website ready. 
 
-For your Milestone you should have completed your data acquisition, or at least have a significant sample of your data. You must have your data structures in place. For example, if you plan to collect 1000 data records, but only have 200, that's fine. If you are missing one of two datasets you want to use you will loose points, since you have to have the whole structure. 
+For your Prototype you should have completed your data acquisition, or at least have a significant sample of your data. You must have your data structures in place. For example, if you plan to collect 1000 data records, but only have 200, that's fine. If you are missing one of two datasets you want to use you will loose points, since you have to have the whole structure. 
 
 You must have a working visualization prototype. You must not have all your views up and running, and it must not be completely interactive, but the direction and the content must be clear. 
 
@@ -95,8 +97,6 @@ Your teammate’s assessment of your contributions and the accuracy of your self
 
 ## Submission Instructions
 Submission will be handled trough github. All teams must use a single shared github repository. *If we cannot access your work because these directions are not followed correctly, we will not grade your work.* 
-
-To submit your work **you must fill out the form that is part of Homework 5** where you specify your project URL.
 
 Store the following in your github repository:
 
