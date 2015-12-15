@@ -24,16 +24,16 @@ After completion of the course you will be able to:
 
 ### Prerequisites
 
-Students are expected to have programming experience (e.g,. CS50). We will assume that you are comfortable with programming and that you can easily pick up new programming languages on your own. In this course you are required to develop significant projects in JavaScript and D3, which can have a steep learning curve. Contact us if you are unsure whether you are sufficiently prepared for CS171.
+Students are expected to have programming experience (e.g,. CS50). We will assume that you are comfortable with programming and that you can easily pick up new programming languages on your own. In this course you are required to develop significant projects in JavaScript and D3, which can have a steep learning curve. 
 
 ### Required Textbooks
 
-We will be using two textbooks for this class, one to cover conceptual aspects of visualization and one to teach the necessary technical skills.
+We will be using two textbooks for this class, one to cover perceptual aspects of visualization and one to teach the necessary technical skills.
 
-[Visualization Analysis and Design (VAD)](http://www.amazon.com/Visualization-Analysis-Design-Peters-Series/dp/1466508914), Tamara Munzner, CRC Press (2014)
+[Visual Thinking for Design](http://www.amazon.com/Visual-Thinking-Kaufmann-Interactive-Technologies/dp/0123708966),  Colin Ware, Morgan Kaufman (2008)
 
-![]({{ site.baseurl }}/assets/i/visualization_analysis.jpg)
-*“Visualization Analysis and Design provides a systematic, comprehensive framework for thinking about visualization in terms of principles and design choices. The book features a unified approach encompassing information visualization techniques for abstract data, scientific visualization techniques for spatial data, and visual analytics techniques for interweaving data transformation and analysis with interactive visual exploration. It emphasizes the careful validation of effectiveness and the consideration of function before form.”*
+![]({{ site.baseurl }}/assets/i/visual_thinking.jpg)
+*“All the clanking gears are here: variable resolution image detection, eye movements, environmental information statistics, bottom-up/top-down control structures, working memory, the nexus of meaning, and specialized brain areas and pathways. By the time he’s done, Ware has reconstructed cognitive psychology, perception, information visualization, and design into an integrated modern form. This book is scary good.” - Stuart Card, Senior Research Fellow, and manager of the User Interface Research group at the Palo Alto Research Center*
 
 <br />
 
@@ -48,12 +48,12 @@ We will be using two textbooks for this class, one to cover conceptual aspects o
 
 ### Recommended Textbooks
 
-These recommended textbooks will allow you to deepen your understanding of specific aspects of the course, such as perception and storytelling.
+These recommended textbooks will allow you to deepen your understanding of specific aspects of the course, such as theoretical visualization concepts and storytelling.
 
-[Visual Thinking for Design](http://www.amazon.com/Visual-Thinking-Kaufmann-Interactive-Technologies/dp/0123708966),  Colin Ware, Morgan Kaufman (2008)
+[Visualization Analysis and Design (VAD)](http://www.amazon.com/Visualization-Analysis-Design-Peters-Series/dp/1466508914), Tamara Munzner, CRC Press (2014)
 
-![]({{ site.baseurl }}/assets/i/visual_thinking.jpg)
-*“All the clanking gears are here: variable resolution image detection, eye movements, environmental information statistics, bottom-up/top-down control structures, working memory, the nexus of meaning, and specialized brain areas and pathways. By the time he’s done, Ware has reconstructed cognitive psychology, perception, information visualization, and design into an integrated modern form. This book is scary good.” - Stuart Card, Senior Research Fellow, and manager of the User Interface Research group at the Palo Alto Research Center*
+![]({{ site.baseurl }}/assets/i/visualization_analysis.jpg)
+*“Visualization Analysis and Design provides a systematic, comprehensive framework for thinking about visualization in terms of principles and design choices. The book features a unified approach encompassing information visualization techniques for abstract data, scientific visualization techniques for spatial data, and visual analytics techniques for interweaving data transformation and analysis with interactive visual exploration. It emphasizes the careful validation of effectiveness and the consideration of function before form.”*
 
 <br />
 
@@ -75,24 +75,26 @@ These recommended textbooks will allow you to deepen your understanding of speci
 ## Course Components
 
 ### Lectures
-The class meets twice a week for lectures and joint class activities. The class activities, such as a design sketch or visualization critique, are designed to help you master the relevant materials. The weekly schedule of lectures is posted on the course web site.
+The class meets once a week for lectures and joint class activities. The class activities, such as a design sketch or visualization critique, are designed to help you master the relevant materials. 
 
-<!--### Sections
-Lectures are supplemented by 60- to 90-minute sections led by the teaching fellows. Sections are limited to about 20 students (the numbers may vary due to enrollment); one of the sections will be recorded and made available to online students. Sections are an important aspect of the course, as they are meant to give you the technical skills to successfully complete the homework assignments and projects, complementing the theoretical knowledge taught in lectures. Sections will typically consist of a short presentation and live coding of a teaching fellow, followed by time to complete some exercises with the support of the present teaching fellows. Sections will also give you the opportunity to work on your homework and your projects while TFs are present to answer your questions. Section topics are announced in the schedule. A transcript of the section will be published on this website. -->
+### Labs
+Lectures are supplemented by weekly labs led by the teaching fellows. Labs are an important aspect of the course, as they are meant to give you the technical skills to successfully complete the homework assignments and projects, complementing the principles taught in lectures. 
 
-### Design Studios
-Held during lecture times, in design studios are you will hone your skills in designing visualizations using sketching and rapid, paper-based prototyping. Attendance for design studios is mandatory for on-campus students. You work on analyzing a dataset and create multiple sketches of visualizations to address the dataset either alone or in teams, depending on the task. Online-only participants are encouraged to work in online-teams but are allowed to work individually. Some design studios will require you to critique each others work. The design studios are part of the homework and are submitted and graded together with these.
+### Studios
+Studios are limited to about 15 students (the numbers may vary due to enrollment). They will typically consist of presentations of completed homework assignments followed by peer critique.  
+
+### Reading Assignments
+The course includes required weekly readings to ensures that you are prepared for the activities in lectures and labs. The primary goal of the reading assignments is to familiarize yourself with new terminology and definitions and to learn new design and programming skills. 
+
+### Homework
+Weekly homework assignments are going to provide an opportunity to improve your design and programming skills. See the homework as an opportunity to learn, and not to “earn points”. The homework will be graded holistically to reflect this objective.
 
 ### Project
-At the core of the course is your project. The goal of the project is to design a web site and interactive visualizations that answer questions you have about some topic of your own choosing. You will acquire the data, design your visualizations, implement them, and critically evaluate the results. The path to a good visualization is going to involve mistakes and wrong turns. It is therefore important to recognize that mistakes are valuable in finding the path to a solution, to broadly explore the design space, and to iterate designs to improve possible solutions. The project has an intermediate milestone that will allow you to get feedback and to iterate. 
+In the second half of the course is a group project. The goal of the project is to design a web site and interactive visualizations that answer questions you have about some topic of your own choosing. You will acquire the data, design your visualizations, implement them, and critically evaluate the results. The path to a good visualization is going to involve mistakes and wrong turns. It is therefore important to recognize that mistakes are valuable in finding the path to a solution, to broadly explore the design space, and to iterate designs to improve possible solutions. The project has an intermediate milestone that will allow you to get feedback and to iterate. 
 
 In your project you will work closely with classmates in 2-3 person project teams. You can come up with your own teams and use Piazza to find prospective team members. If you cannot find a partner we will team you up randomly. We recognize that individual schedules, different time zones, preferences, and other constraints might limit your ability to work in a team. If this the case, ask us for permission to work alone. 
 
-### Homework
-There is no question that the best way to learn how to create effective visualizations is by creating them. Homework assignments are going to provide an opportunity to learn design and programming skills and to test your understanding of the material. The homework assignments are designed to support you in developing your projects. See the homework as an opportunity to learn, and not to “earn points”. The homework will be graded holistically to reflect this objective.
 
-### Reading Assignments
-The course schedule includes required weekly readings – you are free to study ahead, but the schedule ensures that you are prepared for the activities in class and the homework. The goal of the reading assignments is to familiarize yourself with new terminology and definitions, to learn new design and programming skills, and to determine which part of the subject needs more attention. The homework assignments will contain questions about the mandatory readings. When answering those please be brief and to the point!
 
 ## Course Policies
 
