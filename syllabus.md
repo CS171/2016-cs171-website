@@ -19,12 +19,12 @@ After completion of the course you will be able to:
 * Know various visualization methods to judge and create new designs
 * Create web-based interactive visualizations using JavaScript and D3
 * Work constructively as a member of a team to plan and carry out a complex project
- 
+
 ## Course Logistics
 
 ### Prerequisites
 
-Students are expected to have programming experience (e.g,. CS50). We will assume that you are comfortable with programming and that you can easily pick up new programming languages on your own. In this course you are required to develop significant projects in JavaScript and D3, which can have a steep learning curve. 
+Students are expected to have programming experience (e.g,. CS50). We will assume that you are comfortable with programming and that you can easily pick up new programming languages on your own. In this course you are required to develop significant projects in JavaScript and D3, which can have a steep learning curve.
 
 ### Required Textbooks
 
@@ -74,25 +74,55 @@ These recommended textbooks will allow you to deepen your understanding of speci
 
 ## Course Components
 
+### Weekly Schedule
+<table style='width:100%;'>
+<colgroup>
+<col style="background-color:#e6c39d;">
+<col span="6" style="background-color: #c3ced0">
+</colgroup>
+<thead>
+<tr style="text-align:center;">
+  <td> old unit </td><td colspan="6"> new unit </td>
+</tr>
+  <th> Mon </th> <th> Tue </th> <th> Wed </th> <th> Thu </th> <th> Fri </th><th>Sat</th><th>Sun</th>
+</thead>
+<tbody>
+  <tr style="text-align:center;">
+    <td> <b>11:59pm</b> Homework due </td><td> <b>2:30-4pm</b> Lecture </td><td> </td><td> <b>2:30-4:00pm</b> Lab </td><td></td><td></td><td></td>
+  </tr>
+  <tr style="text-align:center;">
+    <td colspan="2" style="background-color:white"></td><td colspan="3"> Studios </td><td colspan = "2" style="background-color:white"></td>
+  </tr>
+</tbody>
+</table>
+
+
 ### Lectures
-The class meets once a week for lectures and joint class activities. The class activities, such as a design sketch or visualization critique, are designed to help you master the relevant materials. 
+The class meets once a week for lectures and joint class activities. The class activities, such as a design sketch or visualization critique, are designed to help you master the relevant materials.
 
 ### Labs
-Lectures are supplemented by weekly labs led by the teaching fellows. Labs are an important aspect of the course, as they are meant to give you the technical skills to successfully complete the homework assignments and projects, complementing the principles taught in lectures. 
+Lectures are supplemented by weekly labs led by the teaching fellows. Labs are an important aspect of the course, as they are meant to give you the technical skills to successfully complete the homework assignments and projects, complementing the principles taught in lectures.
 
 ### Studios
 Studios are limited to about 15 students (the numbers may vary due to enrollment). They will typically consist of presentations of completed homework assignments followed by peer critique.  
 
 ### Reading Assignments
-The course includes required weekly readings to ensures that you are prepared for the activities in lectures and labs. The primary goal of the reading assignments is to familiarize yourself with new terminology and definitions and to learn new design and programming skills. 
+The course includes required weekly readings to ensures that you are prepared for the activities in lectures and labs. The primary goal of the reading assignments is to familiarize yourself with new terminology and definitions and to learn new design and programming skills.
 
 ### Homework
 Weekly homework assignments are going to provide an opportunity to improve your design and programming skills. See the homework as an opportunity to learn, and not to “earn points”. The homework will be graded holistically to reflect this objective.
 
-### Project
-In the second half of the course is a group project. The goal of the project is to design a web site and interactive visualizations that answer questions you have about some topic of your own choosing. You will acquire the data, design your visualizations, implement them, and critically evaluate the results. The path to a good visualization is going to involve mistakes and wrong turns. It is therefore important to recognize that mistakes are valuable in finding the path to a solution, to broadly explore the design space, and to iterate designs to improve possible solutions. The project has an intermediate milestone that will allow you to get feedback and to iterate. 
 
-In your project you will work closely with classmates in 2-3 person project teams. You can come up with your own teams and use Piazza to find prospective team members. If you cannot find a partner we will team you up randomly. We recognize that individual schedules, different time zones, preferences, and other constraints might limit your ability to work in a team. If this the case, ask us for permission to work alone. 
+### Midterm
+The course will require you to take part in a midterm exam that will be held the week before spring break. It will summarize the fundamentals part of the semester.
+
+### Office Hours
+The teaching fellows will provide office hours for individual questions that you might have about the homework assignments or project progress. Office hours are usually very heavily  attended. Please try to limit your visits to one office hour per week and consult the online forum.  
+
+### Project
+In the second half of the course is a group project. The goal of the project is to design a web site and interactive visualizations that answer questions you have about some topic of your own choosing. You will acquire the data, design your visualizations, implement them, and critically evaluate the results. The path to a good visualization is going to involve mistakes and wrong turns. It is therefore important to recognize that mistakes are valuable in finding the path to a solution, to broadly explore the design space, and to iterate designs to improve possible solutions. The project has an intermediate milestone that will allow you to get feedback and to iterate.
+
+In your project you will work closely with classmates in 2-3 person project teams. You can come up with your own teams and use Piazza to find prospective team members. If you cannot find a partner we will team you up randomly. We recognize that individual schedules, different time zones, preferences, and other constraints might limit your ability to work in a team. If this the case, ask us for permission to work alone.
 
 
 
@@ -109,21 +139,21 @@ Your final grade will be determined by the number of points you collect. You can
 
  * Project: 40%, assessed on meeting the project criteria and your peer assessment. The 40% are split between the two milestones. 10% are assigned to your first milestone, 30% to your final submission.
  * Homework: 40%, assessed on your individual submission.  The homework assignments are weighted based on difficulty and length (A two week homework counts more than a one week homework).
- * Exams: 20%, 10% each. There will be no final examination in this course. The weighting of the assignments may change as the semester goes on. 
- 
+ * Exams: 20%, 10% each. There will be no final examination in this course. The weighting of the assignments may change as the semester goes on.
+
 
 We will evaluate your work holistically beyond mechanical correctness and focus on the overall quality of the work using the following scale (in 0.5 increments):
 
 10 = Excellent / no mistakes (or really minor)
 9
 8  = Good / some mistakes
-7 
+7
 6
 5 = Fair / some major conceptual errors
 4
 3
 2 = Poor / did not finish
-1 
+1
 0 = Did not participate / did not hand in
 
 A weighted overall average of 10 constitutes a perfect grade and is equivalent to an A. Here are tentative grade ranges for you reference. Note that these might be adjusted.  
@@ -149,15 +179,15 @@ In the professional world, three important features affect your productivity and
 Your teammates’ assessment of your contributions and the accuracy of your self-assessment will be considered as part of your overall course evaluation.
 
 ### Collaboration Policy
-You are welcome to discuss the course's ideas, material, and homework with others in order to better understand it, but **the work you turn in must be your own** (or for the project, yours and your teammate’s). For example, you must write your own code, design your own visualizations, and critically evaluate the results in your own words. You may not submit the same or similar work to this course that you have submitted or will submit to another. Nor may you provide or make available solutions to homeworks to individuals who take or may take this course in the future. 
+You are welcome to discuss the course's ideas, material, and homework with others in order to better understand it, but **the work you turn in must be your own** (or for the project, yours and your teammate’s). For example, you must write your own code, design your own visualizations, and critically evaluate the results in your own words. You may not submit the same or similar work to this course that you have submitted or will submit to another. Nor may you provide or make available solutions to homeworks to individuals who take or may take this course in the future.
 
-### Quoting Sources 
-You must acknowledge any source code that was not written by you by mentioning the original author(s) directly in your source code (comment or header). You can also acknowledge sources in a README.txt file if you used whole classes or libraries. Do not remove any original copyright notices and headers. However, you are encouraged to use libraries, unless explicitly stated otherwise! 
+### Quoting Sources
+You must acknowledge any source code that was not written by you by mentioning the original author(s) directly in your source code (comment or header). You can also acknowledge sources in a README.txt file if you used whole classes or libraries. Do not remove any original copyright notices and headers. However, you are encouraged to use libraries, unless explicitly stated otherwise!
 
-You may use examples you find on the web as a starting point, provided its license allows you to re-use it. You must quote the source using  proper citations (author, year, title, time accessed, URL) both in the source code and in any publicly visible material. You may not use existing complex combinations or large examples. For example, you may not use a ready to use multiple linked view visualization. You may use parts out of such examples. 
+You may use examples you find on the web as a starting point, provided its license allows you to re-use it. You must quote the source using  proper citations (author, year, title, time accessed, URL) both in the source code and in any publicly visible material. You may not use existing complex combinations or large examples. For example, you may not use a ready to use multiple linked view visualization. You may use parts out of such examples.
 
-### Missed Activities and Assignment Deadlines 
-Projects and homework must be turned in on time, with the exception of late days for homework as stated below. Because of the emphasis on teamwork, it is important that everybody attends and proactively participates in class and online. Due to the collaborative nature of the activities, it is not possible to make up any missed team activities, such as project work or design studios. (The same, incidentally, is true in the professional world.) We understand, however, that certain factors may occasionally interfere with your ability to participate or to hand in work on time. If that factor is an extenuating circumstance, we will ask you to provide documentation directly issued by the University, and we will try to work out an agreeable solution with you (and your team). 
+### Missed Activities and Assignment Deadlines
+Projects and homework must be turned in on time, with the exception of late days for homework as stated below. Because of the emphasis on teamwork, it is important that everybody attends and proactively participates in class and online. Due to the collaborative nature of the activities, it is not possible to make up any missed team activities, such as project work or design studios. (The same, incidentally, is true in the professional world.) We understand, however, that certain factors may occasionally interfere with your ability to participate or to hand in work on time. If that factor is an extenuating circumstance, we will ask you to provide documentation directly issued by the University, and we will try to work out an agreeable solution with you (and your team).
 
 ### Late Policy
 You can turn in your assignment up to two days late, however, for each day that an assignment is turned in late we will deduct 10% off the total possible points. That is, one-day late is 10% off, two-days is 20% off. So if your assignment is two day late, the max number of points (out of 10) that you can receive is 8. By permission of the instructor in extenuating circumstances, you may use more that two late days, however, the 10% rule per day will still apply. If you have a verifiable medical condition or other special circumstances that interfere with your coursework please let us know as soon as possible.  
