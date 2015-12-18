@@ -14,17 +14,19 @@ You will work closely with other classmates in a **2-3 person project team**. Yo
 ## Project Steps
 There are a few actions you have to for your final project. It is critical to note that **no extensions will be given** for any of these dates for any reason. **For due dates see the [schedule]({{ site.baseurl }}/schedule/).** Late days may not be used. Projects submitted after the final due date will not be graded. These steps are:
 
-* **Project proposals** (treated as a homework) & announcing your project repository
-* **Milestone 1, a Functional project prototype**
+* **Project proposals** (part of homework 7) & announcing your project repository
+* **Project Prototype V1 and V2, the first and second version of your project prototype**
 * Project review with the staff
-* **Final project submission (including screen-cast) & peer evaluations** <!--[peer evaluation](https://docs.google.com/forms/d/1aUeT285fC5plcVfl525XIQae8LhRBuKaTmzSA6IY_Ys).**-->
+* **Final project submission (including screen-cast) & peer evaluations** 
 * Best project presentations and prizes
 
 ## Proposal
 
-You start your project by forming your groups and letting us know what topic you are interested in exploring by submitting a [project data form](https://docs.google.com/forms/d/10_uzWOpvTLqs4759WBeZagp-Ig7J6fLKYtDM8Y2Juvw/viewform). **Each team will only need to submit one form**. In addition to the form, you will create a proposal document, addressing the following points. Use these points as headers in your document. 
+You start your project by forming your groups and letting us know what topic you are interested in exploring by submitting a project data form.
+<!--[project data form](https://docs.google.com/forms/d/10_uzWOpvTLqs4759WBeZagp-Ig7J6fLKYtDM8Y2Juvw/viewform). -->
+**Each team will only need to submit one form**. In addition to the form, you will create a proposal document, addressing the following points. Use these points as headers in your document. 
 
-* **Basic Info.** The project title, your names, e-mail addresses, UIDs, a link to the project repository.
+* **Basic Info.** The project title, your names, e-mail addresses, UIDs, a link to the project URL.
 * **Background and Motivation.** Discuss your motivations and reasons for choosing this project, especially any background or research interests that may have influenced your decision.
 * **Project Objectives.** Provide the primary questions you are trying to answer with your visualization. What would you like to learn and accomplish? List the benefits.
 * **Data.** From where and how are you collecting your data? If appropriate, provide a link to your data sources.
@@ -34,15 +36,15 @@ You start your project by forming your groups and letting us know what topic you
 * **Optional Features.** List the features which you consider to be nice to have, but not critical.
 * **Project Schedule.** Make sure that you plan your work so that you can avoid a big rush right before the final project deadline, and delegate different modules and responsibilities among your team members. Write this in terms of weekly deadlines.
 
-Each team member must push this document into his/her homework directory. This proposal is the first part of your process book. As a ballpark number: your proposal should contain about 3-4 pages of text, plus 5-6 pages of sketches.
+Each team member must submit this document as part of their homework. This proposal is the first part of your process book. As a ballpark number: your proposal should contain about 3-4 pages of text, plus 5-6 pages of sketches.
 
 Based on your proposals we will assign a staff member to your team who will guide you through the rest of the project. You will schedule a project review meeting with a staff member during regular lecture times of the week marked in the schedule. Make sure all of your team members are present at the meeting. 
 
 ## Project Milestone
 
-For your Milestone we expect you to hand in your **code** and your **process book** in it's current state (see Final Project Submission for details). You don't have to hand in a screencast and you don't have to have your website ready. 
+For your Prototype we expect you to hand in your **code** and your **process book** in it's current state (see Final Project Submission for details). You don't have to hand in a screencast and you don't have to have your website ready. 
 
-For your Milestone you should have completed your data acquisition, or at least have a significant sample of your data. You must have your data structures in place. For example, if you plan to collect 1000 data records, but only have 200, that's fine. If you are missing one of two datasets you want to use you will loose points, since you have to have the whole structure. 
+For your Prototype you should have completed your data acquisition, or at least have a significant sample of your data. You must have your data structures in place. For example, if you plan to collect 1000 data records, but only have 200, that's fine. If you are missing one of two datasets you want to use you will loose points, since you have to have the whole structure. 
 
 You must have a working visualization prototype. You must not have all your views up and running, and it must not be completely interactive, but the direction and the content must be clear. 
 
@@ -75,7 +77,7 @@ As this will be your only chance to describe your project in detail make sure th
 Your web-based visualization can be implemented using any API or programming language you would like as long as it runs in modern browsers, but we will only support and answer questions regarding D3 and Javascript. We expect you to write high-quality and readable code. You should strive for doing things the right way and think about aspects such as reusability, error handling, etc. [Here](http://javascript.crockford.com/code.html) are some guidelines specific to JavaScript code. We also expect you to document your code.
 
 ### Project Website
-You will create a public website for your project using GitHub pages or any other web hosting service of your choice. The web site should contain your interactive visualization, summarize the main results of the project, and tell a story. Consider your audience (the site is public) and keep the level of discussion at the appropriate level. Your process book and data should be linked from the web site as well. Also embed your interactive visualization and your screen-cast in your website. If you are not able to publish your work (e.g., due to confidential data) please let us know in your project proposal.
+You will create a public website for your project using GitHub pages or any other web hosting service of your choice (we strongly encourage to use GitHub). The web site should contain your interactive visualization, summarize the main results of the project, and tell a story. Consider your audience (the site is public) and keep the level of discussion at the appropriate level. Your process book and data should be linked from the web site as well. Also embed your interactive visualization and your screen-cast in your website. If you are not able to publish your work (e.g., due to confidential data) please let us know in your project proposal.
 
 ### Project Screen-Cast
 Each team will create a **two minute screen-cast with narration** showing a demo of your visualization and/or some slides. You can use any [screencast tool]({{ site.baseurl }}/screencast/) of your choice. Please make sure that the sound quality of your video is good - it may be worthwhile to invest in an external USB microphone. Upload the video to an online video-platform such as YouTube or Vimeo and embed it into your project web page. We will show the best videos in class.
@@ -94,14 +96,12 @@ It is important to provide positive feedback to people who truly worked hard for
 Your teammate’s assessment of your contributions and the accuracy of your self-assessment will be considered as part of your overall project score. 
 
 ## Submission Instructions
-Submission will be handled trough github. All teams must use a single shared github repository. *If we cannot access your work because these directions are not followed correctly, we will not grade your work.* 
+Submission will be done by creating a zip file of all your files and emailing it to your project TF. At the same time, the project website must be up and running. *If your files are to big to be emailed, please make them available to your grading TF by dropbox or google drive..* 
 
-To submit your work **you must fill out the form that is part of Homework 5** where you specify your project URL.
-
-Store the following in your github repository:
+Store the following in your zip file:
 
 * Code - All web site files and libraries assuming they are not too big to include
-* Data - Include all the data that you used in your project. If the data is too large for github store it on a cloud storage provider, such as Dropbox or Yousendit.
+* Data - Include all the data that you used in your project. If the data is too large for emailing it, store it on a cloud storage provider, such as Dropbox or Yousendit.
 * Process Book- Your Process Book in PDF format.
 * README - The README file must give an overview of what you are handing in: which parts are your code, which parts are libraries, and so on. The README must contain URLs to your project websites and screencast videos. The README must also explain any non-obvious features of your interface.
 
