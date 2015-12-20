@@ -46,14 +46,6 @@ We will be using two textbooks for this class, one to cover perceptual principle
 <br />
 <br />
 
-### Recommended Textbooks
-
-These recommended textbooks will allow you to deepen your understanding of specific aspects of the course, such as theoretical visualization concepts and storytelling.
-
-* [Visualization Analysis and Design](http://www.amazon.com/Visualization-Analysis-Design-Peters-Series/dp/1466508914), Tamara Munzner, CRC Press (2014)
-* [The Functional Art: An introduction to information graphics and visualization](http://www.amazon.com/The-Functional-Art-introduction-visualization/dp/0321834739/), Alberto Cairo, New Riders (2012)
-* [Design for Information](http://www.amazon.com/Design-Information-Isabel-Meirelles/dp/1592538061), Isabel Meirelles, Rockport (2013)
-
 ## Course Components
 
 ### Lectures

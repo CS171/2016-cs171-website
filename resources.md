@@ -6,6 +6,12 @@ order: 7
 menu: Resources
 ---
 
+##Recommended Textbooks
+
+* [Visualization Analysis and Design](http://www.amazon.com/Visualization-Analysis-Design-Peters-Series/dp/1466508914), Tamara Munzner, CRC Press (2014)
+* [The Functional Art: An introduction to information graphics and visualization](http://www.amazon.com/The-Functional-Art-introduction-visualization/dp/0321834739/), Alberto Cairo, New Riders (2012)
+* [Design for Information](http://www.amazon.com/Design-Information-Isabel-Meirelles/dp/1592538061), Isabel Meirelles, Rockport (2013)
+
 ## D3
 
 [Official D3 Site](http://d3js.org/)  
@@ -39,25 +45,6 @@ menu: Resources
 [Dive Into HTML5 - Homepage](http://diveintohtml5.info/index.html)
 [Dive Into HTML5 - Canvas](http://diveintohtml5.info/canvas.html)
 
-## Git
-
-
-[Official git command line and GUI clients, official documentation](http://git-scm.com/)
-
-### Clients
-
-[GitHub Client for Mac](http://mac.github.com/)
-[GitHub Client for Windows](http://windows.github.com/)
-[SourceTree for Mac and Windows](http://www.sourcetreeapp.com)
-[TortoiseGit for Windows](https://code.google.com/p/tortoisegit/)
-
-### Tutorials etc. 
-
-
-[Setting up git](https://help.github.com/articles/set-up-git)
-[Understanding git conceptually](http://www.sbf5.com/~cduan/technical/git/)
-
-
 ## Data Sources
 
 [Wolfram Alpha](http://www.wolframalpha.com/)
@@ -81,6 +68,16 @@ menu: Resources
 [UK Office for National Statistics](http://www.statistics.gov.uk/default.asp)
 [StateMaster](http://www.statemaster.com/index.php)
 
+## Git
+
+[Official git command line and GUI clients, official documentation](http://git-scm.com/)
+[GitHub Client for Mac](http://mac.github.com/)
+[GitHub Client for Windows](http://windows.github.com/)
+[SourceTree for Mac and Windows](http://www.sourcetreeapp.com)
+[TortoiseGit for Windows](https://code.google.com/p/tortoisegit/)
+[Setting up git](https://help.github.com/articles/set-up-git)
+[Understanding git conceptually](http://www.sbf5.com/~cduan/technical/git/)
+
 ## Web Sites & Blogs
 
 [eagereyes](http://eagereyes.org/)
@@ -90,27 +87,15 @@ menu: Resources
 [Information Aesthetics](http://infosthetics.com/)
 [Visual Complexity](http://www.visualcomplexity.com/vc/)
 
+## Tableau
 
-## Exploratory Data Analysis
-
-These tools help you to get an idea about the shape and properties of datasets and let you produce good (standard) plots.
-
-### Tableau
 [Online Help](http://onlinehelp.tableausoftware.com/current/pro/online/en-us/help.htm)
 [Quick Start Guides](http://www.tableausoftware.com/support/manuals/quickstart)
 [Knowledge Base](http://kb.tableausoftware.com/)
 [Training and Tutorials](http://www.tableausoftware.com/learn/training)
 [Tableau Public Gallery](http://www.tableausoftware.com/public/gallery/all)
 
-### Others
-
-[Plot.ly](https://plot.ly)
-[Wolfram Mathematica](http://www.wolfram.com/mathematica/)
-[Many Eyes](http://manyeyes.alphaworks.ibm.com/manyeyes/)
-
 ## Python
-
-Python is great for data analysis and for data scraping.
 
 [Python](http://python.org/)
 [Enthought Python Distribution](http://www.enthought.com/products/epd.php)
@@ -122,11 +107,8 @@ Python is great for data analysis and for data scraping.
 [SciPy](http://www.scipy.org/)
 [NumPy](http://numpy.scipy.org/)
 [Matplotlib](http://matplotlib.sourceforge.net/)
-
 [Pattern](http://www.clips.ua.ac.be/pattern) - a data scraping library 
 [Beautiful Soup](http://www.crummy.com/software/BeautifulSoup/) - the "mother" scraping library 
-
-
 
 ## Other Software Toolkits
 
@@ -139,14 +121,6 @@ Python is great for data analysis and for data scraping.
 [Microsoft Vedea](http://research.microsoft.com/en-us/projects/vedea/)
 [25 Tools](http://www.insideria.com/2009/12/28-rich-data-visualization-too.html)
 [75+ Tools](http://www.tripwiremagazine.com/2009/12/70-tools-for-visualizing-your-data-css-flash-jquery-php.html)
-
-### Processing
-
-[Processing main page](http://processing.org/)
-[Learning Processing](http://www.learningprocessing.com/)
-[OpenProcessing.org](http://www.openprocessing.org/)
-[Examples by Ben Fry](http://benfry.com/writing/archives/3)
-[Using Processing in Eclipse](http://gigl.scs.carleton.ca/node/48)
 
 
 
