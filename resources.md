@@ -6,7 +6,7 @@ order: 7
 menu: Resources
 ---
 
-##Recommended Textbooks
+## Recommended Textbooks
 
 * [Visualization Analysis and Design](http://www.amazon.com/Visualization-Analysis-Design-Peters-Series/dp/1466508914), Tamara Munzner, CRC Press (2014)
 * [The Functional Art: An introduction to information graphics and visualization](http://www.amazon.com/The-Functional-Art-introduction-visualization/dp/0321834739/), Alberto Cairo, New Riders (2012)
