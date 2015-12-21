@@ -14,29 +14,28 @@ The amount and complexity of information produced in science, engineering, busin
 
 In this course you will learn how the human visual system processes and perceives images, good design practices for visualization, tools for visualization of data from a variety of fields, and programming of interactive web-based visualizations using [D3](http://d3js.org/).
 
-The course is offered in the spring term 2016. Classes start on Tuesday, Jan 26. Attendance is mandatory, but additionally all classes are archived online. The course is open to all Harvard undergraduate and graduate students and can be taken through cross-registration from the GSD and MIT.
-
-This course is also offered through the Harvard Extension school (online only) where it is listed as [CSCI E-171](http://www.extension.harvard.edu/courses/24028).
-
 ### Instructor
 
 [Hanspeter Pfister](http://vcg.seas.harvard.edu/people/hanspeter-pfister)
 
-### Logistics
+### Course Sessions
 
 **Lectures & Labs:** Tuesday and Thursday 2:30-4 pm, [Maxwell Dworkin G115 and G125 (overflow room)](http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=33+Oxford+St,+Cambridge,+MA+02138,+USA&sll=42.374136,-71.12183&sspn=0.009384,0.022724&ie=UTF8&hq=&hnear=33+Oxford+St,+Cambridge,+Middlesex,+Massachusetts+02138&ll=42.378773,-71.116819&spn=0.009384,0.022724&z=16).
 
 **Studios:**
-Sign up for a group [here](https://my.harvard.edu/).
-Group meeting times and locations will be announced soon:
+Sign up [here](https://my.harvard.edu/) by **Friday, January 29, 2016.** Studio meeting times and locations TBD. 
 
 **Office Hours:**
-Current office hours are posted in our [office hour schedule]({{ site.baseurl }}/schedule/#lab_oh_schedule).
+Office hours are posted [here]({{ site.baseurl }}/schedule/#lab_oh_schedule).
+
+**Lecture Resources:**
+Discussion forum on [Piazza](hhttps://piazza.com/class/ihv3pvmbyc86g7) 
+
+Materials and grades on [Canvas](https://canvas.harvard.edu/) 
+
+[Lecture and Lab Videos](http://www.cs171.org/2016/)
 
 ### Staff
-
-
-Please address all questions regarding the class to [staff@cs171.org](mailto:staff@cs171.org)
 
 **Teaching Fellows**
 
@@ -45,8 +44,7 @@ Please address all questions regarding the class to [staff@cs171.org](mailto:sta
 [Hendrik Strobelt](http://hendrik.strobelt.com/) - Postdoctoral Fellow, Visual Computing Group 
 [James Tompkin](http://www.jamestompkin.com/) - Postdoctoral Fellow, Visual Computing Group
 
-
-** Teaching Assistants**
+**Teaching Assistants**
 
 Niamh Durfee
 [Daniel Haehn](http://danielhaehn.com/) - PhD Student, Visual Computing Group 
@@ -58,19 +56,13 @@ Ana Marinovic
 Andrew Reece
 Brandon Tineo
 
-
-### Lecture Resources
-
-We use [Piazza](hhttps://piazza.com/class/ihv3pvmbyc86g7) for discussions and questions and [Canvas](https://canvas.harvard.edu/) for resources, chats and grading.
-
-[Video Archive](http://www.cs171.org/2016/)
+### Previous Years
 
 [2015 Website](http://www.cs171.org/2015/) 
 [2015 Video Archive](http://cm.dce.harvard.edu/2015/02/24028/publicationListing.shtml)
 
 [2014 Website](http://www.cs171.org/2014/) 
 [2014 Video Archive](http://cm.dce.harvard.edu/2014/02/24028/publicationListing.shtml)  
-[2014 Lecture Slides](https://drive.google.com/folderview?id=0BxYkKyLxfsNVN2l0Y1lFbUdIOGc)
 
 [2013 Video Archive](http://cm.dce.harvard.edu/2013/02/22872/publicationListing.shtml)
 
