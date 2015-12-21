@@ -12,7 +12,7 @@ order: 1
 
 The amount and complexity of information produced in science, engineering, business, and everyday human activity is increasing at staggering rates. The goal of this course is to expose you to visual representation methods and techniques that increase the understanding of complex data. Good visualizations not only present a visual interpretation of data, but do so by improving comprehension, communication, and decision making.
 
-In this course you will learn how the human visual system processes and perceives images, good design practices for visualization, tools for visualization of data from a variety of fields, and programming of interactive web-based visualizations using [D3](http://d3js.org/).
+In this course you will learn how the human visual system processes and perceives images, good design practices for visualization, methods for visualization of data from a variety of fields, and programming of interactive web-based visualizations using [D3](http://d3js.org/).
 
 ### Instructor
 
@@ -29,7 +29,7 @@ Sign up [here](https://my.harvard.edu/) by **Friday, January 29, 2016.** Studio 
 Office hours are posted [here]({{ site.baseurl }}/schedule/#lab_oh_schedule).
 
 **Lecture Resources:**
-Discussion forum on [Piazza](hhttps://piazza.com/class/ihv3pvmbyc86g7) 
+Discussion forum on [Piazza](https://piazza.com/class/ihv3pvmbyc86g7) 
 
 Materials and grades on [Canvas](https://canvas.harvard.edu/) 
 
