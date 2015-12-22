@@ -3,7 +3,7 @@ layout: page
 title: Projects
 permalink: /project/
 menu: Project
-order: 5
+order: 6
 ---
 
 For your final assignment in this course you will work on a project. The goal of the project is to design and implement a web-based interactive visualization that allows you to answer questions you have about some topic of your own choosing. You will acquire the data, design your visualization, implement it using modern web frameworks, and evaluate the results. 
