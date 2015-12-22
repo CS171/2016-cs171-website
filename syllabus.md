@@ -21,7 +21,7 @@ After completion of the course you will be able to:
 * Work constructively as a member of a team to carry out a complex project
 
 ### Prerequisites
-You are expected to have programming experience (e.g,. CS50) and you should be comfortable picking up new programming languages on your own. 
+You are expected to have programming experience (e.g,. CS50) and you should be comfortable picking up new programming languages on your own. Having Javascript and web development experience is a plus, but not required. 
 
 In order to participate in labs, quizzes, and in-class activities, you will need to bring a laptop to all class meetings. Please restrict your laptop use to class-relevant activities. No social media, email, etc. because it distracts other students, not just you.
 
@@ -44,29 +44,29 @@ We will be using two textbooks for this class, one to cover perceptual principle
 ## Course Components
 
 ### Lectures
-The class meets weekly for lectures and joint class activities. Attending lecture is a crucial component of learning the material presented in this course. Please arrive on time, as in-class activities and occasional quizzes will begin promptly.
+The class meets weekly for lectures and joint class activities. Attending lecture is a crucial component of learning the material presented in this course. Please arrive on time, as in-class activities and occasional quizzes will begin promptly. Lecture attendance counts towards the participation grade for on-campus students. 
 
 ### Labs
-For about half of the semester, the lectures will be replaced by programming labs during regular class time. Labs are self-guided tutorials with downloadable code that give you an introduction to client-side web programming with HTML, CSS, Javascript, and D3. 
+For about half of the semester, the lectures will be replaced by programming labs during regular class time. Labs are interactive tutorials with downloadable code that give you an introduction to client-side web programming with HTML, CSS, Javascript, and D3. Lab attendance counts towards the participation grade for on-campus students. 
 
 ### Readings & Quizzes
-Each lecture and lab includes required readings to ensure that you are prepared for the activities in class. You are expected to complete the assigned readings before class. Short multiple-choice quizzes, due prior or at the beginning of each class, will test your knowledge of the readings. Completing them with your best effort will count towards your participation grade.
+Each lecture and lab includes required readings to ensure that you are prepared for the activities in class. **You are expected to complete the assigned readings before class.** Short multiple-choice quizzes, due prior to each class, will test your knowledge of the readings. Completing them with your best effort will count towards your participation grade.
  
 ### Studios
-Weekly studios are where you will have a chance to present and receive feedback on your work, discuss homework assignments, and collaborate as a team. **Studio attendance is mandatory.** Studios are limited to 15 students (the numbers may vary due to enrollment) and will be lead by a TF. Active participation in studio is expected and graded. For distance students we will organize complimentary online hangouts with the TFs. 
+Weekly studios are where you will have a chance to present and receive feedback on your work, discuss homework assignments, and collaborate as a team. **Studio attendance is mandatory.** Studios are limited to 15 students (the numbers may vary due to enrollment) and will be lead by a TF. Active participation in studio is expected and counts towards your participation grade. For distance students we will organize complimentary online hangouts with the TFs. 
 
 ### Homework
 Weekly homework assignments are going to provide an opportunity to improve your design and programming skills. See the homework as an opportunity to learn, and not to “earn points”. The homework will be graded holistically to reflect this objective.
 
 ### Midterm
-The midterm exam will cover material from lectures, assigned readings, labs, and homework assignments. If you do not come to lecture and labs you will be at a severe disadvantage when studying for the midterm.
+The midterm exam will cover material from lectures, assigned readings, labs, and homework assignments. If you do not come to lecture and complete the labs you will be at a severe disadvantage when studying for the midterm.
 
 ### Project
-A major part of the course is a group project. You will work in groups of 3-4 students to design, implement, and evaluate visualizations through an iterative design process with a series of graded milestones. The final result will be web page with static and interactive visualizations that answer questions you have about some topic of your own choosing. 
+A major part of the course is a group project. You will work in groups of 3-4 students to design, implement, and evaluate visualizations through an iterative design process with a series of graded milestones. The final result will be web page with interactive visualizations that answer questions you have about some topic of your own choosing. 
 
 ## Grading
 
-This course can be taken for a letter grade only, not on a Pass/Fail basis. The course grade comprises:
+This course can be taken for a letter grade only, there is no pass/fail option. The course grade comprises:
 
 * Participation (15%) (quizzes, lectures, labs, studios, Piazza)
 * Homework Assignments (25%)
@@ -78,7 +78,7 @@ Your final grade will be determined by the staff during an end-of-semester gradi
 ## Course Policies
 
 ### Attendance Policy
-Lecture and lab attendance is strongly encouraged and is considered in calculating your participation grade. There are several required class meetings such as the the midterm, guest lectures, group brainstorming, final presentations, etc.  We will call out the required attendance dates for these and others in the schedule. Please plan accordingly and do not miss these classes.
+Lecture and lab attendance is strongly encouraged and is considered in calculating your participation grade. There are several required class meetings such as the the midterm, guest lectures, project discussions, project demos, etc.  We will call out the required attendance dates for these and others in the schedule. Please plan accordingly and do not miss these classes.
 
 **Studio attendance is mandatory.** Sharing your work and discussing designs with others is an important part of your education. To receive credit for attendance, you must arrive on time. You are allowed two excused absences without penalty; thereafter you will receive zero credit for the missed studio. To receive an excused absence you must ask your studio TF in advance and receive an acknowledgment.
 
@@ -105,14 +105,14 @@ If you have a documented disability (physical or cognitive) that may impair your
 
 ## Course Resources 
 
-### Office Hours
-The teaching fellows will provide office hours for individual questions that you might have about the homework assignments or project progress. Office hours are usually very heavily  attended. Please try to limit your visits to one office hour per week and consult Piazza first.   
-
-### Discussion Forum
-We use Piazza as our discussion forum and for all announcements, so it is important that you are signed up as soon as possible. Piazza should always be your first recourse for seeking answers to your questions. You can also post privately so that only the staff sees your message.  
-
 ### Online Materials
 All class activity handout, slides, and required readings will be posted on Canvas. All lectures and labs will be recorded and videos will be available within 24 hours after class time from the course homepage.  
+
+### Discussion Forum
+We use Piazza as our discussion forum and for all announcements, so it is important that you are signed up as soon as possible. Piazza should always be your first resource for seeking answers to your questions. You can also post privately so that only the staff sees your message.  
+
+### Office Hours
+The teaching fellows will provide office hours for individual questions that you might have about the homework assignments or project progress. Office hours are usually very heavily  attended. Please try to limit your visits to one office hour per week and consult Piazza first.   
 
 ### Credits
 Some of the material in this course is based on the classes taught by **Alexander Lex** at the University of Utah, **Carlos Scheidegger** at the University of Arizona,  **Marc Streit** at JKU Linz, **Pat Hanrahan** at Stanford, **Jeff Heer** at the University of Washington, **Hans-Joerg Schulz** at the University of Rostock, **Nils Gehlenborg** at Harvard Medical School, **Torsten Möller** at the University of Vienna, **Tamara Munzener** at the Univeristy of British Columbia, **Helwig Hauser** at the University of Bergen, and **Maneesh Agrawala** at UC Berkeley. We have heavily drawn on materials and examples found online and tried our best to give credit by linking to the original source. Please contact us if you find materials where the credit is missing or that you would rather have removed.
