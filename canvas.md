@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Canvas
-permalink: https://canvas.harvard.edu/courses/9586
+permalink: /canvas/
 order: 4
 menu: Canvas
 ---
