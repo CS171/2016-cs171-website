@@ -46,15 +46,23 @@ Materials and grades on [Canvas](https://canvas.harvard.edu/)
 
 **Teaching Assistants**
 
-Niamh Durfee
-[Daniel Haehn](http://danielhaehn.com/) - PhD Student, Visual Computing Group 
+Jack Birger
+Niamh Durfee 
 [Alain Ibrahim](http://alainibrahim.com) - Senior Web Developer
+Mirhee Kim
 [Nam Wook Kim](http://namwkim.org/) - PhD Student, Visual Computing Group 
 Benjy Levin - Computer Science Concentrator
 Lezhi Li
 Ana Marinovic
 Andrew Reece
+Rachael Smith
+
+**DCE Teaching Assistants**
+Zona Kostic
+Alain Ibrahim
+Andrew Reece
 Brandon Tineo
+Gus Wezerek
 
 ### Previous Years
 
