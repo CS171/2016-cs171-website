@@ -23,10 +23,13 @@ In this course you will learn how the human visual system processes and perceive
 **Lectures & Labs:** Tuesday and Thursday 2:30-4 pm, [Maxwell Dworkin G115 and G125 (overflow room)](http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=33+Oxford+St,+Cambridge,+MA+02138,+USA&sll=42.374136,-71.12183&sspn=0.009384,0.022724&ie=UTF8&hq=&hnear=33+Oxford+St,+Cambridge,+Middlesex,+Massachusetts+02138&ll=42.378773,-71.116819&spn=0.009384,0.022724&z=16).
 
 **Studios:**
-Sign up [here](https://my.harvard.edu/) by **Friday, January 29, 2016.** Studio meeting times and locations TBD. 
+Sign up [here](https://my.harvard.edu/) (college students only, no sign-up for DCE students) by **Friday, January 29, 2016.** Studio meeting times and locations TBD. 
+
+**Online Students:**
+Lectures (Tuesdays) will be recorded and will be made available online within 24 hours. Labs for DCE students will be self-guided, in-class labs will not be recorded. Studios will be partly recorded and also be made available within 24 hours. The second part of the studio will be done in online discussions with your assigned studio group.
 
 **Office Hours:**
-Office hours are posted [here]({{ site.baseurl }}/schedule/#lab_oh_schedule).
+Office hours (college) and online office hours (DCE) are posted [here]({{ site.baseurl }}/schedule/#lab_oh_schedule).
 
 **Lecture Resources:**
 Discussion forum on [Piazza](https://piazza.com/class/ihv3pvmbyc86g7) 
