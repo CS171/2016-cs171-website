@@ -49,9 +49,9 @@ Materials and grades on [Canvas](https://canvas.harvard.edu/)
 
 **Teaching Assistants**
 
-Jack Birger
-Niamh Durfee 
-Mirhee Kim - Junior, Molecular Cellular Biology (MCB) Conceentrator
+Jack Birger - Civil Engineer with a passion for  technology and visualization
+Niamh Durfee - Chemistry and Computer Science Concentrator
+Mirhee Kim - Junior, Molecular Cellular Biology (MCB) Concentrator
 [Nam Wook Kim](http://namwkim.org/) - PhD Student, Visual Computing Group 
 Benjy Levin - Computer Science Concentrator
 Lezhi Li - Master student, Harvard Graduate School of Design
@@ -59,7 +59,7 @@ Ana Marinovic - Social Studies Concentrator
 Rachael Smith - Philosophy Concentrator, Secondary in Computer Science
 
 **DCE Teaching Assistants**
-Zona Kostic
+Zona Kostic - Postdoctoral Researcher, Web-based Interactive Visualization and Virtual Reality
 [Alain Ibrahim](http://alainibrahim.com) - Web Developer who enjoys diving into both the functional and artistic dimensions of digital media
 Andrew Reece - PhD Student in Psychology
 Brandon Tineo
