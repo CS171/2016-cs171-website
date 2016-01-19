@@ -67,10 +67,10 @@ A major part of the course is a group project. You will work in groups of 3-4 st
 ## Course Components for DCE students
 For online students, the course consists of the same main components: lectures, labs, studios, homeworks, midterm, and final project. However, there is no mandatory in-class attendance, and all components can be completed online. In the following we list the changes to the on-campus version of the course:
 
-###Lectures (DCE)
+### Lectures (DCE)
 All lectures will be recorded and videos will be available within 24 hours after class time from the course homepage. When watching the lectures, you are expected to work on the in-class activities that are done during lecture. You can do this on your own, or together with other online students (self-organized). You are asked to submit your in-class activities together with your homework of that week. Deadline is midnight Monday of the following week.
 
-###Labs (DCE)
+### Labs (DCE)
 Labs are designed as self-guided tutorials. They should be completed alone, and need to be handed in with the homework of that week.
 
 ### Readings & Quizzes (DCE)
