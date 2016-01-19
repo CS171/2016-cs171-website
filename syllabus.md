@@ -44,10 +44,10 @@ We will be using two textbooks for this class, one to cover perceptual principle
 ## Course Components
 
 ### Lectures
-The class meets weekly for lectures and joint class activities. Attending lecture is a crucial component of learning the material presented in this course. Please arrive on time, as in-class activities and occasional quizzes will begin promptly. Lecture attendance counts towards the participation grade for on-campus students. 
+The class meets weekly for lectures and joint class activities. Attending lecture is a crucial component of learning the material presented in this course. Please arrive on time, as in-class activities and occasional quizzes will begin promptly. Lecture attendance counts towards the participation grade for on-campus students. At the end of each lecture and lab, we ask you to fill out and submit an 1-minute paper, to collect vital feedback for the course.
 
 ### Labs
-For about half of the semester, programming labs will be held during regular class meeting times on Thursdays. Labs are interactive tutorials with downloadable code that give you an introduction to client-side web programming with HTML, CSS, Javascript, and D3. Lab attendance counts towards the participation grade for on-campus students. Labs need to be handed it together with the homework of each week.
+For about half of the semester, programming labs will be held during regular class meeting times on Thursdays. Labs are interactive tutorials with downloadable code that give you an introduction to client-side web programming with HTML, CSS, Javascript, and D3. Lab attendance counts towards the participation grade for on-campus students. Labs need to be handed it together with the homework of each week. At the end of each lecture and lab, we ask you to fill out and submit an 1-minute paper, to collect vital feedback for the course.
 
 ### Readings & Quizzes
 Each lecture and lab includes required readings to ensure that you are prepared for the activities in class. **You are expected to complete the assigned readings before class.** Short multiple-choice quizzes, due prior to each class, will test your knowledge of the readings. Completing them with your best effort constitutes 5% of the final course grade. Since quizzes are meant to assess effort, you have unlimited attempts to complete each question. To receive credit for quizzes, however, you must eventually submit the correct answers.
@@ -129,6 +129,8 @@ You may discuss homework assignments with other people, but you are expected to 
 * you may not provide or make available solutions to individuals who take or may take this course in the future.
 
 If the assignment allows it you may use third-party libraries and example code, so long as the material is available to all students in the class and you give proper attribution. Failure to adhere to these policies may result in serious penalties, up to and including automatic failure in the course and reference to the ad board.
+
+We expect you to adhere to the [Harvard Honor Code](http://honor.fas.harvard.edu/honor-code) at all times.
 
 ### Quoting Sources
 You must acknowledge any source code that was not written by you by mentioning the original author(s) directly in your source code (comment or header). You can also acknowledge sources in a README.txt file if you used whole classes or libraries. Do not remove any original copyright notices and headers. 
