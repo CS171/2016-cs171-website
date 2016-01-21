@@ -9,22 +9,29 @@ order: 6
 For your final assignment in this course you will work on a project. The goal of the project is to design and implement a web-based interactive visualization that allows you to answer questions you have about some topic of your own choosing. You will acquire the data, design your visualization, implement it using modern web frameworks, and evaluate the results. 
 
 ## Project Team
-You will work closely with other classmates in a **2-3 person project team**. You can come up with your own teams and use Piazza to find prospective team members. If you can’t find a partner we will team you up randomly. We recognize that individual schedules, different time zones, preferences, and other constraints might limit your ability to work in a team. If this the case, ask us for permission to work alone. In general, we do not anticipate that the grades for each group member will be different. However, we reserve the right to assign different grades to each group member based on peer assessments (see below).
+You will work closely with other classmates in a **2-3 person project team**. Teams will be assigned based on studios. We recognize that (especially for online students) individual schedules, different time zones, preferences, and other constraints might limit your ability to work in a team. If this the case, please ask us for permission to work alone, with a written justification. In general, we do not anticipate that the grades for each group member will be different. However, we reserve the right to assign different grades to each group member based on peer assessments (see below).
 
 ## Project Steps
-There are a few actions you have to for your final project. It is critical to note that **no extensions will be given** for any of these dates for any reason. **For due dates see the [schedule]({{ site.baseurl }}/schedule/).** Late days may not be used. Projects submitted after the final due date will not be graded. These steps are:
+The project consists of several steps and milestones that need to be submitted on the specified due dates. It is critical to note that **no extensions will be given** for any of these dates for any reason. **For due dates see the [schedule]({{ site.baseurl }}/schedule/).** Late days may not be used. Projects submitted after the final due date will not be graded. These steps are:
 
-* **Project proposals** (part of homework 7) & announcing your project repository
+* **Project proposals** 
+* **Detailed project plan**
+* **Teaching materials for group work (based on assigned visualization methods)**
+* Project re-design
 * **Project Prototype V1 and V2, the first and second version of your project prototype**
-* Project review with the staff
+* Project review with the staff and peer feedback (both done in studios)
 * **Final project submission (including screen-cast) & peer evaluations** 
-* Best project presentations and prizes
+* Project demos
+* **Final presentation at the SEAS design fair** (not necessary for DCE students)
 
-## Proposal
+## Project Proposal
 
-You start your project by forming your groups and letting us know what topic you are interested in exploring by submitting a project data form.
-<!--[project data form](https://docs.google.com/forms/d/10_uzWOpvTLqs4759WBeZagp-Ig7J6fLKYtDM8Y2Juvw/viewform). -->
-**Each team will only need to submit one form**. In addition to the form, you will create a proposal document, addressing the following points. Use these points as headers in your document. 
+In your inital project proposal you will let us know what topic you are interested in exploring, including a project title and abstract, by submitting a project data form.
+
+**Each team will only need to submit one form**. 
+
+## Project Plan
+As a next step, you will create a detailed proposal document and project plan, addressing the following points. Use these points as headers in your document. 
 
 * **Basic Info.** The project title, your names, e-mail addresses, UIDs, a link to the project URL.
 * **Background and Motivation.** Discuss your motivations and reasons for choosing this project, especially any background or research interests that may have influenced your decision.
@@ -36,17 +43,30 @@ You start your project by forming your groups and letting us know what topic you
 * **Optional Features.** List the features which you consider to be nice to have, but not critical.
 * **Project Schedule.** Make sure that you plan your work so that you can avoid a big rush right before the final project deadline, and delegate different modules and responsibilities among your team members. Write this in terms of weekly deadlines.
 
-Each team member must submit this document as part of their homework. This proposal is the first part of your process book. As a ballpark number: your proposal should contain about 3-4 pages of text, plus 5-6 pages of sketches.
+This proposal and project plan is the first part of your process book. As a ballpark number: your proposal should contain about 3-4 pages of text, plus 5-6 pages of sketches.
 
-Based on your proposals we will assign a staff member to your team who will guide you through the rest of the project. You will schedule a project review meeting with a staff member during regular lecture times of the week marked in the schedule. Make sure all of your team members are present at the meeting. 
+Based on your proposals we will assign a staff member to your team who will guide you through the rest of the project. Usually, this will be your studio TA, but in certain cases you might get a different TA assigned. 
+During studios, you will discuss and review your project with your TA, as well as give and receive peer feedback. These discussions will lead to a re-design of your project, where you will update your project plan, sketches and designs based on the feedback you received. Make sure all of your team members are present at the studios. 
 
-## Project Milestone
+## Group Work - Jigsaw Groups
+After your initial project plan, parallel to working on your project, we have a group work phase focusing on visualization methods. This phase will teach you to independently research a topic in visualization, create visual presentation material, and present your findings to your peers.
+Specifically, this phase will have several components:
 
-For your Prototype we expect you to hand in your **code** and your **process book** in it's current state (see Final Project Submission for details). You don't have to hand in a screencast and you don't have to have your website ready. 
+* A specific topic will be assigned to your project group, focusing state-of-the-art visualization methods.
+* Knowledge quest: In your project groups, you will research the assigned topic with the goal to be able to teach it to other students.
+* Communication preparation: In your groups, you will prepare teaching material (slides, screencasts, handouts, etc.) for comprehensively presenting your assigned topic.
+* Jigsaw groups: During class time, we will split you up into new groups, where each person has worked on and researched a different topic. In these new groups, you will present your work to each other.
+* Final discussion: In-class discussion and wrap-up of the researched visualization methods.
+
+## Project Prototypes V1 and V2
+
+For your prototype V1, we expect you to hand in your **code** and your **process book** in it's current state (see Final Project Submission for details). You don't have to hand in a screencast and you don't have to have your website ready. 
 
 For your Prototype you should have completed your data acquisition, or at least have a significant sample of your data. You must have your data structures in place. For example, if you plan to collect 1000 data records, but only have 200, that's fine. If you are missing one of two datasets you want to use you will loose points, since you have to have the whole structure. 
 
 You must have a working visualization prototype. You must not have all your views up and running, and it must not be completely interactive, but the direction and the content must be clear. 
+
+For your prototype V2, we expect you to be 95% done with the implementation, and have your process book up to date. After prototype V2, you will have one week to incorporate last peer feedback from the project demo session, to produce a polished interactive website!
 
 If you are uncertain about the scope, please contact your project TA.
 
@@ -96,7 +116,7 @@ It is important to provide positive feedback to people who truly worked hard for
 Your teammate’s assessment of your contributions and the accuracy of your self-assessment will be considered as part of your overall project score. 
 
 ## Submission Instructions
-Submission will be done by creating a zip file of all your files and emailing it to your project TF. At the same time, the project website must be up and running. *If your files are to big to be emailed, please make them available to your grading TF by dropbox or google drive..* 
+Submission will be done by creating a zip file of all your files and emailing it to your project TF. At the same time, the project website must be up and running. *If your files are to big to be emailed, please make them available to your grading TF by dropbox or google drive.* 
 
 Store the following in your zip file:
 
@@ -106,6 +126,17 @@ Store the following in your zip file:
 * README - The README file must give an overview of what you are handing in: which parts are your code, which parts are libraries, and so on. The README must contain URLs to your project websites and screencast videos. The README must also explain any non-obvious features of your interface.
 
 ## Grading Criteria
+
+The entire project is worth 40% of the entire grade, the specific break-down of the individual project parts is shown here (sums up to 100%):
+
+* Project plan: 5%
+* Teaching Material for Jigsaw Groups: 25%
+* Project re-design: 10%
+* Prototype V1: 20%
+* Prototype V2 + Final Project: 40%
+
+For the final project submissions, please keep our main grading criteria in mind:
+
 * Process Book - Are you following a design process that is well documented in your process book? 
 * Solution - Is your visualization effective in answering your intended questions? Was it designed following visualization principles? 
 * Implementation - What is the quality of your implementation? Is it appropriately polished, robust, and reliable?

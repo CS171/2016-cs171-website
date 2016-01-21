@@ -55,7 +55,9 @@ Mirhee Kim - Junior, Molecular Cellular Biology (MCB) Concentrator
 [Nam Wook Kim](http://namwkim.org/) - PhD Student, Visual Computing Group 
 Benjy Levin - Computer Science Concentrator
 Lezhi Li - Master student, Harvard Graduate School of Design
+Maria Lovett - Computer Science Concentrator
 Ana Marinovic - Social Studies Concentrator
+Kunal Mehta
 Rachael Smith - Philosophy Concentrator, Secondary in Computer Science
 
 **DCE Teaching Assistants**
