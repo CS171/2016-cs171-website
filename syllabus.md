@@ -44,40 +44,40 @@ We will be using two textbooks for this class, one to cover perceptual principle
 ## Course Components
 
 ### Lectures
-The class meets weekly for lectures and joint class activities. Attending lecture is a crucial component of learning the material presented in this course. Please arrive on time, as in-class activities and occasional quizzes will begin promptly. Lecture attendance counts towards the participation grade for on-campus students. At the end of each lecture and lab, we ask you to fill out and submit an 1-minute paper, to collect vital feedback for the course.
+The class meets weekly for lectures and joint class activities. Attending lecture is a crucial component of learning the material presented in this course. Please arrive on time, as in-class activities and occasional quizzes will begin promptly. At the end of each lecture we will ask you to fill out and submit a one-minute paper to collect feedback. Lecture attendance and one minute papers count towards your participation grade. 
 
 ### Labs
-For about half of the semester, programming labs will be held during regular class meeting times on Thursdays. Labs are interactive tutorials with downloadable code that give you an introduction to client-side web programming with HTML, CSS, Javascript, and D3. Lab attendance counts towards the participation grade for on-campus students. Labs need to be handed it together with the homework of each week. At the end of each lecture and lab, we ask you to fill out and submit an 1-minute paper, to collect vital feedback for the course.
+For about half of the semester, programming labs will be held during regular class meeting times on Thursdays. Labs are interactive tutorials with downloadable code that give you an introduction to client-side web programming with HTML, CSS, Javascript, and D3. Completed labs need to be handed in together with the homework each week. At the end of each lab we will ask you to fill out and submit a one-minute paper to collect timely feedback. Lab attendance, one-minute papers, and completed labs count towards your participation grade. 
 
 ### Readings & Quizzes
 Each lecture and lab includes required readings to ensure that you are prepared for the activities in class. **You are expected to complete the assigned readings before class.** Short multiple-choice quizzes, due prior to each class, will test your knowledge of the readings. Completing them with your best effort constitutes 5% of the final course grade. Since quizzes are meant to assess effort, you have unlimited attempts to complete each question. To receive credit for quizzes, however, you must eventually submit the correct answers.
  
 ### Studios
-Weekly studios are where you will have a chance to present and receive feedback on your work, discuss homework assignments, and collaborate as a team. **Studio attendance is mandatory.** Studios are limited to 15 students (the numbers may vary due to enrollment) and will be lead by a TF. Active participation in studios is expected and counts towards your participation grade.  
+Weekly studios are where you will have a chance to present and receive feedback on your work, discuss homework assignments, and collaborate as a team. **Studio attendance is mandatory.** Studios are limited to 15 students (the numbers may vary due to enrollment) and will be lead by a TF. Your studio TF will be your main point of contact during the course. Active participation in studios is expected and counts towards your participation grade.  
 
 ### Homework
 Weekly homework assignments are going to provide an opportunity to improve your design and programming skills. See the homework as an opportunity to learn, and not to “earn points”. The homework will be graded holistically to reflect this objective.
 
 ### Midterm
-The midterm exam will cover material from lectures, assigned readings, labs, and homework assignments. If you do not come to lecture and complete the labs you will be at a severe disadvantage when studying for the midterm. The midterm will consist of a 90 minute exam (during class time, open book) and a midterm project, where you will have to implement a given design and visualization (take-home exam).
+The midterm exam will cover material from lectures, assigned readings, labs, and homework assignments. If you do not keep up with the readings, come to lecture, and complete the homework and labs you will be at a severe disadvantage when studying for the midterm. The midterm will consist of a 90 minute open-book exam during class time and a take-home midterm project where you will implement an interactive visualization in D3.
 
 ### Project
-A major part of the course is a group project. You will work in groups of 3-4 students to design, implement, and evaluate visualizations through an iterative design process with a series of graded milestones. The final result will be web page with interactive visualizations that answer questions you have about some topic of your own choosing. Projects will be presented at the SEAS Design Fair. A small number of projects will win the coveted Best Project prize including Swiss chocolate.
+A major part of the course is a group project. You will work in groups of 3-4 students to design, implement, and evaluate visualizations through an iterative design process with a series of graded milestones. The final result will be web page with interactive visualizations that answer questions you have about some topic of your own choosing. Projects will be presented at the SEAS Design Fair. A small number of projects will win the coveted Best Project prize, including Swiss chocolate.
 
 ## Course Components for DCE students
-For online students, the course consists of the same main components: lectures, labs, studios, homeworks, midterm, and final project. However, there is no mandatory in-class attendance, and all components can be completed online. In the following we list the changes to the on-campus version of the course:
+For online students, the course consists of the same main components: lectures, labs, studios, homeworks, midterm, and project. However, there is no mandatory in-class attendance, and all components can be completed online. In the following we list the changes to the on-campus version of the course:
 
 ### Lectures (DCE)
-All lectures will be recorded and videos will be available within 24 hours after class time from the course homepage. When watching the lectures, you are expected to work on the in-class activities that are done during lecture. You can do this on your own, or together with other online students (self-organized). You are asked to submit your in-class activities together with your homework of that week. Deadline is midnight Monday of the following week.
+All lectures will be recorded and videos will be available within 24 hours after class time from the course homepage. When watching the lectures, you are expected to work on the activities that are done during lecture. You can do this on your own, or together with other online students (self-organized). We also ask you to fill out and submit a one-minute paper onoine so we can collect your feedback. You are asked to submit your lecture activities and one-minute paper together with your homework each week. Submitted lecture activities and one-minute papers count towards your participation grade. 
 
 ### Labs (DCE)
-Labs are designed as self-guided tutorials. They should be completed alone, and need to be handed in with the homework of that week.
+Labs are designed as self-guided tutorials. They should be completed alone, and need to be handed in with the homework each week. Completed labs need to be handed in together with the homework each week. We also ask you to fill out and submit a one-minute paper online so we can collect your feedback. Completed labs and one-minute papers count towards your participation grade. 
 
 ### Readings & Quizzes (DCE)
-No changes to on-campus students. You need to complete the reading and subsequent quiz **prior** to each physical lecture and lab. Submission will be closed once the lecture or lab has started.
+Each lecture and lab includes required readings to ensure that you are prepared for the activities in class. **You are expected to complete the assigned readings before class.** Short multiple-choice quizzes, due prior to each class, will test your knowledge of the readings. Quizzes will be closed once the lecture or lab has started. Completing them with your best effort constitutes 5% of the final course grade. Since quizzes are meant to assess effort, you have unlimited attempts to complete each question. To receive credit for quizzes, however, you must eventually submit the correct answers.
 
 ### Studios (DCE)
-At the beginning of the course, you will be assigned to an online studio group, limited to 20 students. A TF will organize your weekly discussions and presentations. They will be conducted in a Piazza sub-forum and active participation is expected. The part of the studio where homework assignments are discussed will be recorded and made available until Friday. Next to Piazza, your studio TF will be your main point of contact during this course.
+At the beginning of the course, you will be assigned to a private studio group on Piazza, limited to 20 students. A TF will organize weekly Piazza discussions where active participation is expected. One of the on-campus studios each week will be recorded and made available online by Friday so you can catch up on the discussions of the homework. Your studio TF will be your main point of contact during the course.
 
 ### Homework (DCE)
 No changes to on-campus students.
@@ -114,7 +114,7 @@ There are several required class meetings such as the the midterm, guest lecture
 Lecture and lab attendance for online students is measured by submitting the in-class activities from the lectures and the completed labs together with the homework. Studio attendance is measured by your participation in the online discussions with your studio group. Other than that, the same attendance policy applies as for on-campus students.
 
 ### Late Policy
-All project-related due dates are final. Homework assignments will be posted on the website on Tuesdays and will be due on the following Monday (listed in the course schedule). **No homework assignments or project milestones will be accepted for credit after the deadline.** You have to hand in every homework, but the lowest score will be dropped in your final grade. Students may discuss the assigned homework; however, each person must write and submit his/her own solution to receive credit (see the “Collaboration Policy”). Solutions to the homework assignments will be discussed in studios after the homework has been collected. **The midterm project must be completed entirely on your own, and may not be discussed with anybody else!**
+All project-related due dates are final. Homework assignments will be posted on the website on Tuesdays and will be due on the following Monday (listed in the course schedule). **No homework assignments or project milestones will be accepted for credit after the deadline.** Solutions to the homework assignments will be discussed in studios after the homework has been collected. **The midterm project must be completed entirely on your own, and may not be discussed with anybody else!**
 
 If you have a verifiable medical condition or other special circumstances that interfere with your coursework please let us know as soon as possible.  
 
