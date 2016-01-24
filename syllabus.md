@@ -44,82 +44,64 @@ We will be using two textbooks for this class, one to cover perceptual principle
 ## Course Components
 
 ### Lectures
-The class meets weekly for lectures and joint class activities. Attending lecture is a crucial component of learning the material presented in this course. Please arrive on time, as in-class activities and occasional quizzes will begin promptly. At the end of each lecture we will ask you to fill out and submit a one-minute paper to collect feedback. Lecture attendance and one minute papers count towards your participation grade. 
+The class meets weekly for lectures and joint class activities. Attending lecture is a crucial component of learning the material presented in this course. Please arrive on time, as in-class activities will begin promptly. At the end of each lecture we will ask you to fill out and submit a one-minute paper to collect feedback. 
+
+**DCE Students:** All lectures will be recorded and videos will be available within 24 hours after class time. Completed lecture activities and one-minute papers need to be submitted with your homework each week. 
 
 ### Labs
-For about half of the semester, programming labs will be held during regular class meeting times on Thursdays. Labs are interactive tutorials with downloadable code that give you an introduction to client-side web programming with HTML, CSS, Javascript, and D3. Completed labs need to be handed in together with the homework each week. At the end of each lab we will ask you to fill out and submit a one-minute paper to collect timely feedback. Lab attendance, one-minute papers, and completed labs count towards your participation grade. 
+For about half the semester, we will hold programming labs during regular class meeting times on Thursdays. Labs are interactive tutorials with downloadable code that give you an introduction to client-side web programming with HTML, CSS, Javascript, and D3. Completed labs need to be handed in together with the homework each week. At the end of each lab we will ask you to fill out and submit a one-minute paper to collect feedback. 
 
-### Readings & Quizzes
-Each lecture and lab includes required readings to ensure that you are prepared for the activities in class. **You are expected to complete the assigned readings before class.** Short multiple-choice quizzes, due prior to each class, will test your knowledge of the readings. Completing them with your best effort constitutes 5% of the final course grade. Since quizzes are meant to assess effort, you have unlimited attempts to complete each question. To receive credit for quizzes, however, you must eventually submit the correct answers.
+**DCE Students:** Labs are self-guided tutorials that you can complete on your own. Completed labs and one-minute papers need to be handed in with your homework each week. 
+
+### Readings & Pre-Class Quizzes
+Each lecture and lab includes required readings to ensure that you are prepared for the activities in class. **You are expected to complete the assigned readings before class.** Short online quizzes, due prior to each class, will test your knowledge of the readings. Quizzes will be closed once the lecture or lab has started. You have unlimited attempts to complete each question. To receive credit for pre-class quizzes, however, you must eventually submit the correct answers.
  
 ### Studios
-Weekly studios are where you will have a chance to present and receive feedback on your work, discuss homework assignments, and collaborate as a team. **Studio attendance is mandatory.** Studios are limited to 15 students (the numbers may vary due to enrollment) and will be lead by a TF. Your studio TF will be your main point of contact during the course. Active participation in studios is expected and counts towards your participation grade.  
+Weekly studios are where you will have a chance to present and receive feedback on your work, discuss homework assignments, and collaborate as a team. **Studio attendance is mandatory.** Studios are limited to 15-20 students (the numbers may vary due to enrollment) and will be lead by a TF. Your studio TF will be your main point of contact during the course. Active participation in studios is expected.  
+
+**DCE Students:** One of the studios will be recorded and made available online by the end of each week. You will be assigned to a studio group on Piazza, where a TF will organize weekly discussions. Active participation in the discussions is expected. 
 
 ### Homework
 Weekly homework assignments are going to provide an opportunity to improve your design and programming skills. See the homework as an opportunity to learn, and not to “earn points”. The homework will be graded holistically to reflect this objective.
 
 ### Midterm
-The midterm exam will cover material from lectures, assigned readings, labs, and homework assignments. If you do not keep up with the readings, come to lecture, and complete the homework and labs you will be at a severe disadvantage when studying for the midterm. The midterm will consist of a 90 minute open-book exam during class time and a take-home midterm project where you will implement an interactive visualization in D3.
+The midterm exam will cover material from lectures, assigned readings, labs, and homework assignments. If you do not keep up with the readings, come to lecture, and complete the homework and labs you will be at a severe disadvantage during the midterm. The midterm consists of a 90 minute open-book exam, either during class time or at home, and a take-home midterm project where you will implement an interactive visualization in D3.
 
 ### Project
-A major part of the course is a group project. You will work in groups of 3-4 students to design, implement, and evaluate visualizations through an iterative design process with a series of graded milestones. The final result will be web page with interactive visualizations that answer questions you have about some topic of your own choosing. Projects will be presented at the SEAS Design Fair. A small number of projects will win the coveted Best Project prize, including Swiss chocolate.
-
-## Course Components for DCE students
-For online students, the course consists of the same main components: lectures, labs, studios, homeworks, midterm, and project. However, there is no mandatory in-class attendance, and all components can be completed online. In the following we list the changes to the on-campus version of the course:
-
-### Lectures (DCE)
-All lectures will be recorded and videos will be available within 24 hours after class time from the course homepage. When watching the lectures, you are expected to work on the activities that are done during lecture. You can do this on your own, or together with other online students (self-organized). We also ask you to fill out and submit a one-minute paper onoine so we can collect your feedback. You are asked to submit your lecture activities and one-minute paper together with your homework each week. Submitted lecture activities and one-minute papers count towards your participation grade. 
-
-### Labs (DCE)
-Labs are designed as self-guided tutorials. They should be completed alone, and need to be handed in with the homework each week. Completed labs need to be handed in together with the homework each week. We also ask you to fill out and submit a one-minute paper online so we can collect your feedback. Completed labs and one-minute papers count towards your participation grade. 
-
-### Readings & Quizzes (DCE)
-Each lecture and lab includes required readings to ensure that you are prepared for the activities in class. **You are expected to complete the assigned readings before class.** Short multiple-choice quizzes, due prior to each class, will test your knowledge of the readings. Quizzes will be closed once the lecture or lab has started. Completing them with your best effort constitutes 5% of the final course grade. Since quizzes are meant to assess effort, you have unlimited attempts to complete each question. To receive credit for quizzes, however, you must eventually submit the correct answers.
-
-### Studios (DCE)
-At the beginning of the course, you will be assigned to a private studio group on Piazza, limited to 20 students. A TF will organize weekly Piazza discussions where active participation is expected. One of the on-campus studios each week will be recorded and made available online by Friday so you can catch up on the discussions of the homework. Your studio TF will be your main point of contact during the course.
-
-### Homework (DCE)
-No changes to on-campus students.
-
-### Midterm (DCE)
-The midterm will consist of a 90 minute online exam (open book) and a midterm project, where you will have to implement a given design and visualization (over the course of several days).
-
-### Project (DCE)
-No changes to on-campus students, but no mandatory attendance for the SEAS design fair. You will work in groups of 3-4 online students.
+A major part of the course is a group project. You will work in groups of 3-4 students to design, implement, and evaluate visualizations through an iterative design process with a series of graded milestones. The final result will be web page with interactive visualizations that answer questions you have about some topic of your own choosing. Projects will be presented at the SEAS Design Fair. A small number of projects will win the coveted Best Of Show prize, including Swiss chocolate.
 
 ## Grading
 
 This course can be taken for a letter grade only, there is no pass/fail option. The course grade comprises:
 
-* Quizzes (5%)
+* Participation (5%) 
+* Pre-class quizzes (5%)
 * Studios (5%)
-* Participation (5%) (lectures, labs, Piazza)
 * Midterm (20%)
 * Homework Assignments (25%)
 * Group Project (40%)
 
-Attendance (lecture, labs, studios) will be graded pass/fail. The midterm and projects will be graded on a 0-100 scale. Homework will be graded holistically on a 0-4 scale in 0.5 points increments. Letter grades are assigned at the end of the course based on the weighted average of points earned during the semester.
+Course participation includes in-class activities, submitted labs, one-minute papers, and other activities designed to help you learn. If you earn 80% of the participation points you will get full credit for participation; anything less will be prorated accordingly.
+
+To receive credit for studio attendance you must arrive on time.  You are allowed two excused studio absences without penalty; thereafter you will receive zero credit for the missed studio. To receive an excused absence you must ask your studio TF in advance and receive an acknowledgment.
+
+There are several mandatory class meetings such as the midterm, guest lectures, project discussions, project demos, design fair, etc. Please check the schedule, plan accordingly, and do not miss these classes. 
+
+Any concerns about grading errors must be noted in writing and submitted to your TF in person during studios. DCE students have two days after receiving their graded materials to submit a written request to their studio TF. 
 
 ## Course Policies
 
-### Attendance Policy
-Lecture and lab attendance is strongly encouraged and is considered in calculating your participation grade. You are allowed three excused absences without penalty; thereafter you will receive zero credit for the missed lectures and labs.
-
-There are several required class meetings such as the the midterm, guest lectures, project discussions, project demos, etc.  We will call out the mandatory attendance dates for these and others in the schedule. Please plan accordingly and do not miss these classes. 
-
-**Studio attendance is mandatory.** Sharing your work and discussing designs with others is an important part of your education. To receive credit for attendance, you must arrive on time. You are allowed two excused absences without penalty; thereafter you will receive zero credit for the missed studio. To receive an excused absence you must ask your studio TF in advance and receive an acknowledgment.
-
-### Attendance Policy for DCE students
-Lecture and lab attendance for online students is measured by submitting the in-class activities from the lectures and the completed labs together with the homework. Studio attendance is measured by your participation in the online discussions with your studio group. Other than that, the same attendance policy applies as for on-campus students.
-
 ### Late Policy
-All project-related due dates are final. Homework assignments will be posted on the website on Tuesdays and will be due on the following Monday (listed in the course schedule). **No homework assignments or project milestones will be accepted for credit after the deadline.** Solutions to the homework assignments will be discussed in studios after the homework has been collected. **The midterm project must be completed entirely on your own, and may not be discussed with anybody else!**
+All project-related due dates are final. Homework assignments will be posted on the website on Tuesdays and will be due the following Monday (listed in the course schedule). **No homework assignments or project milestones will be accepted for credit after the deadline.** Solutions to the homework assignments will be discussed in studios after the homework has been collected. 
 
 If you have a verifiable medical condition or other special circumstances that interfere with your coursework please let us know as soon as possible.  
 
 ### Collaboration Policy
-You may discuss homework assignments with other people, but you are expected to be intellectually honest and give credit where credit is due. In particular, for all individual assignments:
+We expect you to adhere to the [Harvard Honor Code](http://honor.fas.harvard.edu/honor-code) at all times. Failure to adhere to the honor code and our policies may result in serious penalties, up to and including automatic failure in the course and reference to the ad board.
+
+**The midterm must be completed entirely on your own, and may not be discussed with anybody else!**
+
+You may discuss your homework and labs with other people, but you are expected to be intellectually honest and give credit where credit is due. In particular:
 
 * you have to write your solutions entirely on your own;
 * you cannot share written materials or code with anyone else;
@@ -128,29 +110,21 @@ You may discuss homework assignments with other people, but you are expected to 
 * you may not submit the same or similar work to this course that you have submitted or will submit to another; and 
 * you may not provide or make available solutions to individuals who take or may take this course in the future.
 
-If the assignment allows it you may use third-party libraries and example code, so long as the material is available to all students in the class and you give proper attribution. Failure to adhere to these policies may result in serious penalties, up to and including automatic failure in the course and reference to the ad board.
-
-We expect you to adhere to the [Harvard Honor Code](http://honor.fas.harvard.edu/honor-code) at all times.
-
-### Quoting Sources
-You must acknowledge any source code that was not written by you by mentioning the original author(s) directly in your source code (comment or header). You can also acknowledge sources in a README.txt file if you used whole classes or libraries. Do not remove any original copyright notices and headers. 
-
-### Regrading Policy
-It is very important to us that all assignments are properly graded. If you believe there is an error in your assignment grading, please **submit a detailed written explanation (on paper) to your studio TF within 7 days of receiving the grade**. No regrade requests will be accepted orally, and no regrade requests will be accepted more than 7 days after you receive the grade for the assignment. Your request must be substantial enough to warrant a regrade - no point grubbing, please!
+If the assignment allows it you may use third-party libraries and example code, so long as the material is available to all students in the class and you give proper attribution. Do not remove any original copyright notices and headers. 
 
 ### Accessibility
-If you have a documented disability (physical or cognitive) that may impair your ability to complete assignments or otherwise participate in the course and satisfy course criteria, please meet with us at your earliest convenience to identify, discuss, and document any feasible instructional modifications or accommodations.
+Any student receiving accommodations through the Accessible Education Office should present their AEO letter to the Head TF as soon as possible. Failure to do so may prevent us from making appropriate arrangements.
 
 ## Course Resources 
 
 ### Online Materials
-All class activity handout, slides, and required readings will be posted on Canvas. All lectures will be recorded and videos will be available within 24 hours after class time from the course homepage.  
+All class activity handout, slides, and required readings will be posted on Canvas. All lectures will be recorded and videos will be available within 24 hours after class time from the course homepage. One of the studios will be recorded and made available online by the end of each week. 
 
 ### Discussion Forum
 We use Piazza as our discussion forum and for all announcements, so it is important that you are signed up as soon as possible. Piazza should always be your first resource for seeking answers to your questions. You can also post privately so that only the staff sees your message.  
 
 ### Office Hours
-The teaching fellows will provide office hours (and online office hours for DCE students) for individual questions that you might have about the homework assignments or project progress. Office hours are usually very heavily  attended. Please try to limit your visits to one office hour per week and consult Piazza first.   
+The teaching fellows will provide office hours, including online office hours for DCE students, for individual questions that you might have about the homework assignments or project progress. Office hours are usually very heavily attended. Please try to limit your visits to one office hour per week and consult Piazza first.   
 
 ### Credits
 Some of the material in this course is based on the classes taught by **Alexander Lex** at the University of Utah, **Carlos Scheidegger** at the University of Arizona,  **Marc Streit** at JKU Linz, **Pat Hanrahan** at Stanford, **Jeff Heer** at the University of Washington, **Hans-Joerg Schulz** at the University of Rostock, **Nils Gehlenborg** at Harvard Medical School, **Torsten Möller** at the University of Vienna, **Tamara Munzener** at the Univeristy of British Columbia, **Helwig Hauser** at the University of Bergen, and **Maneesh Agrawala** at UC Berkeley. We have heavily drawn on materials and examples found online and tried our best to give credit by linking to the original source. Please contact us if you find materials where the credit is missing or that you would rather have removed.
