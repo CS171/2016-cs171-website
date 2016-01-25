@@ -36,7 +36,12 @@ Discussion forum on [Piazza](https://piazza.com/class/ihv3pvmbyc86g7)
 
 Materials and grades on [Canvas](https://canvas.harvard.edu/) 
 
-[Lecture and Lab Videos](http://www.cs171.org/2016/)
+[Lecture and Studio Videos](http://www.cs171.org/2016/)
+
+Lab Templates:
+
+[Lab1](http://www.cs171.org/2016/assets/material/CS171-Lab1-Instructions.pdf)
+
 
 ### Staff
 
