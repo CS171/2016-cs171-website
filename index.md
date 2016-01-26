@@ -62,7 +62,7 @@ Benjy Levin - Computer Science Concentrator
 Lezhi Li - Master student, Harvard Graduate School of Design
 Maria Lovett - Computer Science Concentrator
 Ana Marinovic - Social Studies Concentrator
-Kunal Mehta
+Kunal Mehta - Applied Math and Computer Science Concentrator
 Rachael Smith - Philosophy Concentrator, Secondary in Computer Science
 
 **DCE Teaching Assistants**
