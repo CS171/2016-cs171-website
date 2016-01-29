@@ -38,10 +38,6 @@ Materials and grades on [Canvas](https://canvas.harvard.edu/)
 
 [Lecture and Studio Videos](http://www.cs171.org/2016/)
 
-Lab Templates:
-
-[Lab1](http://www.cs171.org/2016/assets/material/CS171-Lab1-Instructions.pdf)
-
 
 ### Staff
 

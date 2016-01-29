@@ -3,7 +3,7 @@ layout: page
 title: Projects
 permalink: /project/
 menu: Project
-order: 6
+order: 5
 ---
 
 A major part of this course is a group project, in which you will work in small teams on a web-based interactive visualization that allows you to answer questions you have about some topic of your own choosing. You will acquire the data, design your visualization, implement it using D3, and evaluate the results. 
