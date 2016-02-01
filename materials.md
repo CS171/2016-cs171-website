@@ -13,3 +13,5 @@ menu: Materials
 ## Labs
 
 * [Lab 1 instructions](http://www.cs171.org/2016/assets/material/CS171-Lab1-Instructions.pdf)
+
+* [Lab 2 instructions](http://www.cs171.org/2016/assets/material/CS171-Lab2-Instructions.pdf)
