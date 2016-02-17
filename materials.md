@@ -14,6 +14,8 @@ menu: Materials
 
 * [Lecture 3 slides](http://www.cs171.org/2016/assets/slides/cs171-03-Perception.pdf)
 
+* [Lecture 4 slides](http://www.cs171.org/2016/assets/slides/cs171-04-Cognition.pdf)
+
 
 ## Labs
 
