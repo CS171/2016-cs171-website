@@ -24,3 +24,5 @@ menu: Materials
 * [Lab 2 instructions](http://www.cs171.org/2016/assets/material/CS171-Lab2-Instructions.pdf)
 
 * [Lab 3 instructions](http://www.cs171.org/2016/assets/material/CS171-Lab3-Instructions.pdf)
+
+* [Lab 4 instructions](http://www.cs171.org/2016/assets/material/CS171-Lab4-Instructions.pdf)
