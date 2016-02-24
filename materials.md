@@ -16,6 +16,8 @@ menu: Materials
 
 * [Lecture 4 slides](http://www.cs171.org/2016/assets/slides/cs171-04-Cognition.pdf)
 
+* [Lecture 5 slides](http://www.cs171.org/2016/assets/slides/cs171-05-Interaction.pdf)
+
 
 ## Labs
 
