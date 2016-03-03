@@ -18,6 +18,8 @@ menu: Materials
 
 * [Lecture 5 slides](http://www.cs171.org/2016/assets/slides/cs171-05-Interaction.pdf)
 
+* [Lecture 6 slides](http://www.cs171.org/2016/assets/slides/cs171-06-Process)
+
 
 ## Labs
 
@@ -30,3 +32,5 @@ menu: Materials
 * [Lab 4 instructions](http://www.cs171.org/2016/assets/material/CS171-Lab4-Instructions.pdf)
 
 * [Lab 5 instructions](http://www.cs171.org/2016/assets/material/CS171-Lab5-Instructions.pdf)
+
+* [Lab 6 instructions](http://www.cs171.org/2016/assets/material/CS171-Lab6-Instructions.pdf)
