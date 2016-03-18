@@ -31,6 +31,8 @@ menu: Materials
 
 * [Lab 4 instructions](http://www.cs171.org/2016/assets/material/CS171-Lab4-Instructions.pdf)
 
-* [Lab 5 instructions](http://www.cs171.org/2016/assets/material/CS171-Lab5-Instructions.pdf)
+* [Lab 5 instructions (pdf)](http://www.cs171.org/2016/assets/material/CS171-Lab5-Instructions.pdf) or [html](http://www.cs171.org/2016/assets/material/lab5/index.html)
 
-* [Lab 6 instructions](http://www.cs171.org/2016/assets/material/CS171-Lab6-Instructions.pdf)
+* [Lab 6 instructions (pdf)](http://www.cs171.org/2016/assets/material/CS171-Lab6-Instructions.pdf) or [html](http://www.cs171.org/2016/assets/material/lab6/index.html)
+
+* [Lab 7 instructions (pdf)](http://www.cs171.org/2016/assets/material/CS171-Lab7-Instructions.pdf) or [html](http://www.cs171.org/2016/assets/material/lab7/index.html)
