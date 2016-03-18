@@ -19,7 +19,6 @@ The project milestones are:
 * Project proposal
 * Detailed project plan
 * Project re-design
-* Knowledge quest and jigsaw materials
 * Project prototypes V1 and V2
 * Project review with the staff (in studio)
 * Peer feedback (in studio)
@@ -37,7 +36,8 @@ You will create a detailed project plan, addressing the following points. Use th
 * **Basic Info.** The project title, your names, e-mail addresses, UIDs, a link to the project URL.
 * **Background and Motivation.** Discuss your motivations and reasons for choosing this project, especially any background or research interests that may have influenced your decision.
 * **Related Work.** Anything that inspired you, such as a paper, a web site, visualizations we discussed in class, etc.
-* **Project Objectives.** Provide the primary questions you are trying to answer with your visualization. What would you like to learn and accomplish? List the benefits.
+* **Project Objectives and Goals.** Provide the primary questions you are trying to answer with your visualization. What would you like to learn and accomplish? List the benefits.
+* **Tasks** Describe in detail which data manipulations (sort, filter,..) and visual manipulations (zoom, selection,…) you want to implement and how these support the goals.
 * **Data.** From where and how are you collecting your data? If appropriate, provide a link to your data sources.
 * **Data Processing.** Do you expect to do substantial data cleanup? What quantities do you plan to derive from your data? How will data processing be implemented?  
 * **Visualization Design.** How will you display your data? Provide some general ideas that you have for the visualization design. Develop **three alternative prototype designs for your visualization**. Create **one final design that incorporates the best of your three designs**. Describe your designs and justify your choices of visual encodings. We recommend you use the [Five Design Sheet Methodology](http://fds.design/).
@@ -50,14 +50,13 @@ The project plan is the first part of your process book (see Final Project Submi
 ## Project Re-design
 During studios, you will discuss and review your project plan with your TF, as well as give and receive peer feedback. These discussions will lead to a re-design of your project. The second entry in your process book should be the project re-design, including new sketches and designs based on the feedback you received.
 
-## Knowledge Quest and Jigsaw
-During these inital stages of your project you will independently research a topic in visualization (*knowledge quest*), create visual presentation material, and present your findings to your peers (*jigsaw*). The knowledge quest and jigsaw have the following components:
+## Visualization Methods
+During these inital stages of your project you will independently research a topic in visualization (*knowledge quest*), create visual presentation material, and present your findings to your peers (*poster session*). The module 'visualization methods' has the following components:
 
 * A specific topic will be assigned to your project group, focusing state-of-the-art visualization methods.
-* Knowledge quest: Your project group will research the assigned topic with the goal to be able to teach it to other students.
-* Teaching material preparation: In your groups, you will prepare teaching material (slides, screencasts, handouts, etc.) for comprehensively presenting your assigned topic to others. These materials will be graded by the TFs.
-* Jigsaw groups: During class time, we will split you up into new groups, where each person has worked on and researched a different topic. In these new groups, you will present your work to each other.
-* Final discussion: An in-class discussion with all students will wrap-up the presentation of the researched visualization methods. 
+* Knowledge quest: Your project group will research the assigned topic and analyze it in regards to your final project.
+* Vis methods - part 1: In your team, you will discuss your results and then present and discuss your findings to other groups who researched the same topic. Next, in your team, you will prepare a poster for comprehensively presenting your assigned topic to others.
+* Vis methods - part 2 (poster session): During class time we will have a poster session where you get to present your poster to other students. You will also have to discuss posters of other students and decide which ones are relevant for your project. There will be a best poster award!
 
 ## Project Prototypes V1 and V2
 For your **prototype V1**, we expect you to hand in your code and your process book in its current state (see Final Project Submission for details). You should have completed your data acquisition, and you must have a working visualization prototype. You must not have all your views up and running, and it must not be completely interactive, but the direction and the content must be clear. 
@@ -119,8 +118,12 @@ Store the following in your zip file:
 ## Grading Criteria
 The entire project is worth 40% of the entire grade, the specific break-down of the individual project parts is shown here:
 
-* Detailed project plan: 5%
-* Teaching Material for Jigsaw Groups: 25%
+* Project Proposal: 2%
+* Initial and Detailed project plan: 10%
+* Individual Vis Methods Exploration Homework: 3%
+* Vis Methods Exploration Poster: 5%
+* Process Book: 5%
+* Project Video and Webpage: 5%
 * Project re-design: 10%
 * Prototype V1: 20%
 * Prototype V2 + Final Project: 40%
