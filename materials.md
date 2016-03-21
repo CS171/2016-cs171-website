@@ -36,4 +36,4 @@ menu: Materials
 * [Lab 6 instructions (pdf)](http://www.cs171.org/2016/assets/material/CS171-Lab6-Instructions.pdf) or [html](http://www.cs171.org/2016/assets/material/lab6/index.html)
 
 * [Lab 7 instructions (pdf)](http://www.cs171.org/2016/assets/material/CS171-Lab7-Instructions.pdf) or [html](http://www.cs171.org/2016/assets/material/lab7/index.html)
-* tba
+* 
