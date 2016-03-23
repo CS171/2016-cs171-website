@@ -20,6 +20,7 @@ menu: Materials
 
 * [Lecture 6 slides](http://www.cs171.org/2016/assets/slides/cs171-06-Process.pdf)
 
+* [Lecture 7 slides](http://www.cs171.org/2016/assets/slides/cs171-07-Projects.pdf)
 
 ## Labs
 
