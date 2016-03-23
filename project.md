@@ -27,11 +27,33 @@ The project milestones are:
 * Project demos 
 * Presentation at SEAS design fair (except for DCE students)
 
+## Implementation Requirements
+To get a sense about the scope of your final projects, please take a look at our [gallery]({ site.baseurl }}/fame/) of projects from previous yers.
+To be more specific, your final project you have to fulfill the following requirements in regards to your visualizations and your webpage:
+
+* Implement multiple coordinated (linked) views
+* New this year: Implement at least one innovative view that is either 
+	* a) an extension of an existing visualization type, or 
+	* b) a novel visualization type 
+
+There will be lectures about innovation and how to implement innovative ideas with D3 in week 11 and 12.
+
+For grading the implementation part of the final project, we will evaluate projects by the following criteria:
+
+* Effective visualizations
+* Innovative visualizations
+* Level of technical difficulty
+* Clear storytelling
+* Visual design (including website)
+* Addresses the goals
+* Sensible and effective interaction
+
+
 ## Project Proposal
 In your project proposal you will let us know what topic you are interested in exploring, including a project title and abstract, by submitting a project proposal form. Each team will only need to submit one form.
 
 ## Project Plan
-You will create a detailed project plan, addressing the following points. Use these points as headers in your document. 
+You will create a detailed project plan (during weeks 9-10), which should address the following points. For detailed submission instructions please see Canvas.
 
 * **Basic Info.** The project title, your names, e-mail addresses, UIDs, a link to the project URL.
 * **Background and Motivation.** Discuss your motivations and reasons for choosing this project, especially any background or research interests that may have influenced your decision.
@@ -56,7 +78,7 @@ During these inital stages of your project you will independently research a top
 * A specific topic will be assigned to your project group, focusing state-of-the-art visualization methods.
 * Knowledge quest: Your project group will research the assigned topic and analyze it in regards to your final project.
 * Vis methods - part 1: In your team, you will discuss your results and then present and discuss your findings to other groups who researched the same topic. Next, in your team, you will prepare a poster for comprehensively presenting your assigned topic to others.
-* Vis methods - part 2 (poster session): During class time we will have a poster session where you get to present your poster to other students. You will also have to discuss posters of other students and decide which ones are relevant for your project. There will be a best poster award!
+* Vis methods - part 2 (poster session): During class time we will have a poster session where you get to present your poster to other students. You will also have submit a photo of your poster on Canvas. You will also have to discuss posters of other students and decide which ones are relevant for your project. There will be a best poster award!
 
 ## Project Prototypes V1 and V2
 For your **prototype V1**, we expect you to hand in your code and your process book in its current state (see Final Project Submission for details). You should have completed your data acquisition, and you must have a working visualization prototype. You must not have all your views up and running, and it must not be completely interactive, but the direction and the content must be clear. 
@@ -106,7 +128,7 @@ It is important to provide positive feedback to people who truly worked hard for
 Your teammate’s assessment of your contributions and the accuracy of your self-assessment will be considered as part of your overall project score. 
 
 ## Submission Instructions
-Submission will be done by creating a zip file of all your files and emailing it to your project TF. At the same time, the project website must be up and running. *If your files are to big to be emailed, please make them available to your grading TF by dropbox or google drive.* 
+Final submission will be done by creating a zip file of all your files and emailing it to your project TF. At the same time, the project website must be up and running. *If your files are to big to be emailed, please make them available to your grading TF by dropbox or google drive.* 
 
 Store the following in your zip file:
 
