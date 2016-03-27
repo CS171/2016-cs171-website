@@ -28,7 +28,7 @@ The project milestones are:
 * Presentation at SEAS design fair (except for DCE students)
 
 ## Implementation Requirements
-To get a sense about the scope of your final projects, please take a look at our [gallery]({ site.baseurl }}/fame/) of projects from previous yers.
+To get a sense about the scope of your final projects, please take a look at our [gallery]({{ site.baseurl }}/fame/) of projects from previous yers.
 To be more specific, your final project you have to fulfill the following requirements in regards to your visualizations and your webpage:
 
 * Implement multiple coordinated (linked) views
