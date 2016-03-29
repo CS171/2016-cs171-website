@@ -22,6 +22,9 @@ menu: Materials
 
 * [Lecture 7 slides](http://www.cs171.org/2016/assets/slides/cs171-07-Projects.pdf)
 
+* [Lecture 8 slides](http://www.cs171.org/2016/assets/slides/cs171-07-cs171-08-Exploration)
+
+
 ## Labs
 
 * [Lab 1 instructions](http://www.cs171.org/2016/assets/material/CS171-Lab1-Instructions.pdf)
