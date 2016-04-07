@@ -24,6 +24,8 @@ menu: Materials
 
 * [Lecture 8 slides](http://www.cs171.org/2016/assets/slides/cs171-07-cs171-08-Exploration)
 
+* [Lecture 9 slides](http://www.cs171.org/2016/assets/slides/cs171-07-cs171-09-Innovation)
+
 
 ## Labs
 
@@ -40,4 +42,5 @@ menu: Materials
 * [Lab 6 instructions (pdf)](http://www.cs171.org/2016/assets/material/CS171-Lab6-Instructions.pdf) or [html](http://www.cs171.org/2016/assets/material/lab6/index.html)
 
 * [Lab 7 instructions (pdf)](http://www.cs171.org/2016/assets/material/CS171-Lab7-Instructions.pdf) or [html](http://www.cs171.org/2016/assets/material/lab7/index.html)
-* 
+
+* [Lab 8 instructions (pdf)](http://www.cs171.org/2016/assets/material/CS171-Lab8-Instructions.pdf)
