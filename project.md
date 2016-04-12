@@ -81,7 +81,7 @@ During these inital stages of your project you will independently research a top
 * Vis methods - part 2 (poster session): During class time we will have a poster session where you get to present your poster to other students. You will also have submit a photo of your poster on Canvas. You will also have to discuss posters of other students and decide which ones are relevant for your project. There will be a best poster award!
 
 ## Project Prototypes V1 and V2
-For your **prototype V1**, we expect you to hand in your code and your process book in its current state (see Final Project Submission for details). You should have completed your data acquisition, and you must have a working visualization prototype. You must not have all your views up and running, and it must not be completely interactive, but the direction and the content must be clear. 
+For your **prototype V1**, we expect you to hand in your code and your process book in its current state (see Final Project Submission for details). You should have completed your data acquisition, and you must have a working visualization prototype. You do not have to have all your views up and running, and it does not need to be completely interactive, but the direction and the content must be clear. 
 
 For your **prototype V2**, we expect you to be 95% done with the implementation, and have your process book up to date. After prototype V2, you will only have one week to incorporate comments from peer feedback to produce a final interactive project website. 
 
