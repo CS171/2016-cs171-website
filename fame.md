@@ -5,6 +5,59 @@ permalink: /fame/
 order: 8
 menu: Fame
 ---
+## Best Projects 2016
+These are the best projects (out of 63 in total) in 2016. Within the sections the order is alphabetical.
+
+### Winner
+[Visualizing the crisis in Syria](http://www.syria-visualized.com/)
+Maria del Mar Carpanelli, Li Li, Maria Schwarz
+
+### Runner Ups
+[The American Consumer](http://melodictransport.uppadada.com/cs171/project/index.html)
+Nathaniel Burbank, Jeremy Clark, Bruno Carriere
+
+[America's Obesity Epidemic](http://obesity-epidemic.github.io/)
+Kevin Buhrer, Jonny Moon, Thomas Musser
+
+[The Air We Breathe](http://theairwebreathe.org/)
+Marius de Vogel, Craig Houston, and Dominick Peluso
+
+[Cambridge car accidents](http://crashcaster.com/#home)
+Kyle Maguire, Rick Farmer, Kartik Trasi and Adam DiChiara
+
+
+People's Choice: 
+[Global Network](http://mariajayne.github.io/global-network/views/frontpage.html)
+Jacob Scherba, Maria Zlatkova, Aksel Reiten, Magnus Moan
+
+### Honorable Mentions:
+[Discovering Cuisines of the World](http://fannyheneine.github.io/Visualization_Project/
+)
+Lulu Liu, Isadora Nun, Fanny Heneine, Jack Qian
+
+[US Time Use](http://ustimeuse.github.io/)
+Yuqi Hou, Tuongvan Le, Maria Lai
+
+[AD2: Analog-year Discovery Dashboard](http://solgirouard.github.io/AD2/)
+Sol Girouard
+
+[The 2016 Election](http://nhi1605.github.io/)
+Adam Janes, Nhi Ho
+    
+[Flowing Shanghai](http://web.mit.edu/zhanzhao/www/flowing-shanghai/)
+Zhan Zhao, Sebastian Fischer, Alpha Jacob Arsano 
+
+[Data Behind Champions](https://achchg.github.io/)
+Chi-Hsuan Chang, Zhuyun Xiao, Ji Hua, Yufei Gui
+
+[Free Trade Agreements](http://www.greenehouse.com/trade/)
+Andrew Greene, Bertrand Mouton, Qutab Alam, and Senthil Arumugam
+
+[Ukraine](http://nato-project.github.io/)
+Valérie Lavigne, Marius Panga, and Shivas Jayaram
+
+
+
 ## Best Projects 2015
 
 These are the best projects (out of 76 in total) in 2015. Within the sections the order is alphabetical.
