@@ -49,7 +49,7 @@ Maria Lovett - Computer Science Concentrator
 
 [Alain Ibrahim](http://alainibrahim.com) - Web Developer who enjoys diving into both the functional and artistic dimensions of digital media
 Dion Hagan
-[comment]: # (Maria Lai, Fritz)
+<!-- (Maria Lai, Fritz) -->
 
 
 
