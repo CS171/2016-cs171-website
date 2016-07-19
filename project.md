@@ -25,14 +25,14 @@ The project milestones are:
 * Final project submission (including screen-cast)
 * Group peer evaluations
 * Project demos 
-* Presentation at SEAS design fair (except for DCE students)
+* Presentation at SEAS design fair 
 
 ## Implementation Requirements
 To get a sense about the scope of your final projects, please take a look at our [gallery]({{ site.baseurl }}/fame/) of projects from previous yers.
 To be more specific, your final project you have to fulfill the following requirements in regards to your visualizations and your webpage:
 
 * Implement multiple coordinated (linked) views
-* New this year: Implement at least one innovative view that is either 
+* Implement at least one innovative view that is either 
 	* a) an extension of an existing visualization type, or 
 	* b) a novel visualization type 
 
@@ -71,14 +71,6 @@ The project plan is the first part of your process book (see Final Project Submi
 
 ## Project Re-design
 During studios, you will discuss and review your project plan with your TF, as well as give and receive peer feedback. These discussions will lead to a re-design of your project. The second entry in your process book should be the project re-design, including new sketches and designs based on the feedback you received.
-
-## Visualization Methods
-During these inital stages of your project you will independently research a topic in visualization (*knowledge quest*), create visual presentation material, and present your findings to your peers (*poster session*). The module 'visualization methods' has the following components:
-
-* A specific topic will be assigned to your project group, focusing state-of-the-art visualization methods.
-* Knowledge quest: Your project group will research the assigned topic and analyze it in regards to your final project.
-* Vis methods - part 1: In your team, you will discuss your results and then present and discuss your findings to other groups who researched the same topic. Next, in your team, you will prepare a poster for comprehensively presenting your assigned topic to others.
-* Vis methods - part 2 (poster session): During class time we will have a poster session where you get to present your poster to other students. You will also have submit a photo of your poster on Canvas. You will also have to discuss posters of other students and decide which ones are relevant for your project. There will be a best poster award!
 
 ## Project Prototypes V1 and V2
 For your **prototype V1**, we expect you to hand in your code and your process book in its current state (see Final Project Submission for details). You should have completed your data acquisition, and you must have a working visualization prototype. You do not have to have all your views up and running, and it does not need to be completely interactive, but the direction and the content must be clear. 
@@ -140,13 +132,11 @@ Store the following in your zip file:
 ## Grading Criteria
 The entire project is worth 40% of the entire grade, the specific break-down of the individual project parts is shown here:
 
-* Project Proposal: 2%
+* Project Proposal: 5%
 * Initial and Detailed project plan: 10%
-* Individual Vis Methods Exploration Homework: 3%
-* Vis Methods Exploration Poster: 5%
 * Process Book: 5%
 * Project Video and Webpage: 5%
-* Project re-design: 10%
+* Project re-design: 15%
 * Prototype V1: 20%
 * Prototype V2 + Final Project: 40%
 

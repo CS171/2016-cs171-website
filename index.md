@@ -20,23 +20,19 @@ In this course you will learn how the human visual system processes and perceive
 
 ### Course Sessions
 
-**Lectures & Labs:** Tuesday and Thursday 2:30-4 pm, [Maxwell Dworkin G115 and G125 (overflow room)](http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=33+Oxford+St,+Cambridge,+MA+02138,+USA&sll=42.374136,-71.12183&sspn=0.009384,0.022724&ie=UTF8&hq=&hnear=33+Oxford+St,+Cambridge,+Middlesex,+Massachusetts+02138&ll=42.378773,-71.116819&spn=0.009384,0.022724&z=16).
+**Lectures & Labs:** Tuesday and Thursday 2:30-4 pm, Location: TBD
+[comment]: # ([Maxwell Dworkin G115 and G125 (overflow room)](http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=33+Oxford+St,+Cambridge,+MA+02138,+USA&sll=42.374136,-71.12183&sspn=0.009384,0.022724&ie=UTF8&hq=&hnear=33+Oxford+St,+Cambridge,+Middlesex,+Massachusetts+02138&ll=42.378773,-71.116819&spn=0.009384,0.022724&z=16).)
 
 **Studios:**
-Sign up [here](https://my.harvard.edu/) (college students only, no sign-up for DCE students) by **Friday, January 29, 2016.** Studio meeting times and locations TBD. 
-
-**Online Students:**
-Lectures (Tuesdays) will be recorded and will be made available online within 24 hours. Labs for DCE students will be self-guided, in-class labs will not be recorded. Studios will be partly recorded and also be made available within 24 hours. The second part of the studio will be done in online discussions with your assigned studio group.
+Sign up on Canvas by **Friday, September 9, 2016.** Studio meeting times and locations TBD. 
 
 **Office Hours:**
-Office hours (college) and online office hours (DCE) are posted [here]({{ site.baseurl }}/schedule/#lab_oh_schedule).
+Office hours (college) are posted [here]({{ site.baseurl }}/schedule/#lab_oh_schedule).
 
 **Lecture Resources:**
-Discussion forum on [Piazza](https://piazza.com/class/ihv3pvmbyc86g7) 
+Discussion forum on [Piazza](https://piazza.com/harvard/fall2016/cs171) 
 
 Materials and grades on [Canvas](https://canvas.harvard.edu/) 
-
-[Lecture and Studio Videos](http://www.cs171.org/2016/)
 
 
 ### Staff
@@ -44,31 +40,22 @@ Materials and grades on [Canvas](https://canvas.harvard.edu/)
 **Teaching Fellows**
 
 [Johanna Beyer](http://people.seas.harvard.edu/~jbeyer/) (Head TF) - Postdoctoral Fellow, Visual Computing Group 
-[Kasper Dinkla](http://vcg.seas.harvard.edu/people/kasper-dinkla) - Postdoctoral Fellow, Visual Computing Group
 [Hendrik Strobelt](http://hendrik.strobelt.com/) - Postdoctoral Fellow, Visual Computing Group 
-[James Tompkin](http://www.jamestompkin.com/) - Postdoctoral Fellow, Visual Computing Group
-
-**Teaching Assistants**
-
-Jack Birger - Civil Engineer with a passion for  technology and visualization
-Niamh Durfee - Chemistry and Computer Science Concentrator
-Mirhee Kim - Junior, Molecular Cellular Biology (MCB) Concentrator
-[Nam Wook Kim](http://namwkim.org/) - PhD Student, Visual Computing Group 
-Benjy Levin - Computer Science Concentrator
-Lezhi Li - Master student, Harvard Graduate School of Design
-Maria Lovett - Computer Science Concentrator
-Ana Marinovic - Social Studies Concentrator
-Kunal Mehta - Applied Math and Computer Science Concentrator
-Rachael Smith - Philosophy Concentrator, Secondary in Computer Science
-
-**DCE Teaching Assistants**
 Zona Kostic - Postdoctoral Researcher, Web-based Interactive Visualization and Virtual Reality
+Mirhee Kim - Junior, Molecular Cellular Biology (MCB) Concentrator
+Maria Lovett - Computer Science Concentrator
+
+**Graders**
+
 [Alain Ibrahim](http://alainibrahim.com) - Web Developer who enjoys diving into both the functional and artistic dimensions of digital media
-Andrew Reece - PhD Student in Psychology
-Brandon Tineo
-Gus Wezerek
+Dion Hagan
+[comment]: # (Maria Lai, Fritz)
+
+
 
 ### Previous Years
+
+[2016 Spring Website](http://www.cs171.org/2016_Spring/) 
 
 [2015 Website](http://www.cs171.org/2015/) 
 [2015 Video Archive](http://cm.dce.harvard.edu/2015/02/24028/publicationListing.shtml)
