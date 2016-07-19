@@ -9,7 +9,7 @@ order: 2
 Welcome to CS171! This course is an introduction to key design principles and techniques for interactively visualizing data. The major goals of this course are to understand how visual representations can help in the analysis and understanding of complex data, how to design effective visualizations, and how to create your own interactive visualizations using modern web-based frameworks.
 
 This course, when taken for a letter grade, meets the Harvard General Education requirement for Empirical and Mathematical Reasoning. 
-[comment]: # (The course is also offered through the [Harvard University Extension School](http://www.extension.harvard.edu) as online course [CSCI E-171](http://www.extension.harvard.edu/academics/courses/visualization/24028). )
+<!-- The course is also offered through the [Harvard University Extension School](http://www.extension.harvard.edu) as online course [CSCI E-171](http://www.extension.harvard.edu/academics/courses/visualization/24028). -->
 
 After completion of the course you will be able to:
 
@@ -30,9 +30,9 @@ In order to participate in labs, quizzes, and in-class activities, you will need
 
 We will be using two textbooks for this class, one to cover perceptual principles of visualization and one to teach the necessary technical skills.
 
-[comment]: # ([Visual Thinking for Design](http://www.amazon.com/Visual-Thinking-Kaufmann-Interactive-Technologies/dp/0123708966),  Colin Ware, Morgan Kaufman (2008))
-
-[comment]: # ( visual_thinking.jpg All the clanking gears are here: variable resolution image detection, eye movements, environmental information statistics, bottom-up/top-down control structures, working memory, the nexus of meaning, and specialized brain areas and pathways. By the time he’s done, Ware has reconstructed cognitive psychology, perception, information visualization, and design into an integrated modern form. This book is scary good.” - Stuart Card, Senior Research Fellow, and manager of the User Interface Research group at the Palo Alto Research Center)
+<!-- [Visual Thinking for Design](http://www.amazon.com/Visual-Thinking-Kaufmann-Interactive-Technologies/dp/0123708966),  Colin Ware, Morgan Kaufman (2008)
+visual_thinking.jpg 
+All the clanking gears are here: variable resolution image detection, eye movements, environmental information statistics, bottom-up/top-down control structures, working memory, the nexus of meaning, and specialized brain areas and pathways. By the time he’s done, Ware has reconstructed cognitive psychology, perception, information visualization, and design into an integrated modern form. This book is scary good.” - Stuart Card, Senior Research Fellow, and manager of the User Interface Research group at the Palo Alto Research Center)-->
 
 [Interactive Data Visualization for the Web](http://www.amazon.com/Interactive-Data-Visualization-Scott-Murray-ebook/dp/B00BSG68UQ), Scott Murray, O'Reilly (2013)
 *[Free online version](http://chimera.labs.oreilly.com/books/1230000000345)*
@@ -46,12 +46,12 @@ We will be using two textbooks for this class, one to cover perceptual principle
 ### Lectures
 The class meets weekly for lectures and joint class activities. Attending lecture is a crucial component of learning the material presented in this course. Please arrive on time, as in-class activities will begin promptly. At the end of each lecture we will ask you to fill out and submit a one-minute paper to collect feedback. 
 
-[comment]: # ( *DCE Students:* All lectures will be recorded and videos will be available within 24 hours after class time. Completed lecture activities and one-minute papers need to be submitted with your homework each week. )
+<!-- *DCE Students:* All lectures will be recorded and videos will be available within 24 hours after class time. Completed lecture activities and one-minute papers need to be submitted with your homework each week. -->
 
 ### Labs
 For about half the semester, we will hold programming labs during regular class meeting times on Thursdays. Labs are interactive tutorials with downloadable code that give you an introduction to client-side web programming with HTML, CSS, Javascript, and D3. Completed labs need to be handed in together with the homework each week. At the end of each lab we will ask you to fill out and submit a one-minute paper to collect feedback. 
 
-[comment]: # ( *DCE Students:* Labs are self-guided tutorials that you can complete on your own. Completed labs and one-minute papers need to be handed in with your homework each week.) 
+<!-- *DCE Students:* Labs are self-guided tutorials that you can complete on your own. Completed labs and one-minute papers need to be handed in with your homework each week. --> 
 
 ### Readings & Pre-Class Quizzes
 Each lecture and lab includes required readings to ensure that you are prepared for the activities in class. **You are expected to complete the assigned readings before class.** Short online quizzes, due prior to each class, will test your knowledge of the readings. Quizzes will be closed once the lecture or lab has started. You have unlimited attempts to complete each question. To receive credit for pre-class quizzes, however, you must eventually submit the correct answers.
@@ -59,7 +59,7 @@ Each lecture and lab includes required readings to ensure that you are prepared 
 ### Studios
 Weekly studios are where you will have a chance to present and receive feedback on your work, discuss homework assignments, and collaborate as a team. **Studio attendance is mandatory.** Studios are limited to 15-20 students (the numbers may vary due to enrollment) and will be lead by a TF. Your studio TF will be your main point of contact during the course. Active participation in studios is expected.  
 
-[comment]: # (*DCE Students:* One of the studios will be recorded and made available online by the end of each week. You will be assigned to a studio group on Piazza, where a TF will organize weekly discussions. Active participation in the discussions is expected. )
+<!-- *DCE Students:* One of the studios will be recorded and made available online by the end of each week. You will be assigned to a studio group on Piazza, where a TF will organize weekly discussions. Active participation in the discussions is expected. -->
 
 ### Homework
 Weekly homework assignments are going to provide an opportunity to improve your design and programming skills. See the homework as an opportunity to learn, and not to “earn points”. The homework will be graded holistically to reflect this objective.
@@ -88,7 +88,7 @@ To receive credit for studio attendance you must arrive on time.  You are allowe
 There are several mandatory class meetings such as the midterm, guest lectures, project discussions, project demos, design fair, etc. Please check the schedule, plan accordingly, and do not miss these classes. 
 
 Any concerns about grading errors must be noted in writing and submitted to your TF in person during studios. 
-[comment]: # (DCE students have two days after receiving their graded materials to submit a written request to their studio TF.) 
+<!-- DCE students have two days after receiving their graded materials to submit a written request to their studio TF.) -->
 
 ## Course Policies
 
@@ -120,7 +120,7 @@ Any student receiving accommodations through the Accessible Education Office sho
 
 ### Online Materials
 All class activity handout, slides, and required readings will be posted on Canvas. 
-[comment]: # (All lectures will be recorded and videos will be available within 24 hours after class time from the course homepage. One of the studios will be recorded and made available online by the end of each week. )
+<!-- All lectures will be recorded and videos will be available within 24 hours after class time from the course homepage. One of the studios will be recorded and made available online by the end of each week. -->
 
 ### Discussion Forum
 We use Piazza as our discussion forum and for all announcements, so it is important that you are signed up as soon as possible. Piazza should always be your first resource for seeking answers to your questions. You can also post privately so that only the staff sees your message.  

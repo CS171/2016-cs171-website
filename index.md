@@ -21,7 +21,7 @@ In this course you will learn how the human visual system processes and perceive
 ### Course Sessions
 
 **Lectures & Labs:** Tuesday and Thursday 2:30-4 pm, Location: TBD
-[comment]: <> ([not Maxwell Dworkin G115 and G125 (overflow room)](http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=33+Oxford+St,+Cambridge,+MA+02138,+USA&sll=42.374136,-71.12183&sspn=0.009384,0.022724&ie=UTF8&hq=&hnear=33+Oxford+St,+Cambridge,+Middlesex,+Massachusetts+02138&ll=42.378773,-71.116819&spn=0.009384,0.022724&z=16).)
+<!-- ([not Maxwell Dworkin G115 and G125 (overflow room)](http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=33+Oxford+St,+Cambridge,+MA+02138,+USA&sll=42.374136,-71.12183&sspn=0.009384,0.022724&ie=UTF8&hq=&hnear=33+Oxford+St,+Cambridge,+Middlesex,+Massachusetts+02138&ll=42.378773,-71.116819&spn=0.009384,0.022724&z=16).)-->
 
 **Studios:**
 Sign up on Canvas by **Friday, September 9, 2016.** Studio meeting times and locations TBD. 
