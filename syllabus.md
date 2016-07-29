@@ -21,6 +21,10 @@ After completion of the course you will be able to:
 * Create web-based interactive visualizations using [D3](http://d3js.org/)
 * Work constructively as a member of a team to carry out a complex project
 
+### Limited Enrollment
+To provide the best possible learning experience this course is limited to 60 students. If you are interestedin joining this course please fill out a enrollment survey as soon as possible. The survey is available on our Canvas page and must be submitted until midnight, Tuesday September 6th.
+
+
 ### Prerequisites
 You are expected to have programming experience (e.g,. CS50) and you should be comfortable picking up new programming languages on your own. Having Javascript and web development experience is a plus, but not required. 
 
@@ -30,9 +34,9 @@ In order to participate in labs, quizzes, and in-class activities, you will need
 
 We will be using two textbooks for this class, one to cover perceptual principles of visualization and one to teach the necessary technical skills.
 
-<!-- [Visual Thinking for Design](http://www.amazon.com/Visual-Thinking-Kaufmann-Interactive-Technologies/dp/0123708966),  Colin Ware, Morgan Kaufman (2008)
+[Visual Thinking for Design](http://www.amazon.com/Visual-Thinking-Kaufmann-Interactive-Technologies/dp/0123708966),  Colin Ware, Morgan Kaufman (2008)
 visual_thinking.jpg 
-All the clanking gears are here: variable resolution image detection, eye movements, environmental information statistics, bottom-up/top-down control structures, working memory, the nexus of meaning, and specialized brain areas and pathways. By the time he’s done, Ware has reconstructed cognitive psychology, perception, information visualization, and design into an integrated modern form. This book is scary good.” - Stuart Card, Senior Research Fellow, and manager of the User Interface Research group at the Palo Alto Research Center)-->
+All the clanking gears are here: variable resolution image detection, eye movements, environmental information statistics, bottom-up/top-down control structures, working memory, the nexus of meaning, and specialized brain areas and pathways. By the time he’s done, Ware has reconstructed cognitive psychology, perception, information visualization, and design into an integrated modern form. This book is scary good.” - Stuart Card, Senior Research Fellow, and manager of the User Interface Research group at the Palo Alto Research Center)
 
 [Interactive Data Visualization for the Web](http://www.amazon.com/Interactive-Data-Visualization-Scott-Murray-ebook/dp/B00BSG68UQ), Scott Murray, O'Reilly (2013)
 *[Free online version](http://chimera.labs.oreilly.com/books/1230000000345)*
