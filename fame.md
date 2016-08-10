@@ -5,7 +5,7 @@ permalink: /fame/
 order: 8
 menu: Fame
 ---
-## Best Projects 2016
+## Best Projects Spring 2016
 These are the best projects (out of 63 in total) in 2016. Within the sections the order is alphabetical.
 
 ### Winner

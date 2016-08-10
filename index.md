@@ -14,25 +14,28 @@ The amount and complexity of information produced in science, engineering, busin
 
 In this course you will learn how the human visual system processes and perceives images, good design practices for visualization, methods for visualization of data from a variety of fields, and programming of interactive web-based visualizations using [D3](http://d3js.org/).
 
+
+**Attention: CS 171 has moved to the fall semester, and from now on will be taught in the fall semester only!**
+
 ### Instructor
 
 [Hanspeter Pfister](http://vcg.seas.harvard.edu/people/hanspeter-pfister)
 
 ### Course Sessions
 
-**Lectures & Labs:** Tuesday and Thursday 2:30-4 pm, Location: TBD
-<!-- ([not Maxwell Dworkin G115 and G125 (overflow room)](http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=33+Oxford+St,+Cambridge,+MA+02138,+USA&sll=42.374136,-71.12183&sspn=0.009384,0.022724&ie=UTF8&hq=&hnear=33+Oxford+St,+Cambridge,+Middlesex,+Massachusetts+02138&ll=42.378773,-71.116819&spn=0.009384,0.022724&z=16).)-->
+**Lectures & Labs:** Tuesday and Thursday 2:30-4 pm, Location: [Pierce 301](https://www.google.com/maps/place/Pierce+Hall/@42.3780874,-71.1192954,17z/data=!3m1!4b1!4m5!3m4!1s0x89e3774113de44af:0x5966efcfd3aa5965!8m2!3d42.3780874!4d-71.1171014?hl=en)
+
 
 **Studios:**
-Sign up on Canvas by **Friday, September 9, 2016.** Studio meeting times and locations TBD. 
+Studio times and locations will be posted [here]({{ site.baseurl }}/schedule/#lab_oh_schedule). Please sign up on Canvas by **Friday, September 9, 2016.**. 
 
 **Office Hours:**
-Office hours (college) are posted [here]({{ site.baseurl }}/schedule/#lab_oh_schedule).
+Office hours are posted [here]({{ site.baseurl }}/schedule/#lab_oh_schedule).
 
 **Lecture Resources:**
 Discussion forum on [Piazza](https://piazza.com/harvard/fall2016/cs171) 
 
-Materials and grades on [Canvas](https://canvas.harvard.edu/) 
+Materials and grades on [Canvas](https://canvas.harvard.edu/courses/16470) 
 
 
 ### Staff
@@ -42,14 +45,16 @@ Materials and grades on [Canvas](https://canvas.harvard.edu/)
 [Johanna Beyer](http://people.seas.harvard.edu/~jbeyer/) (Head TF) - Postdoctoral Fellow, Visual Computing Group 
 [Hendrik Strobelt](http://hendrik.strobelt.com/) - Postdoctoral Fellow, Visual Computing Group 
 Zona Kostic - Postdoctoral Researcher, Web-based Interactive Visualization and Virtual Reality
-Mirhee Kim - Junior, Molecular Cellular Biology (MCB) Concentrator
+Mirhee Kim - Molecular Cellular Biology (MCB) Concentrator
 Maria Lovett - Computer Science Concentrator
 
 **Graders**
 
 [Alain Ibrahim](http://alainibrahim.com) - Web Developer who enjoys diving into both the functional and artistic dimensions of digital media
-Dion Hagan
-<!-- (Maria Lai, Fritz) -->
+Ronell Sicat - Postdoctoral Fellow, Visual Computing Group
+Dion Hagan - Statistics Concentrator
+Maria Lai - Computer Science and Neurobiology Concentrator
+
 
 
 

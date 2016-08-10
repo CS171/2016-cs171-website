@@ -35,7 +35,8 @@ In order to participate in labs, quizzes, and in-class activities, you will need
 We will be using two textbooks for this class, one to cover perceptual principles of visualization and one to teach the necessary technical skills.
 
 [Visual Thinking for Design](http://www.amazon.com/Visual-Thinking-Kaufmann-Interactive-Technologies/dp/0123708966),  Colin Ware, Morgan Kaufman (2008)
-visual_thinking.jpg 
+
+![]({{ site.baseurl }}/assets/i/visual_thinking.jpg)
 All the clanking gears are here: variable resolution image detection, eye movements, environmental information statistics, bottom-up/top-down control structures, working memory, the nexus of meaning, and specialized brain areas and pathways. By the time he’s done, Ware has reconstructed cognitive psychology, perception, information visualization, and design into an integrated modern form. This book is scary good.” - Stuart Card, Senior Research Fellow, and manager of the User Interface Research group at the Palo Alto Research Center)
 
 [Interactive Data Visualization for the Web](http://www.amazon.com/Interactive-Data-Visualization-Scott-Murray-ebook/dp/B00BSG68UQ), Scott Murray, O'Reilly (2013)
@@ -82,8 +83,8 @@ This course can be taken for a letter grade only, there is no pass/fail option. 
 * Pre-class quizzes (5%)
 * Studios (5%)
 * Midterm (20%)
-* Homework Assignments (25%)
-* Group Project (40%)
+* Homework Assignments (30%)
+* Group Project (35%)
 
 Course participation includes in-class activities, submitted labs, one-minute papers, and other activities designed to help you learn. If you earn 80% of the participation points you will get full credit for participation; anything less will be prorated accordingly.
 
