@@ -6,6 +6,11 @@ order: 7
 menu: Resources
 ---
 
+## Required Textbooks
+
+* [Visual Thinking for Design](http://www.amazon.com/Visual-Thinking-Kaufmann-Interactive-Technologies/dp/0123708966), Colin Ware, Morgan Kaufman (2008)
+* [Interactive Data Visualization for the Web](http://www.amazon.com/Interactive-Data-Visualization-Scott-Murray-ebook/dp/B00BSG68UQ),  Scott Murray, O’Reilly (2013) - *[Free online version](http://chimera.labs.oreilly.com/books/1230000000345)*
+
 ## Recommended Textbooks
 
 * [Visualization Analysis and Design](http://www.amazon.com/Visualization-Analysis-Design-Peters-Series/dp/1466508914), Tamara Munzner, CRC Press (2014)
@@ -14,113 +19,55 @@ menu: Resources
 
 ## D3
 
+D3.js is a JavaScript library for manipulating documents based on data. D3 helps you bring data to life using HTML, SVG, and CSS.
+
 [Official D3 Site](http://d3js.org/)  
-[Official D3 Wiki](https://github.com/mbostock/d3/wiki)  
+[Official D3 Wiki (version 3.x)](https://github.com/d3/d3-3.x-api-reference/blob/master/API-Reference.md)  
 [D3 API Reference](https://github.com/mbostock/d3/wiki/API-Reference)
-[D3 Tutorial by Scott Murray](http://alignedleft.com/tutorials/d3/) (highly recommended! - Required D3 textbook is based on this.)
-[D3 on Stack Overflow](http://stackoverflow.com/questions/tagged/d3.js)
-[D3.js Google Group](https://groups.google.com/forum/?fromgroups#!forum/d3-js)
-[Mike Bostock's site](http://bost.ocks.org/mike/)
-[D3.js Gallery](http://biovisualize.github.com/d3visualization/)
-[Mike Bostock on bl.ocks.org](http://bl.ocks.org/mbostock)
-[J&eacute;r&ocirc;me Cukier and Scott Murray's D3 tutorial at the Strata Conference](http://github.com/alignedleft/strata-d3-tutorial)
-[D3 For Mere Mortals](http://www.recursion.org/d3-for-mere-mortals/)
-[Mike Bostock's D3 Tutorial](http://bost.ocks.org/mike/d3/workshop/)
-[Vadim's Lecture Slides, D3](http://vogievetsky.github.com/IntroD3/#1)
+[D3 Tutorial by Scott Murray](http://alignedleft.com/tutorials/d3/) - required D3 textbook is based on this tutorial
 [Jerome Cukier's D3 Cheat Sheet](http://www.jeromecukier.net/wp-content/uploads/2012/10/d3-cheat-sheet.pdf)
-[FlowingData D3 Tips](http://flowingdata.com/tag/d3/)
-[D3, Conceptually](http://code.hazzens.com/d3tut/lesson_0.html)
-[D3 Tutorial Videos by Ian Johnson - Vol I](http://enjalot.github.com/dot-enter/)
-[D3 Tutorial Videos by Ian Johnson - Vol II](http://enjalot.github.com/dot-append/)
-[D3 Tips and Tricks](http://www.d3noob.org/)
-[TopoJson](https://github.com/mbostock/topojson)
-[D3 Gallery](http://christopheviau.com/d3list/gallery.html)
+
 
 ## Web Development
 
-[Enabling Web Developer Extensions in the Browser](http://macwright.org/enable-web-developer-extensions/)
+[WebStorm by JetBrains](https://www.jetbrains.com/webstorm/) - Smart JavaScript IDE ([free for students](https://www.jetbrains.com/student/))
 [Eloquent Javascript Book](http://eloquentjavascript.net/)
-[Mozilla Developer Network](https://developer.mozilla.org/en-US/)
-[DevDocs](http://devdocs.io/) - Unified documentation on all web technologies 
-[Dive Into HTML5 - Homepage](http://diveintohtml5.info/index.html)
-[Dive Into HTML5 - Canvas](http://diveintohtml5.info/canvas.html)
+[DevDocs](http://devdocs.io/), [Mozilla Developer Network](https://developer.mozilla.org/en-US/) - Unified documentations on major web technologies
+[Github (Git repository hosting service)](https://github.com/) - Version control system for software development ([free private repositories for students](https://education.github.com/pack))
+
+## Tableau
+
+[Tableau Software](http://tableau.com) is a tool that lets you create interactive data visualizations. ([free for students](http://www.tableau.com/academic/students))
+
 
 ## Data Sources
 
-[Wolfram Alpha](http://www.wolframalpha.com/)
-[Quandl](http://www.quandl.com)
-[Datamob](http://datamob.org/datasets)
-[Factual](http://www.factual.com/)
-[Metro Boston Data Common](http://metrobostondatacommon.org/)
-[Census.gov](http://www.census.gov/)
 [Data.gov](http://www.data.gov/)
+[Census.gov](http://www.census.gov/)
 [Dataverse Network](http://thedata.org/)
-[Infochimps](http://infochimps.com/)
-[Linked Data](http://linkeddata.org/)
-[Guardian DataBlog](http://www.guardian.co.uk/news/datablog)
-[Data Market](http://datamarket.com/)
-[Reddit Open Data](http://www.reddit.com/r/opendata)
 [Climate Data Sources](http://www.realclimate.org/index.php/data-sources/)
 [Climate Station Records](http://www.metoffice.gov.uk/climatechange/science/monitoring/subsets.html)
-[CDC Data](http://www.cdc.gov/nchs/data_access/data_tools.htm)
+[CDC Data (Disease Control and Prevention)](http://www.cdc.gov/nchs/data_access/data_tools.htm)
 [World Bank Catalog](http://data.worldbank.org/data-catalog)
 [Free SVG Maps](http://www.d-maps.com/index.php?lang=en)
 [UK Office for National Statistics](http://www.statistics.gov.uk/default.asp)
 [StateMaster](http://www.statemaster.com/index.php)
+[Quandl](http://www.quandl.com)
 
-## Git
-
-[Official git command line and GUI clients, official documentation](http://git-scm.com/)
-[GitHub Client for Mac](http://mac.github.com/)
-[GitHub Client for Windows](http://windows.github.com/)
-[SourceTree for Mac and Windows](http://www.sourcetreeapp.com)
-[TortoiseGit for Windows](https://code.google.com/p/tortoisegit/)
-[Setting up git](https://help.github.com/articles/set-up-git)
-[Understanding git conceptually](http://www.sbf5.com/~cduan/technical/git/)
 
 ## Web Sites & Blogs
 
 [eagereyes](http://eagereyes.org/)
-[Gapminder](http://www.gapminder.org/blog/)
 [Flowing Data](http://flowingdata.com/)
-[Perceptual Edge](http://www.perceptualedge.com/blog/)
-[Information Aesthetics](http://infosthetics.com/)
 [Visual Complexity](http://www.visualcomplexity.com/vc/)
+[Guardian DataBlog](http://www.guardian.co.uk/news/datablog)
+[The Upshot](http://www.nytimes.com/section/upshot)
 
-## Tableau
-
-[Online Help](http://onlinehelp.tableausoftware.com/current/pro/online/en-us/help.htm)
-[Quick Start Guides](http://www.tableausoftware.com/support/manuals/quickstart)
-[Knowledge Base](http://kb.tableausoftware.com/)
-[Training and Tutorials](http://www.tableausoftware.com/learn/training)
-[Tableau Public Gallery](http://www.tableausoftware.com/public/gallery/all)
-
-## Python
-
-[Python](http://python.org/)
-[Enthought Python Distribution](http://www.enthought.com/products/epd.php)
-[The Python Tutorial](http://docs.python.org/tutorial/)
-[Learn Python the Hard Way](http://learnpythonthehardway.org/)
-[Google's Python Class](http://code.google.com/edu/languages/google-python-class/)
-[IPython](http://ipython.org/)
-[The Python Package Index](http://pypi.python.org/pypi)
-[SciPy](http://www.scipy.org/)
-[NumPy](http://numpy.scipy.org/)
-[Matplotlib](http://matplotlib.sourceforge.net/)
-[Pattern](http://www.clips.ua.ac.be/pattern) - a data scraping library 
-[Beautiful Soup](http://www.crummy.com/software/BeautifulSoup/) - the "mother" scraping library 
 
 ## Other Software Toolkits
 
 [Plot.ly](https://plot.ly)
 [Wolfram Mathematica](http://www.wolfram.com/mathematica/)
-[Protovis](http://vis.stanford.edu/protovis/) (JavaScript)
-[Prefuse](http://prefuse.org/) (Java)
-[Flare](http://flare.prefuse.org/) (ActionScript)
-[Piccolo](http://www.piccolo2d.org/) (Java / C#)
-[Microsoft Vedea](http://research.microsoft.com/en-us/projects/vedea/)
-[25 Tools](http://www.insideria.com/2009/12/28-rich-data-visualization-too.html)
-[75+ Tools](http://www.tripwiremagazine.com/2009/12/70-tools-for-visualizing-your-data-css-flash-jquery-php.html)
-
+[Prefuse](https://github.com/prefuse/Prefuse) (Java)
 
 
