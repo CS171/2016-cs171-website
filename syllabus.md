@@ -22,7 +22,7 @@ After completion of the course you will be able to:
 * Work constructively as a member of a team to carry out a complex project
 
 ### Limited Enrollment
-To provide the best possible learning experience this course is limited to 60 students. If you are interestedin joining this course please fill out a enrollment survey as soon as possible. The survey is available on our Canvas page and must be submitted until midnight, Tuesday September 6th.
+To provide the best possible learning experience this course is limited to 60 students. If you are interestedin joining this course please fill out a enrollment survey as soon as possible, it will be available after the first lecture on September 1st. The survey is available on our Canvas page and must be submitted until midnight, Tuesday September 6th.
 
 
 ### Prerequisites
