@@ -79,9 +79,7 @@ A major part of the course is a group project. You will work in groups of 3-4 st
 
 This course can be taken for a letter grade only, there is no pass/fail option. The course grade comprises:
 
-* Participation (5%) 
-* Pre-class quizzes (5%)
-* Studios (5%)
+* Participation (15%, includes quizzes, studios, 1-minute papers, etc.) 
 * Midterm (20%)
 * Homework Assignments (30%)
 * Group Project (35%)
