@@ -52,7 +52,7 @@ Maria Lovett - Computer Science Concentrator
 
 **Graders**
 
-[Alain Ibrahim](http://alainibrahim.com) - Web Developer who enjoys diving into both the functional and artistic dimensions of digital media
+[Alain Ibrahim](http://alainibrahim.com) - Digital Product Development Manager who enjoys diving into both the functional and artistic dimensions of digital media
 Ronell Sicat - Postdoctoral Fellow, Visual Computing Group
 Dion Hagan - Statistics Concentrator
 Maria Lai - Computer Science and Neurobiology Concentrator
