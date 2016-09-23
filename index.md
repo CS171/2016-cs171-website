@@ -12,7 +12,7 @@ order: 1
 
 The amount and complexity of information produced in science, engineering, business, and everyday human activity is increasing at staggering rates. The goal of this course is to expose you to visual representation methods and techniques that increase the understanding of complex data. Good visualizations not only present a visual interpretation of data, but do so by improving comprehension, communication, and decision making.
 
-In this course you will learn how the human visual system processes and perceives images, good design practices for visualization, methods for visualization of data from a variety of fields, and programming of interactive web-based visualizations using [D3](http://d3js.org/).
+In this course you will learn how the human visual system processes and perceives images, good design practices for visualization, methods for visualization of data from a variety of fields, and programming of interactive web-based visualizations using [D3](http://d3js.org/). 
 
 
 **Attention: CS 171 has moved to the fall semester, and from now on will be taught in the fall semester only!**
