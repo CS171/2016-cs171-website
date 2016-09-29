@@ -29,13 +29,13 @@ menu: Materials
 
 
 ## Labs
-
+<!--
 * [Lab 5 instructions](http://www.cs171.org/2016/assets/material/lab5/index.html)
 
 * [instructions](http://www.cs171.org/2016/assets/material/hw5/index.html)
 
 
-<!-- * [Lab 1 instructions](http://www.cs171.org/2016/assets/material/CS171-Lab1-Instructions.pdf)
+ * [Lab 1 instructions](http://www.cs171.org/2016/assets/material/CS171-Lab1-Instructions.pdf)
 
 * [Lab 2 instructions](http://www.cs171.org/2016/assets/material/CS171-Lab2-Instructions.pdf)
 
