@@ -8,7 +8,7 @@ order: 1
 
 <img src="{{ site.baseurl }}/assets/i/teaser.png" width="100%;" />
 
-<div class="credits"><a href="http://mbostock.github.io/d3/talk/20111116/bundle.html">Hierarchical edge bundling]</a> | <a href="http://hint.fm/wind/">Wind map</a> | <a href="http://www.nytimes.com/interactive/2012/10/15/us/politics/swing-history.html?_r=0">How states have shifted</a></div>
+<div class="credits"><a href="http://mbostock.github.io/d3/talk/20111116/bundle.html">Hierarchical edge bundling]</a> | <a href="http://hint.fm/wind/">Wind map</a> | <a href="http://www.nytimes.com/interactive/2012/10/15/us/politics/swing-history.html?_r=0">How states have shifted</a> </div>
 
 The amount and complexity of information produced in science, engineering, business, and everyday human activity is increasing at staggering rates. The goal of this course is to expose you to visual representation methods and techniques that increase the understanding of complex data. Good visualizations not only present a visual interpretation of data, but do so by improving comprehension, communication, and decision making.
 
