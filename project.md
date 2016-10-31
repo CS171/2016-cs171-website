@@ -9,7 +9,7 @@ order: 5
 A major part of this course is a group project, in which you will work in small teams on a web-based interactive visualization that allows you to answer questions you have about some topic of your own choosing. You will acquire the data, design your visualization, implement it using D3, and evaluate the results. 
 
 ## Project Team
-You will work closely with other classmates in a **3-4 person project team**. We will form the teams in each studio group and assign students with complementary skill sets to the same team. In general, we do not anticipate that the grades for each group member will be different. However, we reserve the right to assign different grades to each group member based on peer assessments (see below).
+You will work closely with other classmates in a **2-3 person project team**. We will form the teams in each studio group and assign students with complementary skill sets to the same team. In general, we do not anticipate that the grades for each group member will be different. However, we reserve the right to assign different grades to each group member based on peer assessments (see below).
 
 ## Project Milestones
 The project consists of several milestones that need to be submitted on the specified due dates listed in the [schedule]({{ site.baseurl }}/schedule/). **No extensions will be given** for any of the project due dates for any reason. Projects submitted after the final due date will not be graded. 
