@@ -25,7 +25,7 @@ The project milestones are:
 * Final project submission (including screen-cast)
 * Group peer evaluations
 * Project demos 
-* Presentation at SEAS design fair 
+* Presentation at the project showcase
 
 ## Implementation Requirements
 To get a sense about the scope of your final projects, please take a look at our [gallery]({{ site.baseurl }}/fame/) of projects from previous yers.
